@@ -27,11 +27,12 @@ export async function POST(req: NextRequest) {
     const invalidEntries: any[] = [];
 
     result.data.forEach((entry: any, index: number) => {
-       // specific field adjustments if needed, but dynamicTyping handles numbers
-       // Ensure Action matches literal type if string
-       
        if (isLogEntry(entry)) {
-         validEntries.push(entry);
+         const fullEntry: LogEntry = {
+            ...entry,
+            id: crypto.randomUUID()
+         };
+         validEntries.push(fullEntry);
        } else {
          invalidEntries.push({ index, entry, reason: "Invalid schema" });
        }

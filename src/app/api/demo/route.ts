@@ -20,7 +20,12 @@ export async function GET() {
       dynamicTyping: true,
     });
 
-    const validEntries = result.data.filter((entry) => isLogEntry(entry));
+    const validEntries = result.data
+        .filter((entry: any) => isLogEntry(entry))
+        .map((entry: any) => ({
+            ...entry,
+            id: crypto.randomUUID()
+        }));
 
     return NextResponse.json({ 
       data: validEntries, 

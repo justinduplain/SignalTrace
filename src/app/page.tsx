@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { useRouter } from "next/navigation"
 import { LogUploader } from "@/components/log-uploader"
 import { LogEntry } from "@/types/log-entry"
+import { DataTable } from "@/components/data-table"
 
 export default function Home() {
   const router = useRouter()
@@ -36,12 +37,18 @@ export default function Home() {
            <p className="text-slate-400">Upload ZScaler logs to detect anomalies.</p>
         </div>
 
-        <LogUploader onUploadSuccess={setLogs} />
-
-        {logs.length > 0 && (
-          <div className="text-center p-4 bg-green-900/20 border border-green-900 rounded text-green-400">
-             Successfully parsed {logs.length} log entries.
-          </div>
+        {logs.length === 0 ? (
+           <LogUploader onUploadSuccess={setLogs} />
+        ) : (
+           <div className="space-y-4">
+             <div className="flex justify-between items-center">
+               <h2 className="text-xl font-semibold text-slate-200">Live Log Analysis</h2>
+               <Button variant="outline" onClick={() => setLogs([])} className="border-slate-700 hover:bg-slate-800">
+                 Upload New File
+               </Button>
+             </div>
+             <DataTable data={logs} />
+           </div>
         )}
       </div>
     </main>

@@ -1,4 +1,5 @@
 export interface LogEntry {
+  id: string;
   Timestamp: string;
   SourceIP: string;
   DestURL: string;
@@ -8,7 +9,7 @@ export interface LogEntry {
   UserAgent: string;
 }
 
-export function isLogEntry(entry: any): entry is LogEntry {
+export function isLogEntry(entry: any): entry is Omit<LogEntry, 'id'> {
   return (
     typeof entry === 'object' &&
     entry !== null &&
