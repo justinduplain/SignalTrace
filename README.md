@@ -59,7 +59,7 @@ You can test the application using the included mock data:
 *   `src/components/data-table.tsx`: Virtualized table component for high-performance log rendering.
 *   `src/components/log-uploader.tsx`: Client-side component for handling CSV uploads.
 *   `src/types/log-entry.ts`: TypeScript definitions and validation guards for log data.
-*   `src/middleware.ts`: Route protection logic.
+*   `src/proxy.ts`: Route protection logic.
 
 ## 🤖 AI Usage
 

@@ -24,11 +24,14 @@
 **Source:** Generate 500 lines of mock ZScaler Web Proxy Logs.
 **Schema:**
 * `Timestamp`
+* `SourceUser`
 * `SourceIP`
-* `DestURL`
 * `Action` (Allow/Block)
+* `AppName`
 * `ThreatCategory`
+* `DestURL`
 * `BytesSent`
+* `BytesReceived`
 * `UserAgent`
 **Anomalies:** Inject 10-50 entries with "High BytesSent" or "Suspicious IP" at odd hours (e.g., 3:00 AM).
 
