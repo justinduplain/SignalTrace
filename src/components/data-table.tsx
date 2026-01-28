@@ -32,14 +32,50 @@ const columns: ColumnDef<LogEntry>[] = [
     size: 180,
   },
   {
-    accessorKey: 'SourceIP',
-    header: 'Source IP',
-    cell: ({ row }) => <div className="font-mono text-xs text-blue-400">{row.getValue('SourceIP')}</div>,
+    accessorKey: 'SourceUser',
+    header: ({ column }) => {
+        return (
+          <div
+            className="flex items-center cursor-pointer hover:text-slate-100"
+            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          >
+            User
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </div>
+        )
+    },
+    cell: ({ row }) => <div className="text-xs text-slate-300 truncate" title={row.getValue('SourceUser')}>{row.getValue('SourceUser')}</div>,
     size: 140,
   },
   {
+    accessorKey: 'SourceIP',
+    header: ({ column }) => {
+        return (
+          <div
+            className="flex items-center cursor-pointer hover:text-slate-100"
+            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          >
+            Source IP
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </div>
+        )
+    },
+    cell: ({ row }) => <div className="font-mono text-xs text-blue-400">{row.getValue('SourceIP')}</div>,
+    size: 120,
+  },
+  {
     accessorKey: 'Action',
-    header: 'Status',
+    header: ({ column }) => {
+        return (
+          <div
+            className="flex items-center cursor-pointer hover:text-slate-100"
+            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          >
+            Status
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </div>
+        )
+    },
     cell: ({ row }) => {
       const action = row.getValue('Action') as string
       const isBlock = action === 'Block'
@@ -55,11 +91,37 @@ const columns: ColumnDef<LogEntry>[] = [
         </div>
       )
     },
-    size: 100,
+    size: 90,
+  },
+  {
+    accessorKey: 'AppName',
+    header: ({ column }) => {
+        return (
+          <div
+            className="flex items-center cursor-pointer hover:text-slate-100"
+            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          >
+            App
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </div>
+        )
+    },
+    cell: ({ row }) => <div className="text-xs text-slate-300">{row.getValue('AppName')}</div>,
+    size: 110,
   },
   {
     accessorKey: 'ThreatCategory',
-    header: 'Threat Category',
+    header: ({ column }) => {
+        return (
+          <div
+            className="flex items-center cursor-pointer hover:text-slate-100"
+            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          >
+            Threat Category
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </div>
+        )
+    },
     cell: ({ row }) => {
         const cat = row.getValue('ThreatCategory') as string
         return (
@@ -68,12 +130,23 @@ const columns: ColumnDef<LogEntry>[] = [
             </div>
         )
     },
-    size: 150,
+    size: 130,
   },
   {
     accessorKey: 'DestURL',
-    header: 'Destination URL',
-    cell: ({ row }) => <div className="truncate text-xs text-slate-300" title={row.getValue('DestURL')}>{row.getValue('DestURL')}</div>,
+    header: ({ column }) => {
+        return (
+          <div
+            className="flex items-center cursor-pointer hover:text-slate-100"
+            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          >
+            Destination URL
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </div>
+        )
+    },
+    cell: ({ row }) => <div className="truncate text-xs text-slate-400" title={row.getValue('DestURL')}>{row.getValue('DestURL')}</div>,
+    size: 200,
   },
   {
     accessorKey: 'BytesSent',
@@ -83,13 +156,29 @@ const columns: ColumnDef<LogEntry>[] = [
             className="flex items-center justify-end cursor-pointer hover:text-slate-100"
             onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
           >
-            Bytes
+            Sent
             <ArrowUpDown className="ml-2 h-4 w-4" />
           </div>
         )
     },
     cell: ({ row }) => <div className="text-right font-mono text-xs text-slate-500">{row.getValue<number>('BytesSent').toLocaleString()}</div>,
-    size: 100,
+    size: 80,
+  },
+  {
+    accessorKey: 'BytesReceived',
+    header: ({ column }) => {
+        return (
+          <div
+            className="flex items-center justify-end cursor-pointer hover:text-slate-100"
+            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          >
+            Recv
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </div>
+        )
+    },
+    cell: ({ row }) => <div className="text-right font-mono text-xs text-slate-500">{row.getValue<number>('BytesReceived').toLocaleString()}</div>,
+    size: 80,
   },
 ]
 

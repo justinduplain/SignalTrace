@@ -14,24 +14,26 @@ export async function GET() {
 
     const fileContent = fs.readFileSync(filePath, 'utf-8');
 
-    const result = Papa.parse(fileContent, {
-      header: true,
-      skipEmptyLines: true,
-      dynamicTyping: true,
-    });
-
-    const validEntries = result.data
-        .filter((entry: any) => isLogEntry(entry))
-        .map((entry: any) => ({
-            ...entry,
-            id: crypto.randomUUID()
-        }));
-
-    return NextResponse.json({ 
-      data: validEntries, 
-      count: validEntries.length 
-    });
-
+        const result = Papa.parse(fileContent, {
+          header: true,
+          skipEmptyLines: true,
+          dynamicTyping: {
+            BytesSent: true,
+            BytesReceived: true
+          },
+        });
+    
+        const validEntries = result.data
+            .filter((entry: any) => isLogEntry(entry))
+            .map((entry: any) => ({
+                ...entry,
+                id: crypto.randomUUID()
+            }));
+    
+        return NextResponse.json({
+          data: validEntries,
+          count: validEntries.length
+        });
   } catch (error) {
     console.error("Demo load error:", error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });

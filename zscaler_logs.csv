@@ -1,501 +1,501 @@
-Timestamp,SourceIP,DestURL,Action,ThreatCategory,BytesSent,UserAgent
-2026-01-28T03:00:00,192.168.1.56,http://suspicious-site.xyz/payload,Allow,Phishing,196058,Unknown/1.0
-2026-01-28T03:00:00,192.168.1.82,http://suspicious-site.xyz/payload,Allow,Botnet,767627,Unknown/1.0
-2026-01-28T03:02:00,192.168.1.190,http://suspicious-site.xyz/payload,Block,Botnet,962740,Unknown/1.0
-2026-01-28T03:03:00,192.168.1.122,http://suspicious-site.xyz/payload,Block,Malware,87194,Unknown/1.0
-2026-01-28T03:04:00,192.168.1.147,http://suspicious-site.xyz/payload,Allow,C2,521815,Unknown/1.0
-2026-01-28T03:05:00,172.16.0.5,http://suspicious-site.xyz/payload,Allow,Phishing,666795,Unknown/1.0
-2026-01-28T03:06:00,192.168.1.139,http://suspicious-site.xyz/payload,Allow,Botnet,116383,Unknown/1.0
-2026-01-28T03:06:00,192.168.1.190,http://suspicious-site.xyz/payload,Allow,C2,665964,Unknown/1.0
-2026-01-28T03:07:00,192.168.1.36,http://suspicious-site.xyz/payload,Block,Malware,90321,Unknown/1.0
-2026-01-28T03:08:00,192.168.1.61,http://suspicious-site.xyz/payload,Allow,C2,394532,Unknown/1.0
-2026-01-28T03:11:00,192.168.1.227,http://suspicious-site.xyz/payload,Allow,Botnet,100824,Unknown/1.0
-2026-01-28T03:12:00,10.0.0.66,http://suspicious-site.xyz/payload,Allow,Botnet,351044,Unknown/1.0
-2026-01-28T03:15:00,192.168.1.151,http://suspicious-site.xyz/payload,Allow,Phishing,531266,Unknown/1.0
-2026-01-28T03:15:00,10.0.0.66,http://suspicious-site.xyz/payload,Block,Phishing,645329,Unknown/1.0
-2026-01-28T03:16:00,172.16.0.5,http://suspicious-site.xyz/payload,Allow,C2,73079,Unknown/1.0
-2026-01-28T03:17:00,172.16.0.5,http://suspicious-site.xyz/payload,Block,Malware,788144,Unknown/1.0
-2026-01-28T03:17:00,192.168.1.155,http://suspicious-site.xyz/payload,Block,Malware,800012,Unknown/1.0
-2026-01-28T03:18:00,10.0.0.66,http://suspicious-site.xyz/payload,Allow,Phishing,565155,Unknown/1.0
-2026-01-28T03:19:00,172.16.0.5,http://suspicious-site.xyz/payload,Block,C2,849759,Unknown/1.0
-2026-01-28T03:20:00,192.168.1.181,http://suspicious-site.xyz/payload,Allow,C2,689456,Unknown/1.0
-2026-01-28T03:22:00,10.0.0.66,http://suspicious-site.xyz/payload,Allow,Botnet,177232,Unknown/1.0
-2026-01-28T03:22:00,192.168.1.110,http://suspicious-site.xyz/payload,Allow,Phishing,599941,Unknown/1.0
-2026-01-28T03:23:00,172.16.0.5,http://suspicious-site.xyz/payload,Block,C2,762815,Unknown/1.0
-2026-01-28T03:24:00,192.168.1.138,http://suspicious-site.xyz/payload,Allow,Phishing,142853,Unknown/1.0
-2026-01-28T03:24:00,10.0.0.66,http://suspicious-site.xyz/payload,Block,Malware,402893,Unknown/1.0
-2026-01-28T03:26:00,172.16.0.5,http://suspicious-site.xyz/payload,Block,C2,363782,Unknown/1.0
-2026-01-28T03:30:00,192.168.1.59,http://suspicious-site.xyz/payload,Block,Phishing,746915,Unknown/1.0
-2026-01-28T03:32:00,192.168.1.85,http://suspicious-site.xyz/payload,Allow,C2,461292,Unknown/1.0
-2026-01-28T03:32:00,10.0.0.66,http://suspicious-site.xyz/payload,Block,Malware,696380,Unknown/1.0
-2026-01-28T03:33:00,192.168.1.190,http://suspicious-site.xyz/payload,Allow,C2,228621,Unknown/1.0
-2026-01-28T03:34:00,192.168.1.187,http://suspicious-site.xyz/payload,Allow,C2,303040,Unknown/1.0
-2026-01-28T03:34:00,192.168.1.245,http://suspicious-site.xyz/payload,Block,Malware,185118,Unknown/1.0
-2026-01-28T03:37:00,10.0.0.66,http://suspicious-site.xyz/payload,Block,Phishing,739128,Unknown/1.0
-2026-01-28T03:39:00,172.16.0.5,http://suspicious-site.xyz/payload,Block,Phishing,674454,Unknown/1.0
-2026-01-28T03:40:00,192.168.1.64,http://suspicious-site.xyz/payload,Allow,C2,900450,Unknown/1.0
-2026-01-28T03:40:00,192.168.1.181,http://suspicious-site.xyz/payload,Block,Malware,828920,Unknown/1.0
-2026-01-28T03:43:00,10.0.0.66,http://suspicious-site.xyz/payload,Block,C2,162947,Unknown/1.0
-2026-01-28T03:44:00,10.0.0.66,http://suspicious-site.xyz/payload,Block,C2,574403,Unknown/1.0
-2026-01-28T03:44:00,172.16.0.5,http://suspicious-site.xyz/payload,Allow,C2,517395,Unknown/1.0
-2026-01-28T03:45:00,10.0.0.66,http://suspicious-site.xyz/payload,Allow,Botnet,278550,Unknown/1.0
-2026-01-28T03:47:00,172.16.0.5,http://suspicious-site.xyz/payload,Allow,Botnet,996663,Unknown/1.0
-2026-01-28T03:48:00,172.16.0.5,http://suspicious-site.xyz/payload,Block,Botnet,951191,Unknown/1.0
-2026-01-28T03:48:00,192.168.1.58,http://suspicious-site.xyz/payload,Allow,Malware,325680,Unknown/1.0
-2026-01-28T03:51:00,172.16.0.5,http://suspicious-site.xyz/payload,Allow,Malware,611830,Unknown/1.0
-2026-01-28T03:52:00,192.168.1.150,http://suspicious-site.xyz/payload,Allow,Malware,950498,Unknown/1.0
-2026-01-28T03:56:00,10.0.0.66,http://suspicious-site.xyz/payload,Block,Phishing,279127,Unknown/1.0
-2026-01-28T03:56:00,10.0.0.66,http://suspicious-site.xyz/payload,Block,Malware,570401,Unknown/1.0
-2026-01-28T03:58:00,192.168.1.28,http://suspicious-site.xyz/payload,Block,Malware,823477,Unknown/1.0
-2026-01-28T03:58:00,10.0.0.66,http://suspicious-site.xyz/payload,Block,Phishing,627583,Unknown/1.0
-2026-01-28T04:00:00,10.0.0.66,http://suspicious-site.xyz/payload,Block,C2,807038,Unknown/1.0
-2026-01-28T08:00:00,192.168.1.139,https://slack.com/resource/141,Allow,None,2358,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:01:00,192.168.1.121,https://slack.com/resource/167,Allow,None,979,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:03:00,192.168.1.195,https://github.com/resource/418,Allow,None,1244,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:04:00,192.168.1.95,https://slack.com/resource/706,Allow,None,2720,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:06:00,192.168.1.108,https://jira.atlassian.com/resource/343,Allow,None,4400,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:08:00,192.168.1.51,https://jira.atlassian.com/resource/163,Allow,None,2264,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:09:00,192.168.1.37,https://stackoverflow.com/resource/881,Allow,None,843,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:10:00,192.168.1.218,https://google.com/resource/303,Allow,None,811,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:11:00,192.168.1.85,https://google.com/resource/325,Allow,None,2014,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:15:00,192.168.1.84,https://slack.com/resource/198,Allow,None,1810,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:17:00,192.168.1.245,https://stackoverflow.com/resource/916,Allow,None,1055,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:18:00,192.168.1.26,https://jira.atlassian.com/resource/307,Allow,None,1275,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:20:00,192.168.1.197,https://jira.atlassian.com/resource/939,Allow,None,735,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:22:00,192.168.1.235,https://slack.com/resource/594,Allow,None,1859,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:24:00,192.168.1.243,https://slack.com/resource/979,Allow,None,3417,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:24:00,192.168.1.232,https://jira.atlassian.com/resource/428,Allow,None,4148,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:24:00,192.168.1.91,https://google.com/resource/164,Allow,None,560,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:26:00,192.168.1.144,https://jira.atlassian.com/resource/413,Allow,None,3878,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:26:00,192.168.1.246,https://stackoverflow.com/resource/992,Allow,None,2974,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:28:00,192.168.1.240,https://stackoverflow.com/resource/915,Allow,None,805,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:28:00,192.168.1.65,https://jira.atlassian.com/resource/501,Allow,None,2241,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:28:00,192.168.1.13,https://google.com/resource/442,Allow,None,2969,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:29:00,192.168.1.203,https://slack.com/resource/148,Allow,None,524,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:30:00,192.168.1.254,https://google.com/resource/460,Allow,None,1299,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:31:00,192.168.1.224,https://github.com/resource/473,Allow,None,3372,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:31:00,192.168.1.58,https://google.com/resource/680,Allow,None,3989,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:32:00,192.168.1.139,https://google.com/resource/985,Allow,None,4310,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:32:00,192.168.1.226,https://google.com/resource/566,Allow,None,1810,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:36:00,192.168.1.67,https://stackoverflow.com/resource/700,Allow,None,4359,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:37:00,192.168.1.48,https://google.com/resource/398,Allow,None,2636,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:39:00,192.168.1.7,https://github.com/resource/323,Allow,None,4204,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:40:00,192.168.1.129,https://github.com/resource/306,Allow,None,2114,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:40:00,192.168.1.66,https://github.com/resource/207,Allow,None,3448,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:40:00,192.168.1.13,https://google.com/resource/592,Allow,None,1605,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:41:00,192.168.1.129,https://google.com/resource/310,Allow,None,3019,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:42:00,192.168.1.45,https://slack.com/resource/338,Allow,None,3456,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:43:00,192.168.1.80,https://jira.atlassian.com/resource/838,Allow,None,3215,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:44:00,192.168.1.132,https://stackoverflow.com/resource/395,Allow,None,314,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:45:00,192.168.1.88,https://jira.atlassian.com/resource/648,Allow,None,862,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:45:00,192.168.1.12,https://jira.atlassian.com/resource/488,Allow,None,3205,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:46:00,192.168.1.84,https://stackoverflow.com/resource/444,Allow,None,1842,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:46:00,192.168.1.225,https://github.com/resource/289,Allow,None,3563,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:49:00,192.168.1.103,https://slack.com/resource/193,Allow,None,3119,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:49:00,192.168.1.121,https://slack.com/resource/956,Allow,None,3248,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:49:00,192.168.1.224,https://google.com/resource/959,Allow,None,385,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:50:00,192.168.1.136,https://google.com/resource/575,Allow,None,232,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:53:00,192.168.1.227,https://stackoverflow.com/resource/457,Allow,None,4545,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:54:00,192.168.1.181,https://github.com/resource/166,Allow,None,1629,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:54:00,192.168.1.188,https://slack.com/resource/214,Allow,None,3950,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:55:00,192.168.1.181,https://google.com/resource/996,Allow,None,4757,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:55:00,192.168.1.238,https://google.com/resource/697,Allow,None,3656,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:56:00,192.168.1.220,https://slack.com/resource/713,Allow,None,4730,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:56:00,192.168.1.119,https://github.com/resource/473,Allow,None,1364,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T08:56:00,192.168.1.116,https://jira.atlassian.com/resource/221,Allow,None,3751,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T08:58:00,192.168.1.145,https://github.com/resource/171,Allow,None,2586,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:00:00,192.168.1.207,https://stackoverflow.com/resource/609,Allow,None,3129,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:01:00,192.168.1.189,https://stackoverflow.com/resource/606,Allow,None,809,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:03:00,192.168.1.202,https://github.com/resource/781,Allow,None,1116,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:03:00,192.168.1.46,https://google.com/resource/366,Allow,None,1986,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:03:00,192.168.1.252,https://google.com/resource/735,Allow,None,4286,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:06:00,192.168.1.8,https://github.com/resource/589,Allow,None,3060,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:06:00,192.168.1.80,https://jira.atlassian.com/resource/465,Allow,None,4297,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:08:00,192.168.1.250,https://github.com/resource/732,Allow,None,4574,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:09:00,192.168.1.247,https://slack.com/resource/926,Allow,None,828,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:09:00,192.168.1.71,https://google.com/resource/716,Allow,None,820,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:12:00,192.168.1.10,https://slack.com/resource/349,Allow,None,2334,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:12:00,192.168.1.191,https://jira.atlassian.com/resource/766,Allow,None,489,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:13:00,192.168.1.91,https://stackoverflow.com/resource/180,Allow,None,1595,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:13:00,192.168.1.127,https://jira.atlassian.com/resource/395,Allow,None,4440,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:13:00,192.168.1.135,https://stackoverflow.com/resource/581,Allow,None,2782,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:16:00,192.168.1.170,https://github.com/resource/987,Allow,None,2513,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:17:00,192.168.1.31,https://github.com/resource/669,Allow,None,4082,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:18:00,192.168.1.105,https://github.com/resource/162,Allow,None,3932,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:19:00,192.168.1.46,https://google.com/resource/493,Allow,None,3555,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:20:00,192.168.1.52,https://slack.com/resource/518,Allow,None,4145,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:20:00,192.168.1.120,https://slack.com/resource/670,Allow,None,1190,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:20:00,192.168.1.7,https://google.com/resource/252,Allow,None,3746,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:21:00,192.168.1.246,https://github.com/resource/685,Allow,None,2638,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:22:00,192.168.1.220,https://stackoverflow.com/resource/115,Allow,None,3827,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:27:00,192.168.1.174,https://github.com/resource/823,Allow,None,3846,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:29:00,192.168.1.237,https://slack.com/resource/350,Allow,None,751,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:31:00,192.168.1.148,https://slack.com/resource/477,Allow,None,1926,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:36:00,192.168.1.133,https://jira.atlassian.com/resource/372,Allow,None,1230,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:36:00,192.168.1.230,https://github.com/resource/354,Allow,None,1481,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:37:00,192.168.1.25,https://slack.com/resource/875,Allow,None,3658,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:37:00,192.168.1.204,https://stackoverflow.com/resource/684,Allow,None,4960,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:38:00,192.168.1.232,https://stackoverflow.com/resource/528,Allow,None,2421,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:39:00,192.168.1.121,https://google.com/resource/265,Allow,None,2266,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:40:00,192.168.1.144,https://google.com/resource/168,Allow,None,4827,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:40:00,192.168.1.21,https://jira.atlassian.com/resource/433,Allow,None,1740,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:40:00,192.168.1.186,https://stackoverflow.com/resource/981,Allow,None,727,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:43:00,192.168.1.28,https://slack.com/resource/269,Allow,None,3847,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:44:00,192.168.1.247,https://slack.com/resource/992,Allow,None,850,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:45:00,192.168.1.69,https://github.com/resource/230,Allow,None,2971,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:45:00,192.168.1.252,https://github.com/resource/878,Allow,None,1191,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:45:00,192.168.1.15,https://slack.com/resource/489,Allow,None,991,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:45:00,192.168.1.42,https://google.com/resource/170,Allow,None,3881,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:48:00,192.168.1.3,https://github.com/resource/427,Allow,None,436,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:49:00,192.168.1.26,https://stackoverflow.com/resource/816,Allow,None,4397,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:51:00,192.168.1.67,https://google.com/resource/163,Allow,None,4810,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:54:00,192.168.1.103,https://stackoverflow.com/resource/387,Allow,None,2093,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:56:00,192.168.1.129,https://github.com/resource/567,Allow,None,4402,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:57:00,192.168.1.125,https://google.com/resource/679,Allow,None,3307,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:57:00,192.168.1.196,https://slack.com/resource/450,Allow,None,4473,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:57:00,192.168.1.84,https://google.com/resource/784,Allow,None,957,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T09:58:00,192.168.1.157,https://slack.com/resource/673,Allow,None,4381,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T09:59:00,192.168.1.105,https://slack.com/resource/348,Allow,None,3716,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:03:00,192.168.1.128,https://google.com/resource/706,Allow,None,4320,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:04:00,192.168.1.141,https://jira.atlassian.com/resource/815,Allow,None,848,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:05:00,192.168.1.122,https://stackoverflow.com/resource/675,Allow,None,4818,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:05:00,192.168.1.198,https://stackoverflow.com/resource/991,Allow,None,3085,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:05:00,192.168.1.8,https://stackoverflow.com/resource/812,Allow,None,3021,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:07:00,192.168.1.121,https://stackoverflow.com/resource/984,Allow,None,4560,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:09:00,192.168.1.33,https://jira.atlassian.com/resource/985,Allow,None,3794,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:11:00,192.168.1.248,https://google.com/resource/810,Allow,None,4535,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:12:00,192.168.1.118,https://slack.com/resource/689,Allow,None,4246,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:14:00,192.168.1.128,https://google.com/resource/385,Allow,None,1144,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:14:00,192.168.1.97,https://slack.com/resource/210,Allow,None,133,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:14:00,192.168.1.183,https://slack.com/resource/886,Allow,None,2565,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:19:00,192.168.1.84,https://jira.atlassian.com/resource/189,Allow,None,2100,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:20:00,192.168.1.49,https://slack.com/resource/419,Allow,None,2170,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:23:00,192.168.1.77,https://stackoverflow.com/resource/894,Allow,None,1437,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:23:00,192.168.1.22,https://stackoverflow.com/resource/474,Allow,None,4281,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:24:00,192.168.1.6,https://jira.atlassian.com/resource/785,Allow,None,2022,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:25:00,192.168.1.42,https://slack.com/resource/872,Allow,None,3249,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:25:00,192.168.1.133,https://stackoverflow.com/resource/789,Allow,None,2120,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:25:00,192.168.1.170,https://google.com/resource/429,Allow,None,1973,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:27:00,192.168.1.110,https://slack.com/resource/184,Allow,None,424,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:28:00,192.168.1.21,https://stackoverflow.com/resource/612,Allow,None,502,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:29:00,192.168.1.188,https://google.com/resource/222,Allow,None,3128,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:29:00,192.168.1.238,https://jira.atlassian.com/resource/883,Allow,None,2989,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:30:00,192.168.1.207,https://jira.atlassian.com/resource/749,Allow,None,4801,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:32:00,192.168.1.120,https://jira.atlassian.com/resource/155,Allow,None,1105,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:34:00,192.168.1.182,https://github.com/resource/380,Allow,None,4736,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:35:00,192.168.1.73,https://slack.com/resource/284,Allow,None,1983,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:37:00,192.168.1.219,https://jira.atlassian.com/resource/428,Allow,None,4221,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:39:00,192.168.1.49,https://jira.atlassian.com/resource/814,Allow,None,4069,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:39:00,192.168.1.181,https://stackoverflow.com/resource/657,Allow,None,4234,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:40:00,192.168.1.77,https://jira.atlassian.com/resource/887,Allow,None,4425,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:40:00,192.168.1.142,https://stackoverflow.com/resource/340,Allow,None,775,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:41:00,192.168.1.2,https://jira.atlassian.com/resource/205,Allow,None,3626,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:41:00,192.168.1.184,https://jira.atlassian.com/resource/804,Allow,None,1956,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:41:00,192.168.1.65,https://jira.atlassian.com/resource/383,Allow,None,4449,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:43:00,192.168.1.224,https://google.com/resource/133,Allow,None,1156,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:44:00,192.168.1.205,https://stackoverflow.com/resource/170,Allow,None,4614,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:45:00,192.168.1.92,https://slack.com/resource/964,Allow,None,4846,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:47:00,192.168.1.229,https://stackoverflow.com/resource/692,Allow,None,2054,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:47:00,192.168.1.15,https://github.com/resource/366,Allow,None,4040,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:47:00,192.168.1.210,https://slack.com/resource/663,Allow,None,1708,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:48:00,192.168.1.45,https://slack.com/resource/815,Allow,None,1639,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:49:00,192.168.1.108,https://google.com/resource/645,Allow,None,3622,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:50:00,192.168.1.28,https://slack.com/resource/994,Allow,None,2772,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:51:00,192.168.1.51,https://slack.com/resource/505,Allow,None,1389,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:52:00,192.168.1.87,https://stackoverflow.com/resource/440,Allow,None,831,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:52:00,192.168.1.93,https://github.com/resource/584,Allow,None,391,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:53:00,192.168.1.130,https://stackoverflow.com/resource/345,Allow,None,2195,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:53:00,192.168.1.119,https://jira.atlassian.com/resource/262,Allow,None,3179,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:54:00,192.168.1.241,https://slack.com/resource/113,Allow,None,1802,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:55:00,192.168.1.45,https://stackoverflow.com/resource/199,Allow,None,3470,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T10:56:00,192.168.1.68,https://google.com/resource/277,Allow,None,2090,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:57:00,192.168.1.103,https://stackoverflow.com/resource/414,Allow,None,4878,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:57:00,192.168.1.149,https://github.com/resource/791,Allow,None,459,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T10:57:00,192.168.1.86,https://slack.com/resource/526,Allow,None,1569,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:00:00,192.168.1.152,https://slack.com/resource/496,Allow,None,2333,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:01:00,192.168.1.6,https://github.com/resource/226,Allow,None,3157,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:02:00,192.168.1.36,https://github.com/resource/254,Allow,None,2801,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:02:00,192.168.1.98,https://google.com/resource/577,Allow,None,2597,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:02:00,192.168.1.68,https://slack.com/resource/623,Allow,None,1906,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:05:00,192.168.1.228,https://jira.atlassian.com/resource/354,Allow,None,1572,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:05:00,192.168.1.66,https://stackoverflow.com/resource/574,Allow,None,4216,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:06:00,192.168.1.21,https://stackoverflow.com/resource/269,Allow,None,141,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:07:00,192.168.1.31,https://stackoverflow.com/resource/374,Allow,None,1740,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:07:00,192.168.1.165,https://stackoverflow.com/resource/952,Allow,None,4062,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:08:00,192.168.1.242,https://google.com/resource/727,Allow,None,2358,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:09:00,192.168.1.148,https://github.com/resource/242,Allow,None,532,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:10:00,192.168.1.44,https://google.com/resource/720,Allow,None,3732,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:10:00,192.168.1.11,https://slack.com/resource/228,Allow,None,223,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:11:00,192.168.1.239,https://github.com/resource/728,Allow,None,3489,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:12:00,192.168.1.225,https://stackoverflow.com/resource/508,Allow,None,3856,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:13:00,192.168.1.230,https://stackoverflow.com/resource/974,Allow,None,4089,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:14:00,192.168.1.107,https://google.com/resource/962,Allow,None,734,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:14:00,192.168.1.138,https://stackoverflow.com/resource/855,Allow,None,377,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:14:00,192.168.1.171,https://github.com/resource/170,Allow,None,2309,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:15:00,192.168.1.3,https://jira.atlassian.com/resource/753,Allow,None,1754,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:17:00,192.168.1.149,https://stackoverflow.com/resource/707,Allow,None,4856,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:18:00,192.168.1.69,https://stackoverflow.com/resource/874,Allow,None,721,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:19:00,192.168.1.107,https://github.com/resource/284,Allow,None,1643,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:20:00,192.168.1.80,https://jira.atlassian.com/resource/285,Allow,None,3720,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:20:00,192.168.1.205,https://github.com/resource/494,Allow,None,4933,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:23:00,192.168.1.208,https://stackoverflow.com/resource/892,Allow,None,4628,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:26:00,192.168.1.155,https://jira.atlassian.com/resource/733,Allow,None,2748,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:27:00,192.168.1.50,https://stackoverflow.com/resource/858,Allow,None,1275,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:28:00,192.168.1.145,https://github.com/resource/895,Allow,None,721,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:28:00,192.168.1.78,https://google.com/resource/933,Allow,None,3419,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:30:00,192.168.1.53,https://github.com/resource/809,Allow,None,3148,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:32:00,192.168.1.8,https://github.com/resource/651,Allow,None,4276,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:33:00,192.168.1.157,https://slack.com/resource/769,Allow,None,141,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:39:00,192.168.1.221,https://stackoverflow.com/resource/592,Allow,None,854,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:41:00,192.168.1.49,https://stackoverflow.com/resource/490,Allow,None,3514,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:44:00,192.168.1.204,https://slack.com/resource/118,Allow,None,2178,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:44:00,192.168.1.17,https://jira.atlassian.com/resource/394,Allow,None,601,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:45:00,192.168.1.164,https://github.com/resource/157,Allow,None,443,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:45:00,192.168.1.9,https://slack.com/resource/793,Allow,None,3209,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:46:00,192.168.1.37,https://stackoverflow.com/resource/442,Allow,None,2684,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:46:00,192.168.1.166,https://github.com/resource/264,Allow,None,540,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:46:00,192.168.1.79,https://jira.atlassian.com/resource/384,Allow,None,4924,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:50:00,192.168.1.154,https://stackoverflow.com/resource/149,Allow,None,3202,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:51:00,192.168.1.3,https://stackoverflow.com/resource/249,Allow,None,4997,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:51:00,192.168.1.148,https://google.com/resource/475,Allow,None,1731,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:54:00,192.168.1.186,https://jira.atlassian.com/resource/122,Allow,None,4528,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:55:00,192.168.1.124,https://google.com/resource/576,Allow,None,1272,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:55:00,192.168.1.153,https://slack.com/resource/715,Allow,None,2523,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:57:00,192.168.1.89,https://slack.com/resource/898,Allow,None,949,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:57:00,192.168.1.75,https://github.com/resource/552,Allow,None,4221,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T11:57:00,192.168.1.192,https://google.com/resource/132,Allow,None,4081,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T11:58:00,192.168.1.65,https://stackoverflow.com/resource/191,Allow,None,1814,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:00:00,192.168.1.94,https://jira.atlassian.com/resource/909,Allow,None,1377,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:02:00,192.168.1.82,https://github.com/resource/223,Allow,None,1311,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:03:00,192.168.1.101,https://jira.atlassian.com/resource/433,Allow,None,363,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:08:00,192.168.1.41,https://slack.com/resource/460,Allow,None,892,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:08:00,192.168.1.145,https://jira.atlassian.com/resource/481,Allow,None,4424,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:10:00,192.168.1.183,https://google.com/resource/531,Allow,None,3520,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:11:00,192.168.1.47,https://slack.com/resource/577,Allow,None,1392,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:11:00,192.168.1.115,https://slack.com/resource/391,Allow,None,3371,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:11:00,192.168.1.215,https://slack.com/resource/287,Allow,None,110,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:14:00,192.168.1.39,https://slack.com/resource/608,Allow,None,1910,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:14:00,192.168.1.196,https://slack.com/resource/256,Allow,None,3891,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:15:00,192.168.1.194,https://slack.com/resource/961,Allow,None,319,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:17:00,192.168.1.16,https://jira.atlassian.com/resource/683,Allow,None,1672,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:20:00,192.168.1.52,https://stackoverflow.com/resource/724,Allow,None,1199,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:20:00,192.168.1.94,https://slack.com/resource/775,Allow,None,2047,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:21:00,192.168.1.205,https://github.com/resource/143,Allow,None,259,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:22:00,192.168.1.240,https://stackoverflow.com/resource/408,Allow,None,1978,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:23:00,192.168.1.254,https://google.com/resource/490,Allow,None,740,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:23:00,192.168.1.111,https://slack.com/resource/110,Allow,None,3885,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:24:00,192.168.1.109,https://google.com/resource/245,Allow,None,123,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:24:00,192.168.1.13,https://stackoverflow.com/resource/452,Allow,None,2872,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:25:00,192.168.1.216,https://stackoverflow.com/resource/400,Allow,None,548,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:25:00,192.168.1.230,https://google.com/resource/471,Allow,None,4447,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:25:00,192.168.1.20,https://jira.atlassian.com/resource/185,Allow,None,3300,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:28:00,192.168.1.125,https://jira.atlassian.com/resource/657,Allow,None,3320,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:30:00,192.168.1.71,https://slack.com/resource/738,Allow,None,1823,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:33:00,192.168.1.158,https://github.com/resource/765,Allow,None,3349,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:36:00,192.168.1.110,https://stackoverflow.com/resource/437,Allow,None,1085,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:37:00,192.168.1.130,https://github.com/resource/134,Allow,None,3387,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:41:00,192.168.1.27,https://google.com/resource/718,Allow,None,2431,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:43:00,192.168.1.194,https://jira.atlassian.com/resource/211,Allow,None,1793,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:45:00,192.168.1.234,https://jira.atlassian.com/resource/721,Allow,None,170,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:47:00,192.168.1.241,https://google.com/resource/351,Allow,None,3585,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:49:00,192.168.1.125,https://stackoverflow.com/resource/917,Allow,None,2281,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:49:00,192.168.1.132,https://stackoverflow.com/resource/741,Allow,None,637,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:50:00,192.168.1.163,https://jira.atlassian.com/resource/755,Allow,None,1405,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:50:00,192.168.1.67,https://google.com/resource/228,Allow,None,3169,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:51:00,192.168.1.184,https://github.com/resource/235,Allow,None,1729,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:51:00,192.168.1.118,https://jira.atlassian.com/resource/142,Allow,None,3805,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:53:00,192.168.1.227,https://slack.com/resource/562,Allow,None,4104,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:53:00,192.168.1.113,https://jira.atlassian.com/resource/390,Allow,None,336,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:54:00,192.168.1.73,https://github.com/resource/874,Allow,None,1768,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:55:00,192.168.1.128,https://slack.com/resource/725,Allow,None,4195,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T12:55:00,192.168.1.55,https://slack.com/resource/663,Allow,None,3814,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:56:00,192.168.1.129,https://google.com/resource/229,Allow,None,3866,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:56:00,192.168.1.155,https://stackoverflow.com/resource/214,Allow,None,4634,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:58:00,192.168.1.224,https://slack.com/resource/709,Allow,None,388,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:58:00,192.168.1.44,https://stackoverflow.com/resource/105,Allow,None,397,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T12:58:00,192.168.1.47,https://slack.com/resource/652,Allow,None,1804,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:00:00,192.168.1.223,https://stackoverflow.com/resource/126,Allow,None,1325,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:00:00,192.168.1.174,https://github.com/resource/901,Allow,None,1557,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:01:00,192.168.1.108,https://github.com/resource/604,Allow,None,3692,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:01:00,192.168.1.167,https://stackoverflow.com/resource/256,Allow,None,4335,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:01:00,192.168.1.73,https://stackoverflow.com/resource/492,Allow,None,4057,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:03:00,192.168.1.172,https://slack.com/resource/731,Allow,None,4409,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:04:00,192.168.1.227,https://jira.atlassian.com/resource/899,Allow,None,4242,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:05:00,192.168.1.232,https://github.com/resource/541,Allow,None,891,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:05:00,192.168.1.73,https://slack.com/resource/915,Allow,None,4977,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:06:00,192.168.1.81,https://slack.com/resource/364,Allow,None,3503,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:09:00,192.168.1.180,https://github.com/resource/377,Allow,None,3448,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:10:00,192.168.1.25,https://github.com/resource/271,Allow,None,3496,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:10:00,192.168.1.219,https://github.com/resource/786,Allow,None,2153,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:11:00,192.168.1.29,https://slack.com/resource/812,Allow,None,528,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:12:00,192.168.1.121,https://slack.com/resource/407,Allow,None,4321,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:13:00,192.168.1.195,https://jira.atlassian.com/resource/337,Allow,None,1935,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:14:00,192.168.1.12,https://slack.com/resource/164,Allow,None,3953,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:14:00,192.168.1.127,https://jira.atlassian.com/resource/348,Allow,None,3517,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:15:00,192.168.1.147,https://google.com/resource/781,Allow,None,713,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:16:00,192.168.1.147,https://github.com/resource/541,Allow,None,1150,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:18:00,192.168.1.173,https://github.com/resource/821,Allow,None,2800,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:18:00,192.168.1.99,https://jira.atlassian.com/resource/757,Allow,None,3409,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:20:00,192.168.1.6,https://jira.atlassian.com/resource/245,Allow,None,1541,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:21:00,192.168.1.51,https://google.com/resource/295,Allow,None,1733,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:23:00,192.168.1.181,https://stackoverflow.com/resource/910,Allow,None,1711,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:24:00,192.168.1.155,https://slack.com/resource/120,Allow,None,1160,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:25:00,192.168.1.8,https://stackoverflow.com/resource/592,Allow,None,1500,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:27:00,192.168.1.154,https://github.com/resource/883,Allow,None,1326,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:27:00,192.168.1.32,https://stackoverflow.com/resource/304,Allow,None,3348,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:28:00,192.168.1.229,https://slack.com/resource/575,Allow,None,566,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:28:00,192.168.1.26,https://jira.atlassian.com/resource/413,Allow,None,536,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:30:00,192.168.1.8,https://slack.com/resource/828,Allow,None,4479,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:32:00,192.168.1.166,https://github.com/resource/752,Allow,None,1740,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:32:00,192.168.1.146,https://stackoverflow.com/resource/416,Allow,None,2883,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:33:00,192.168.1.30,https://jira.atlassian.com/resource/624,Allow,None,3313,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:34:00,192.168.1.4,https://jira.atlassian.com/resource/830,Allow,None,1982,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:34:00,192.168.1.163,https://stackoverflow.com/resource/934,Allow,None,3579,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:34:00,192.168.1.125,https://google.com/resource/969,Allow,None,1248,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:35:00,192.168.1.233,https://stackoverflow.com/resource/932,Allow,None,716,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:37:00,192.168.1.215,https://github.com/resource/677,Allow,None,736,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:39:00,192.168.1.210,https://jira.atlassian.com/resource/228,Allow,None,1394,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:40:00,192.168.1.41,https://stackoverflow.com/resource/504,Allow,None,1320,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:41:00,192.168.1.99,https://google.com/resource/261,Allow,None,1889,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:45:00,192.168.1.241,https://slack.com/resource/768,Allow,None,935,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:46:00,192.168.1.106,https://stackoverflow.com/resource/402,Allow,None,4496,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:47:00,192.168.1.51,https://google.com/resource/322,Allow,None,4894,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:47:00,192.168.1.246,https://github.com/resource/593,Allow,None,3256,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:48:00,192.168.1.42,https://stackoverflow.com/resource/979,Allow,None,1857,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:48:00,192.168.1.67,https://stackoverflow.com/resource/502,Allow,None,4345,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:48:00,192.168.1.168,https://github.com/resource/604,Allow,None,4640,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:49:00,192.168.1.113,https://jira.atlassian.com/resource/763,Allow,None,4198,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:52:00,192.168.1.83,https://slack.com/resource/733,Allow,None,3174,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:52:00,192.168.1.166,https://github.com/resource/681,Allow,None,4817,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:52:00,192.168.1.250,https://jira.atlassian.com/resource/567,Allow,None,4752,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:55:00,192.168.1.124,https://stackoverflow.com/resource/275,Allow,None,2723,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:58:00,192.168.1.194,https://jira.atlassian.com/resource/665,Allow,None,343,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:58:00,192.168.1.209,https://jira.atlassian.com/resource/987,Allow,None,913,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:58:00,192.168.1.81,https://jira.atlassian.com/resource/913,Allow,None,1339,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:59:00,192.168.1.229,https://github.com/resource/464,Allow,None,4258,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T13:59:00,192.168.1.154,https://google.com/resource/496,Allow,None,2808,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T13:59:00,192.168.1.110,https://google.com/resource/628,Allow,None,3336,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:00:00,192.168.1.165,https://slack.com/resource/704,Allow,None,4308,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:01:00,192.168.1.157,https://github.com/resource/278,Allow,None,905,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:02:00,192.168.1.93,https://github.com/resource/988,Allow,None,2647,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:06:00,192.168.1.130,https://stackoverflow.com/resource/772,Allow,None,1636,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:06:00,192.168.1.179,https://jira.atlassian.com/resource/818,Allow,None,2989,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:07:00,192.168.1.64,https://google.com/resource/499,Allow,None,530,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:07:00,192.168.1.167,https://jira.atlassian.com/resource/915,Allow,None,3540,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:07:00,192.168.1.33,https://github.com/resource/207,Allow,None,2987,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:10:00,192.168.1.220,https://jira.atlassian.com/resource/372,Allow,None,100,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:11:00,192.168.1.30,https://slack.com/resource/399,Allow,None,3280,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:12:00,192.168.1.185,https://stackoverflow.com/resource/113,Allow,None,798,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:13:00,192.168.1.164,https://github.com/resource/648,Allow,None,4304,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:15:00,192.168.1.34,https://github.com/resource/403,Allow,None,3859,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:15:00,192.168.1.135,https://slack.com/resource/502,Allow,None,736,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:16:00,192.168.1.85,https://slack.com/resource/884,Allow,None,2204,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:17:00,192.168.1.92,https://github.com/resource/398,Allow,None,3559,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:18:00,192.168.1.152,https://slack.com/resource/644,Allow,None,999,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:18:00,192.168.1.12,https://google.com/resource/232,Allow,None,3056,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:22:00,192.168.1.176,https://google.com/resource/236,Allow,None,2878,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:22:00,192.168.1.162,https://jira.atlassian.com/resource/373,Allow,None,4140,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:23:00,192.168.1.197,https://github.com/resource/784,Allow,None,4427,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:23:00,192.168.1.188,https://google.com/resource/887,Allow,None,2018,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:23:00,192.168.1.121,https://jira.atlassian.com/resource/704,Allow,None,4038,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:23:00,192.168.1.132,https://github.com/resource/171,Allow,None,3238,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:24:00,192.168.1.180,https://github.com/resource/967,Allow,None,4382,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:24:00,192.168.1.206,https://github.com/resource/284,Allow,None,3495,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:25:00,192.168.1.183,https://slack.com/resource/218,Allow,None,532,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:26:00,192.168.1.170,https://stackoverflow.com/resource/858,Allow,None,1277,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:28:00,192.168.1.239,https://google.com/resource/238,Allow,None,2757,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:29:00,192.168.1.85,https://github.com/resource/655,Allow,None,1737,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:30:00,192.168.1.46,https://jira.atlassian.com/resource/488,Allow,None,4990,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:31:00,192.168.1.149,https://stackoverflow.com/resource/404,Allow,None,4578,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:31:00,192.168.1.59,https://github.com/resource/409,Allow,None,4373,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:34:00,192.168.1.11,https://slack.com/resource/120,Allow,None,4712,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:35:00,192.168.1.254,https://stackoverflow.com/resource/848,Allow,None,1800,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:36:00,192.168.1.242,https://stackoverflow.com/resource/450,Allow,None,744,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:37:00,192.168.1.107,https://jira.atlassian.com/resource/931,Allow,None,472,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:38:00,192.168.1.204,https://github.com/resource/552,Allow,None,3997,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:40:00,192.168.1.39,https://stackoverflow.com/resource/615,Allow,None,1826,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:41:00,192.168.1.36,https://github.com/resource/166,Allow,None,4827,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:42:00,192.168.1.80,https://google.com/resource/442,Allow,None,2839,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:43:00,192.168.1.110,https://stackoverflow.com/resource/434,Allow,None,1296,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:43:00,192.168.1.182,https://github.com/resource/407,Allow,None,4170,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:45:00,192.168.1.231,https://stackoverflow.com/resource/713,Allow,None,2435,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:47:00,192.168.1.50,https://jira.atlassian.com/resource/797,Allow,None,2524,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:50:00,192.168.1.34,https://jira.atlassian.com/resource/446,Allow,None,1792,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:50:00,192.168.1.254,https://slack.com/resource/102,Allow,None,1533,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:51:00,192.168.1.173,https://github.com/resource/244,Allow,None,2327,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:51:00,192.168.1.163,https://github.com/resource/500,Allow,None,3272,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:53:00,192.168.1.163,https://jira.atlassian.com/resource/904,Allow,None,4774,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:54:00,192.168.1.82,https://stackoverflow.com/resource/487,Allow,None,2713,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:55:00,192.168.1.79,https://jira.atlassian.com/resource/801,Allow,None,4392,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:57:00,192.168.1.199,https://stackoverflow.com/resource/370,Allow,None,3472,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T14:58:00,192.168.1.243,https://stackoverflow.com/resource/755,Allow,None,2404,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T14:58:00,192.168.1.187,https://jira.atlassian.com/resource/589,Allow,None,2662,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:00:00,192.168.1.9,https://jira.atlassian.com/resource/162,Allow,None,4986,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:00:00,192.168.1.43,https://google.com/resource/709,Allow,None,104,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:02:00,192.168.1.230,https://slack.com/resource/342,Allow,None,2133,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:02:00,192.168.1.124,https://slack.com/resource/292,Allow,None,3620,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:02:00,192.168.1.8,https://stackoverflow.com/resource/697,Allow,None,4512,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:03:00,192.168.1.183,https://jira.atlassian.com/resource/403,Allow,None,1252,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:04:00,192.168.1.85,https://github.com/resource/720,Allow,None,2675,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:04:00,192.168.1.231,https://jira.atlassian.com/resource/838,Allow,None,2385,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:05:00,192.168.1.240,https://google.com/resource/172,Allow,None,4984,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:05:00,192.168.1.78,https://github.com/resource/269,Allow,None,400,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:06:00,192.168.1.227,https://jira.atlassian.com/resource/923,Allow,None,2495,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:06:00,192.168.1.160,https://github.com/resource/889,Allow,None,2893,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:08:00,192.168.1.220,https://stackoverflow.com/resource/520,Allow,None,4849,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:08:00,192.168.1.111,https://google.com/resource/274,Allow,None,2395,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:08:00,192.168.1.93,https://jira.atlassian.com/resource/149,Allow,None,1731,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:15:00,192.168.1.114,https://google.com/resource/866,Allow,None,2093,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:16:00,192.168.1.153,https://stackoverflow.com/resource/957,Allow,None,4899,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:16:00,192.168.1.130,https://slack.com/resource/540,Allow,None,852,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:16:00,192.168.1.68,https://slack.com/resource/715,Allow,None,1062,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:17:00,192.168.1.58,https://slack.com/resource/126,Allow,None,2888,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:18:00,192.168.1.252,https://slack.com/resource/245,Allow,None,4443,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:19:00,192.168.1.101,https://jira.atlassian.com/resource/813,Allow,None,1754,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:20:00,192.168.1.55,https://google.com/resource/380,Allow,None,369,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:23:00,192.168.1.101,https://google.com/resource/636,Allow,None,746,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:23:00,192.168.1.243,https://google.com/resource/832,Allow,None,492,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:25:00,192.168.1.33,https://google.com/resource/574,Allow,None,2144,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:25:00,192.168.1.151,https://jira.atlassian.com/resource/725,Allow,None,3947,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:25:00,192.168.1.227,https://stackoverflow.com/resource/850,Allow,None,967,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:25:00,192.168.1.59,https://github.com/resource/635,Allow,None,1846,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:25:00,192.168.1.237,https://slack.com/resource/636,Allow,None,4312,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:25:00,192.168.1.210,https://stackoverflow.com/resource/503,Allow,None,1473,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:26:00,192.168.1.219,https://google.com/resource/695,Allow,None,4212,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:26:00,192.168.1.231,https://google.com/resource/918,Allow,None,540,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:27:00,192.168.1.88,https://github.com/resource/832,Allow,None,1365,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:27:00,192.168.1.140,https://jira.atlassian.com/resource/748,Allow,None,3625,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:27:00,192.168.1.31,https://google.com/resource/421,Allow,None,3782,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:28:00,192.168.1.112,https://jira.atlassian.com/resource/772,Allow,None,2363,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:28:00,192.168.1.38,https://google.com/resource/570,Allow,None,4137,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:29:00,192.168.1.126,https://google.com/resource/618,Allow,None,1946,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:30:00,192.168.1.150,https://stackoverflow.com/resource/605,Allow,None,385,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:30:00,192.168.1.14,https://stackoverflow.com/resource/756,Allow,None,3695,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:30:00,192.168.1.235,https://google.com/resource/712,Allow,None,3580,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:31:00,192.168.1.18,https://slack.com/resource/481,Allow,None,979,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:31:00,192.168.1.104,https://google.com/resource/908,Allow,None,475,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:34:00,192.168.1.123,https://jira.atlassian.com/resource/800,Allow,None,3009,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:34:00,192.168.1.7,https://jira.atlassian.com/resource/536,Allow,None,3074,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:34:00,192.168.1.244,https://slack.com/resource/250,Allow,None,3271,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:36:00,192.168.1.167,https://google.com/resource/144,Allow,None,3669,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:37:00,192.168.1.237,https://google.com/resource/594,Allow,None,2687,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:38:00,192.168.1.132,https://stackoverflow.com/resource/975,Allow,None,2255,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:38:00,192.168.1.148,https://google.com/resource/985,Allow,None,1224,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:38:00,192.168.1.158,https://jira.atlassian.com/resource/106,Allow,None,4978,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:39:00,192.168.1.137,https://google.com/resource/163,Allow,None,1169,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:40:00,192.168.1.10,https://stackoverflow.com/resource/522,Allow,None,3956,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:40:00,192.168.1.238,https://stackoverflow.com/resource/291,Allow,None,2261,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:40:00,192.168.1.4,https://slack.com/resource/764,Allow,None,2910,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:40:00,192.168.1.119,https://google.com/resource/485,Allow,None,3001,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:42:00,192.168.1.140,https://slack.com/resource/294,Allow,None,2182,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:42:00,192.168.1.178,https://github.com/resource/888,Allow,None,980,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:47:00,192.168.1.61,https://stackoverflow.com/resource/475,Allow,None,1003,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:50:00,192.168.1.167,https://stackoverflow.com/resource/314,Allow,None,2881,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:54:00,192.168.1.143,https://google.com/resource/579,Allow,None,578,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:55:00,192.168.1.76,https://jira.atlassian.com/resource/372,Allow,None,3534,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:55:00,192.168.1.85,https://github.com/resource/356,Allow,None,4974,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:56:00,192.168.1.206,https://google.com/resource/307,Allow,None,1600,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T15:56:00,192.168.1.24,https://slack.com/resource/731,Allow,None,3598,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:58:00,192.168.1.210,https://jira.atlassian.com/resource/759,Allow,None,1835,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-2026-01-28T15:58:00,192.168.1.18,https://github.com/resource/182,Allow,None,447,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
-2026-01-28T16:00:00,192.168.1.118,https://slack.com/resource/688,Allow,None,3678,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+Timestamp,SourceIP,DestURL,Action,ThreatCategory,BytesSent,BytesReceived,UserAgent,SourceUser,AppName
+2026-01-27T08:01:27.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,46821608,324,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:02:50.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,24862191,223,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:03:33.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,13115889,111,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:06:02.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,37829797,219,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:08:49.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,44946077,392,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:10:21.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,15751729,281,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:10:52.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,42120533,294,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:13:41.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,19636296,174,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:15:42.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,40006391,472,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:17:43.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,49465123,327,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:19:36.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,24130311,330,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:20:28.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,27167028,207,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:24:33.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,20588845,463,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:35:06.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,42123461,459,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:38:36.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,14856096,349,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T08:54:20.445Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,4700351,461,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-27T13:01:03.444Z,10.44.145.210,https://github.com/path/to/resource,Block,None,2163,2364,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T13:06:41.444Z,172.212.119.167,https://facebook.com/path/to/resource,Allow,None,4257,43098,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T13:06:44.444Z,178.215.49.185,https://github.com/path/to/resource,Allow,None,1573,12109,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-27T13:08:42.445Z,115.174.74.105,https://salesforce.com/path/to/resource,Allow,None,222,10577,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-27T13:08:43.444Z,117.44.215.212,https://facebook.com/path/to/resource,Allow,None,2419,29303,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T13:10:02.444Z,71.178.218.31,https://github.com/path/to/resource,Block,None,1536,12656,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-27T13:10:10.444Z,150.238.234.232,https://update-win32.com/path/to/resource,Allow,None,3600,47205,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T13:10:20.444Z,83.64.36.110,https://unknown-host.xy/path/to/resource,Allow,None,3465,31380,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T13:10:41.444Z,184.76.201.223,https://facebook.com/path/to/resource,Block,None,866,22511,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-27T13:13:48.445Z,44.23.157.210,https://facebook.com/path/to/resource,Block,None,1132,37562,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-27T13:16:42.445Z,58.79.135.28,https://salesforce.com/path/to/resource,Allow,None,2571,761,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T13:17:37.444Z,21.220.75.19,https://google.com/path/to/resource,Allow,None,2800,7356,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-27T13:18:06.444Z,174.86.47.214,https://facebook.com/path/to/resource,Block,None,4443,31145,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T13:19:02.444Z,142.239.88.147,https://update-win32.com/path/to/resource,Allow,None,1808,39788,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-27T13:19:03.444Z,65.221.7.13,https://facebook.com/path/to/resource,Block,None,4597,10368,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T13:21:28.444Z,131.50.190.141,https://facebook.com/path/to/resource,Allow,None,4416,10884,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-27T13:21:45.444Z,177.149.95.137,https://salesforce.com/path/to/resource,Allow,None,4886,1342,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T13:25:14.444Z,42.170.2.168,https://github.com/path/to/resource,Block,None,4066,23076,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T13:25:31.444Z,73.189.152.202,https://github.com/path/to/resource,Block,None,4670,31550,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T13:27:44.444Z,104.239.44.253,https://facebook.com/path/to/resource,Block,None,1743,21567,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-27T13:30:12.445Z,157.108.206.72,https://github.com/path/to/resource,Allow,None,1383,9939,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T13:31:24.445Z,14.170.101.83,https://github.com/path/to/resource,Allow,None,1405,33292,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-27T13:32:02.445Z,129.151.236.2,https://update-win32.com/path/to/resource,Allow,None,4664,6102,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-27T13:34:26.445Z,154.83.179.12,https://github.com/path/to/resource,Block,None,1104,38082,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-27T13:34:37.444Z,32.146.110.25,https://google.com/path/to/resource,Allow,None,3525,4129,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T13:40:08.445Z,36.11.242.184,https://salesforce.com/path/to/resource,Allow,None,2678,34617,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-27T13:41:22.444Z,55.194.173.181,https://github.com/path/to/resource,Allow,None,2219,38842,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T13:44:18.445Z,148.200.105.128,https://unknown-host.xy/path/to/resource,Allow,None,3090,48374,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T13:44:36.444Z,22.178.63.68,https://github.com/path/to/resource,Block,None,2604,28835,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T13:45:51.444Z,130.200.207.150,https://facebook.com/path/to/resource,Allow,None,1939,5946,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T13:46:16.445Z,78.248.96.26,https://google.com/path/to/resource,Allow,None,4383,41712,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T13:49:54.444Z,188.30.173.223,https://update-win32.com/path/to/resource,Block,None,683,46444,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-27T13:50:57.444Z,43.45.50.85,https://facebook.com/path/to/resource,Allow,None,3267,7140,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T13:51:31.445Z,183.197.149.17,https://update-win32.com/path/to/resource,Block,None,4430,30939,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-27T13:58:57.444Z,49.238.45.164,https://salesforce.com/path/to/resource,Block,None,4013,39686,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T13:59:24.445Z,82.173.4.114,https://salesforce.com/path/to/resource,Allow,None,1717,33202,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T13:59:49.444Z,48.97.41.142,https://unknown-host.xy/path/to/resource,Allow,None,4838,2972,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-27T14:00:07.444Z,174.147.68.78,https://facebook.com/path/to/resource,Block,None,3504,35595,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-27T14:00:52.444Z,76.86.47.202,https://github.com/path/to/resource,Block,None,2053,43674,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-27T14:04:18.444Z,71.107.77.126,https://github.com/path/to/resource,Allow,None,2063,20836,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T14:04:52.444Z,107.234.93.154,https://unknown-host.xy/path/to/resource,Block,None,2135,4471,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T14:05:05.445Z,173.248.211.14,https://onion.router/hidden,Allow,None,3152,2114,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
+2026-01-27T14:05:24.444Z,43.198.86.176,https://google.com/path/to/resource,Allow,None,2833,41988,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-27T14:07:01.444Z,187.250.141.59,https://salesforce.com/path/to/resource,Allow,None,1379,38261,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T14:08:16.444Z,179.195.229.67,https://unknown-host.xy/path/to/resource,Block,None,2038,43596,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T14:08:20.444Z,77.227.112.116,https://salesforce.com/path/to/resource,Block,None,2645,22058,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T14:09:23.445Z,63.134.118.11,https://google.com/path/to/resource,Block,None,3216,36428,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-27T14:10:13.444Z,142.85.236.167,https://update-win32.com/path/to/resource,Allow,None,4520,6741,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-27T14:12:01.444Z,81.24.21.64,https://google.com/path/to/resource,Allow,None,2490,47140,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T14:15:40.444Z,69.174.50.43,https://google.com/path/to/resource,Block,None,2214,7655,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T14:16:41.444Z,184.102.61.241,https://github.com/path/to/resource,Block,None,2266,42174,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T14:17:44.444Z,10.169.254.170,https://github.com/path/to/resource,Allow,None,3751,35062,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-27T14:20:35.445Z,192.177.7.123,http://update-win32.com/payload.exe,Block,Malware,331,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-27T14:22:14.445Z,65.45.194.15,https://facebook.com/path/to/resource,Block,None,1846,9617,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-27T14:22:49.444Z,52.245.181.148,https://facebook.com/path/to/resource,Block,None,2830,11997,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-27T14:23:32.445Z,107.55.59.73,https://salesforce.com/path/to/resource,Block,None,2990,39736,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T14:24:06.445Z,137.100.181.196,https://github.com/path/to/resource,Block,None,2831,31177,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T14:24:29.444Z,110.98.143.37,https://update-win32.com/path/to/resource,Block,None,1845,40732,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T14:25:12.445Z,135.174.8.239,https://google.com/path/to/resource,Block,None,4811,44898,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-27T14:27:04.444Z,67.78.52.33,https://salesforce.com/path/to/resource,Allow,None,4864,49431,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-27T14:28:43.444Z,125.17.117.31,https://github.com/path/to/resource,Block,None,2360,25883,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T14:32:16.444Z,179.154.37.44,https://github.com/path/to/resource,Block,None,1302,20236,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-27T14:32:32.444Z,188.162.241.237,https://salesforce.com/path/to/resource,Block,None,4633,15128,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T14:39:01.445Z,85.72.25.8,https://google.com/path/to/resource,Block,None,1730,48107,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-27T14:39:58.444Z,163.212.165.26,https://facebook.com/path/to/resource,Allow,None,487,20553,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T14:42:31.445Z,57.217.59.21,https://facebook.com/path/to/resource,Allow,None,301,39243,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T14:43:39.445Z,28.218.146.241,https://update-win32.com/path/to/resource,Allow,None,1826,19218,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T14:45:03.445Z,149.40.6.246,https://salesforce.com/path/to/resource,Block,None,365,16884,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-27T14:46:24.444Z,109.168.187.89,https://facebook.com/path/to/resource,Block,None,572,22549,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-27T14:47:05.445Z,107.97.6.105,https://facebook.com/path/to/resource,Allow,None,566,42239,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T14:47:24.445Z,188.245.19.159,https://salesforce.com/path/to/resource,Block,None,117,29797,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-27T14:48:30.444Z,57.178.112.80,https://unknown-host.xy/path/to/resource,Allow,None,1460,2504,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-27T14:49:58.444Z,179.165.14.157,https://salesforce.com/path/to/resource,Block,None,4456,47753,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T14:50:51.444Z,100.46.123.121,https://github.com/path/to/resource,Allow,None,883,15855,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-27T14:52:49.444Z,44.194.227.108,https://facebook.com/path/to/resource,Block,None,4897,36438,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-27T14:55:36.444Z,11.214.73.96,https://google.com/path/to/resource,Block,None,1249,14248,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T14:58:02.445Z,189.24.102.65,https://salesforce.com/path/to/resource,Block,None,2051,18902,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T14:58:03.444Z,99.253.248.246,https://unknown-host.xy/path/to/resource,Block,None,370,19863,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-27T14:58:07.445Z,169.25.247.114,https://unknown-host.xy/path/to/resource,Allow,None,2997,2646,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T14:58:13.445Z,192.153.189.20,https://github.com/path/to/resource,Block,None,4897,38489,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T14:58:46.445Z,48.225.90.11,https://salesforce.com/path/to/resource,Block,None,4597,37492,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-27T14:59:37.445Z,56.168.53.12,https://update-win32.com/path/to/resource,Block,None,3023,30795,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-27T15:01:44.444Z,62.162.134.103,https://google.com/path/to/resource,Block,None,3055,36124,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T15:03:34.445Z,153.8.116.223,https://facebook.com/path/to/resource,Block,None,1626,43599,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-27T15:04:29.444Z,40.124.58.96,https://github.com/path/to/resource,Allow,None,3951,35633,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-27T15:04:49.445Z,52.167.162.161,https://facebook.com/path/to/resource,Block,None,2807,27736,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-27T15:05:07.444Z,37.15.244.184,https://github.com/path/to/resource,Allow,None,962,15534,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T15:06:05.444Z,88.43.10.60,https://unknown-host.xy/path/to/resource,Allow,None,1223,6682,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-27T15:06:36.445Z,97.42.91.233,https://update-win32.com/path/to/resource,Block,None,1064,27724,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-27T15:07:11.445Z,53.244.9.35,https://google.com/path/to/resource,Allow,None,4415,25054,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-27T15:11:23.444Z,153.103.57.240,https://github.com/path/to/resource,Block,None,3690,23408,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-27T15:12:25.445Z,154.54.217.91,https://google.com/path/to/resource,Allow,None,2427,15369,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T15:13:11.445Z,148.161.127.226,https://facebook.com/path/to/resource,Block,None,1510,37737,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-27T15:13:22.444Z,135.240.48.99,https://unknown-host.xy/path/to/resource,Block,None,865,2783,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T15:14:55.445Z,93.7.255.222,https://salesforce.com/path/to/resource,Block,None,1993,24435,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-27T15:15:09.444Z,60.129.179.149,https://salesforce.com/path/to/resource,Allow,None,670,8284,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-27T15:16:12.444Z,42.9.196.63,https://unknown-host.xy/path/to/resource,Block,None,4442,3284,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-27T15:17:30.445Z,19.146.161.186,https://salesforce.com/path/to/resource,Allow,None,2656,24092,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-27T15:19:30.444Z,62.181.160.190,https://salesforce.com/path/to/resource,Block,None,1214,825,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T15:22:24.445Z,173.251.112.139,https://salesforce.com/path/to/resource,Allow,None,1331,42134,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T15:23:46.444Z,51.58.178.248,https://facebook.com/path/to/resource,Allow,None,4779,27593,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-27T15:24:33.444Z,65.186.212.253,https://salesforce.com/path/to/resource,Allow,None,2804,30000,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-27T15:24:45.444Z,83.97.117.220,https://facebook.com/path/to/resource,Block,None,2956,27031,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T15:25:00.444Z,139.231.38.113,https://facebook.com/path/to/resource,Block,None,4104,6580,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-27T15:28:41.444Z,169.84.109.30,https://unknown-host.xy/path/to/resource,Allow,None,3957,7609,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T15:33:37.445Z,173.137.214.140,https://google.com/path/to/resource,Block,None,386,22542,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-27T15:33:54.444Z,135.33.242.4,https://facebook.com/path/to/resource,Block,None,4149,28761,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T15:34:55.445Z,92.234.248.154,https://update-win32.com/path/to/resource,Block,None,2319,26831,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-27T15:39:56.444Z,54.140.76.68,https://google.com/path/to/resource,Allow,None,974,7480,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-27T15:41:17.443Z,67.31.132.94,https://facebook.com/path/to/resource,Allow,None,1441,29743,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T15:42:16.444Z,155.15.162.115,https://salesforce.com/path/to/resource,Block,None,285,6787,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T15:44:46.444Z,192.247.152.110,https://update-win32.com/path/to/resource,Block,None,828,28013,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T15:46:25.444Z,153.113.154.140,https://github.com/path/to/resource,Allow,None,2078,33348,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-27T15:47:34.445Z,132.56.79.203,https://update-win32.com/path/to/resource,Block,None,3651,4543,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T15:50:22.445Z,147.244.17.179,https://github.com/path/to/resource,Block,None,3120,30767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T15:50:59.444Z,18.133.172.79,https://github.com/path/to/resource,Allow,None,3288,49459,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-27T15:51:13.445Z,101.78.26.192,https://salesforce.com/path/to/resource,Block,None,3553,8959,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-27T15:52:02.445Z,95.178.177.200,https://salesforce.com/path/to/resource,Block,None,441,35747,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-27T15:52:41.445Z,88.120.145.129,https://github.com/path/to/resource,Block,None,4231,4352,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-27T15:53:39.444Z,28.187.160.108,https://facebook.com/path/to/resource,Allow,None,1073,49680,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-27T15:56:01.444Z,128.181.152.43,https://google.com/path/to/resource,Block,None,146,10121,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-27T15:56:30.444Z,33.103.36.225,https://unknown-host.xy/path/to/resource,Block,None,4204,6567,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-27T15:57:16.445Z,73.225.123.145,https://update-win32.com/path/to/resource,Block,None,591,35725,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T15:58:33.444Z,25.114.142.77,https://google.com/path/to/resource,Allow,None,4598,13424,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T15:58:43.444Z,82.201.126.154,https://salesforce.com/path/to/resource,Block,None,654,35085,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T15:58:48.444Z,189.98.38.115,https://facebook.com/path/to/resource,Block,None,4202,48436,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-27T15:59:10.445Z,14.36.158.194,https://unknown-host.xy/path/to/resource,Block,None,3145,18451,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-27T16:00:59.444Z,117.234.20.130,https://facebook.com/path/to/resource,Allow,None,3623,11772,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-27T16:01:59.444Z,96.135.174.239,https://salesforce.com/path/to/resource,Allow,None,1758,25955,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T16:04:38.445Z,162.171.41.217,https://salesforce.com/path/to/resource,Block,None,2214,32805,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-27T16:06:09.444Z,187.238.195.242,https://google.com/path/to/resource,Block,None,4595,44404,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-27T16:06:28.444Z,143.193.169.133,https://salesforce.com/path/to/resource,Block,None,1005,10380,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T16:09:00.444Z,89.73.74.23,https://facebook.com/path/to/resource,Block,None,1839,21867,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T16:10:23.444Z,84.60.14.131,https://unknown-host.xy/path/to/resource,Block,None,825,39493,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T16:14:00.444Z,75.198.72.65,https://facebook.com/path/to/resource,Block,None,2332,4217,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-27T16:14:06.444Z,70.131.183.137,https://unknown-host.xy/path/to/resource,Block,None,1262,22143,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-27T16:15:12.444Z,104.36.200.7,https://unknown-host.xy/path/to/resource,Block,None,774,36551,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-27T16:15:48.445Z,115.47.24.126,https://facebook.com/path/to/resource,Block,None,2406,27397,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T16:15:54.445Z,185.159.83.17,http://update-win32.com/payload.exe,Block,Malware,388,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-27T16:20:28.445Z,18.228.192.60,https://update-win32.com/path/to/resource,Allow,None,4248,6116,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-27T16:20:37.444Z,187.183.182.26,https://google.com/path/to/resource,Block,None,2319,27662,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T16:21:43.444Z,82.76.75.78,https://google.com/path/to/resource,Block,None,2951,1143,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-27T16:21:53.444Z,90.212.118.73,https://facebook.com/path/to/resource,Allow,None,4466,35828,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T16:22:04.444Z,45.96.87.125,https://github.com/path/to/resource,Block,None,1920,19374,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T16:23:14.444Z,84.167.136.132,https://facebook.com/path/to/resource,Allow,None,3467,21852,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T16:24:06.444Z,81.207.103.108,https://unknown-host.xy/path/to/resource,Allow,None,529,29718,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T16:25:31.445Z,10.135.87.160,https://update-win32.com/path/to/resource,Allow,None,1867,27435,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-27T16:26:11.445Z,177.66.245.130,https://google.com/path/to/resource,Allow,None,1168,45184,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-27T16:26:55.444Z,29.147.218.55,https://unknown-host.xy/path/to/resource,Block,None,1116,14427,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-27T16:28:01.444Z,124.22.57.197,https://github.com/path/to/resource,Allow,None,4299,45691,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-27T16:30:19.444Z,192.109.64.147,https://facebook.com/path/to/resource,Allow,None,4744,1160,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-27T16:31:04.444Z,111.49.166.227,https://salesforce.com/path/to/resource,Allow,None,2891,23493,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-27T16:31:16.445Z,191.19.64.64,https://unknown-host.xy/path/to/resource,Block,None,248,25907,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-27T16:31:42.445Z,49.247.211.40,https://unknown-host.xy/path/to/resource,Block,None,2566,745,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T16:32:14.445Z,14.79.52.227,https://google.com/path/to/resource,Allow,None,1337,37768,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T16:35:00.445Z,111.183.235.200,https://unknown-host.xy/path/to/resource,Block,None,4452,30284,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T16:35:14.444Z,175.156.128.101,https://github.com/path/to/resource,Allow,None,4728,24536,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T16:35:51.444Z,22.219.237.53,https://salesforce.com/path/to/resource,Block,None,4380,21629,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-27T16:38:20.445Z,150.21.197.107,https://onion.router/hidden,Allow,None,3984,3800,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
+2026-01-27T16:38:42.445Z,115.208.70.220,https://salesforce.com/path/to/resource,Block,None,2541,47789,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T16:43:21.444Z,23.164.204.32,https://salesforce.com/path/to/resource,Block,None,2588,39911,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-27T16:43:49.445Z,170.90.248.236,https://facebook.com/path/to/resource,Block,None,747,14527,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T16:44:11.444Z,36.43.70.222,https://facebook.com/path/to/resource,Block,None,1817,49595,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T16:45:48.444Z,158.3.156.162,https://salesforce.com/path/to/resource,Block,None,4090,19127,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-27T16:49:14.444Z,12.158.27.205,https://facebook.com/path/to/resource,Block,None,710,14054,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T16:50:57.445Z,154.23.165.204,https://github.com/path/to/resource,Block,None,1547,14599,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T16:52:03.444Z,16.215.250.194,https://facebook.com/path/to/resource,Allow,None,1726,10986,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-27T16:53:10.444Z,26.222.84.222,https://salesforce.com/path/to/resource,Block,None,766,39541,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T16:55:27.444Z,141.25.128.15,https://salesforce.com/path/to/resource,Allow,None,1234,43063,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-27T16:56:00.445Z,175.241.193.209,https://unknown-host.xy/path/to/resource,Block,None,1103,8454,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-27T16:58:12.444Z,187.159.180.23,https://update-win32.com/path/to/resource,Block,None,225,1921,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T16:58:32.445Z,183.210.187.39,https://github.com/path/to/resource,Allow,None,2771,8651,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-27T17:00:20.445Z,10.60.49.96,https://salesforce.com/path/to/resource,Block,None,477,7322,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-27T17:02:31.444Z,163.195.197.252,https://google.com/path/to/resource,Block,None,3227,40352,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-27T17:03:06.445Z,152.119.113.155,https://update-win32.com/path/to/resource,Block,None,2821,7866,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T17:04:24.445Z,157.249.76.129,https://update-win32.com/path/to/resource,Block,None,4635,38058,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-27T17:05:16.444Z,39.209.155.94,https://update-win32.com/path/to/resource,Block,None,2588,27848,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T17:07:19.445Z,185.63.236.157,https://github.com/path/to/resource,Allow,None,2565,19367,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-27T17:08:28.445Z,96.172.215.76,https://update-win32.com/path/to/resource,Block,None,3077,13720,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-27T17:08:43.444Z,29.24.159.206,https://unknown-host.xy/path/to/resource,Block,None,4263,20743,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-27T17:08:46.445Z,179.69.181.159,https://facebook.com/path/to/resource,Block,None,3072,42988,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-27T17:12:58.444Z,76.117.200.226,https://unknown-host.xy/path/to/resource,Allow,None,2353,49543,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T17:15:46.444Z,59.80.53.98,https://unknown-host.xy/path/to/resource,Block,None,3567,11233,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T17:17:31.444Z,100.208.216.240,https://unknown-host.xy/path/to/resource,Block,None,3520,23638,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-27T17:19:09.444Z,176.147.173.202,https://salesforce.com/path/to/resource,Allow,None,3829,6610,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-27T17:19:47.444Z,92.148.45.107,https://facebook.com/path/to/resource,Block,None,957,49280,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-27T17:22:53.444Z,143.97.35.178,https://facebook.com/path/to/resource,Block,None,1089,16980,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T17:23:14.444Z,106.34.231.228,https://unknown-host.xy/path/to/resource,Allow,None,1004,35856,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T17:23:57.445Z,39.80.205.242,https://unknown-host.xy/path/to/resource,Allow,None,1796,40929,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-27T17:28:19.444Z,76.34.21.125,https://github.com/path/to/resource,Block,None,4657,8569,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-27T17:29:23.445Z,91.206.69.97,https://google.com/path/to/resource,Block,None,286,26690,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-27T17:29:49.445Z,170.185.162.107,http://update-win32.com/payload.exe,Block,Malware,193,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-27T17:30:19.445Z,35.70.120.116,https://unknown-host.xy/path/to/resource,Allow,None,1670,2301,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T17:31:43.444Z,120.113.175.187,https://google.com/path/to/resource,Block,None,3342,31833,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-27T17:31:44.444Z,34.154.215.147,https://google.com/path/to/resource,Allow,None,2358,49736,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T17:34:02.445Z,11.180.192.27,https://github.com/path/to/resource,Allow,None,3500,38829,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T17:34:34.445Z,144.86.136.121,https://salesforce.com/path/to/resource,Allow,None,4438,17960,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-27T17:35:06.445Z,116.49.214.136,https://github.com/path/to/resource,Block,None,2697,38338,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T17:35:33.445Z,28.209.237.217,https://salesforce.com/path/to/resource,Allow,None,1576,17789,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-27T17:38:04.445Z,90.201.155.107,https://facebook.com/path/to/resource,Allow,None,1439,46271,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T17:38:47.444Z,76.32.17.167,https://github.com/path/to/resource,Block,None,1460,8450,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T17:39:58.444Z,53.162.72.117,https://google.com/path/to/resource,Block,None,3904,49380,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-27T17:40:26.444Z,150.182.60.47,https://google.com/path/to/resource,Block,None,412,5742,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-27T17:41:41.445Z,25.180.149.232,https://unknown-host.xy/path/to/resource,Allow,None,745,34714,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-27T17:42:43.444Z,131.222.249.36,https://unknown-host.xy/path/to/resource,Block,None,3944,21503,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-27T17:43:15.444Z,20.183.243.29,https://google.com/path/to/resource,Block,None,4708,13104,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-27T17:46:40.445Z,97.169.215.178,https://facebook.com/path/to/resource,Block,None,3795,37704,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-27T17:49:46.444Z,102.208.125.91,https://salesforce.com/path/to/resource,Block,None,2535,35584,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-27T17:57:47.444Z,39.122.98.3,https://github.com/path/to/resource,Block,None,1956,4385,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-27T18:00:52.444Z,89.105.196.214,https://github.com/path/to/resource,Block,None,2672,45203,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T18:01:30.444Z,63.176.105.71,https://unknown-host.xy/path/to/resource,Allow,None,2562,22715,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
+2026-01-27T18:03:46.444Z,102.214.86.197,https://update-win32.com/path/to/resource,Allow,None,3913,3804,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T18:04:17.444Z,140.80.196.243,https://update-win32.com/path/to/resource,Block,None,1923,34944,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-27T18:04:25.445Z,64.236.120.246,http://update-win32.com/payload.exe,Block,Malware,413,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-27T18:09:15.445Z,24.123.93.251,https://github.com/path/to/resource,Block,None,4817,46848,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-27T18:09:21.444Z,110.234.143.179,https://github.com/path/to/resource,Allow,None,4108,15609,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-27T18:10:03.444Z,71.88.187.231,https://unknown-host.xy/path/to/resource,Block,None,834,49866,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T18:11:19.444Z,117.63.98.203,https://update-win32.com/path/to/resource,Block,None,549,47035,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-27T18:12:48.444Z,18.170.227.251,https://facebook.com/path/to/resource,Block,None,2082,41205,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-27T18:13:03.444Z,132.8.20.76,https://update-win32.com/path/to/resource,Allow,None,3992,13406,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-27T18:13:06.445Z,14.62.73.191,https://github.com/path/to/resource,Allow,None,2642,5301,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T18:13:30.445Z,171.11.187.57,https://github.com/path/to/resource,Block,None,3849,7769,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-27T18:15:54.444Z,186.36.135.211,https://google.com/path/to/resource,Block,None,4432,40852,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T18:17:54.444Z,51.193.211.18,https://facebook.com/path/to/resource,Block,None,2698,14240,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T18:20:47.444Z,186.26.177.99,https://update-win32.com/path/to/resource,Allow,None,724,37090,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T18:22:33.445Z,19.73.77.76,https://github.com/path/to/resource,Block,None,179,31202,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T18:23:38.444Z,180.59.116.128,https://salesforce.com/path/to/resource,Block,None,142,25444,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-27T18:27:43.445Z,147.177.220.17,https://unknown-host.xy/path/to/resource,Block,None,147,34492,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T18:30:17.444Z,34.68.191.232,https://github.com/path/to/resource,Allow,None,286,8460,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-27T18:32:17.444Z,189.230.243.112,https://salesforce.com/path/to/resource,Block,None,1460,23012,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-27T18:32:21.445Z,44.72.65.90,https://update-win32.com/path/to/resource,Allow,None,1974,48102,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T18:32:59.444Z,155.31.23.39,https://salesforce.com/path/to/resource,Allow,None,951,23054,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-27T18:33:01.445Z,96.126.157.195,https://github.com/path/to/resource,Allow,None,3954,4251,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
+2026-01-27T18:34:17.444Z,174.86.198.159,https://facebook.com/path/to/resource,Block,None,2256,9641,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-27T18:36:57.445Z,42.205.25.66,https://facebook.com/path/to/resource,Allow,None,4142,24298,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
+2026-01-27T18:41:15.444Z,115.32.54.161,https://unknown-host.xy/path/to/resource,Allow,None,1954,35328,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T18:41:59.445Z,157.16.56.109,https://unknown-host.xy/path/to/resource,Block,None,1551,26171,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-27T18:42:29.445Z,126.198.13.56,https://facebook.com/path/to/resource,Allow,None,2029,46485,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T18:42:33.445Z,26.70.127.39,https://google.com/path/to/resource,Allow,None,3738,35686,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-27T18:42:43.444Z,164.177.45.165,https://salesforce.com/path/to/resource,Allow,None,4051,22758,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T18:44:18.444Z,110.95.114.20,https://facebook.com/path/to/resource,Allow,None,2467,8100,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T18:45:13.444Z,93.237.203.68,https://google.com/path/to/resource,Allow,None,3282,16132,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-27T18:46:59.444Z,62.31.198.106,https://github.com/path/to/resource,Allow,None,4885,16404,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T18:48:15.444Z,129.71.35.24,https://salesforce.com/path/to/resource,Allow,None,2077,47670,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-27T18:49:36.444Z,125.79.44.138,https://unknown-host.xy/path/to/resource,Block,None,1118,16698,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-27T18:49:44.444Z,35.11.97.116,https://github.com/path/to/resource,Allow,None,2696,46232,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-27T18:49:51.445Z,18.26.65.244,https://unknown-host.xy/path/to/resource,Allow,None,3958,20423,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-27T18:51:11.445Z,130.132.86.85,https://update-win32.com/path/to/resource,Allow,None,2511,20713,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T18:53:09.445Z,92.60.108.91,https://unknown-host.xy/path/to/resource,Block,None,4310,24645,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-27T18:55:40.444Z,87.247.90.230,https://update-win32.com/path/to/resource,Allow,None,4943,7478,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-27T18:56:21.444Z,23.234.118.234,https://salesforce.com/path/to/resource,Allow,None,1950,17811,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-27T18:56:45.444Z,177.155.32.51,https://update-win32.com/path/to/resource,Block,None,583,10672,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-27T18:56:54.444Z,35.164.74.142,https://unknown-host.xy/path/to/resource,Allow,None,1467,7650,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-27T18:58:42.444Z,77.5.141.159,https://google.com/path/to/resource,Allow,None,435,18143,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T18:59:26.445Z,109.254.199.76,https://google.com/path/to/resource,Allow,None,3916,27349,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T19:00:22.444Z,186.241.138.50,https://facebook.com/path/to/resource,Block,None,4791,6288,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T19:03:33.444Z,124.71.207.31,https://google.com/path/to/resource,Allow,None,3104,21406,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-27T19:04:23.445Z,118.102.84.124,https://facebook.com/path/to/resource,Block,None,4876,36211,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-27T19:05:28.445Z,102.171.24.30,https://onion.router/hidden,Allow,None,4244,3977,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
+2026-01-27T19:08:57.445Z,174.90.202.172,https://onion.router/hidden,Allow,None,2067,3122,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
+2026-01-27T19:11:37.444Z,67.168.175.26,https://facebook.com/path/to/resource,Allow,None,2876,6939,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-27T19:12:26.444Z,143.238.218.252,https://github.com/path/to/resource,Allow,None,3082,26463,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T19:13:08.445Z,183.30.207.204,https://update-win32.com/path/to/resource,Allow,None,2415,41439,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T19:13:57.444Z,28.131.129.9,https://github.com/path/to/resource,Allow,None,4920,32624,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-27T19:17:27.444Z,114.7.20.191,https://salesforce.com/path/to/resource,Block,None,2461,36915,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T19:18:00.445Z,141.5.72.204,https://github.com/path/to/resource,Allow,None,710,30608,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-27T19:22:17.444Z,47.108.213.174,https://google.com/path/to/resource,Allow,None,2683,39503,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-27T19:23:47.444Z,165.68.142.152,https://github.com/path/to/resource,Allow,None,1559,46940,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T19:23:55.444Z,178.15.77.174,https://facebook.com/path/to/resource,Allow,None,3125,32544,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T19:26:46.444Z,40.150.4.155,https://google.com/path/to/resource,Block,None,1813,22445,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T19:26:48.444Z,81.120.193.106,https://update-win32.com/path/to/resource,Allow,None,616,35176,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-27T19:27:15.445Z,145.72.193.109,https://google.com/path/to/resource,Block,None,4966,46780,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-27T19:28:03.444Z,152.114.85.110,https://github.com/path/to/resource,Allow,None,900,15656,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T19:29:55.444Z,190.67.50.65,https://github.com/path/to/resource,Allow,None,4984,23701,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T19:30:09.444Z,190.84.5.221,https://unknown-host.xy/path/to/resource,Allow,None,1592,29740,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T19:30:57.444Z,25.107.205.75,https://unknown-host.xy/path/to/resource,Allow,None,2155,44612,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-27T19:31:23.444Z,73.251.49.216,https://google.com/path/to/resource,Allow,None,1158,25575,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T19:32:11.444Z,150.106.179.5,https://facebook.com/path/to/resource,Allow,None,266,22485,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-27T19:34:43.444Z,72.231.204.183,https://github.com/path/to/resource,Allow,None,2079,10575,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-27T19:35:09.445Z,16.150.13.208,https://unknown-host.xy/path/to/resource,Allow,None,656,26068,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-27T19:35:44.444Z,164.154.29.215,https://salesforce.com/path/to/resource,Allow,None,4829,43121,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T19:36:59.444Z,39.222.153.242,https://salesforce.com/path/to/resource,Allow,None,3139,38483,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T19:37:46.444Z,162.106.110.106,https://github.com/path/to/resource,Block,None,1110,17670,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-27T19:43:05.444Z,46.147.161.38,https://facebook.com/path/to/resource,Allow,None,3595,24826,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T19:46:06.444Z,175.240.36.93,https://update-win32.com/path/to/resource,Block,None,1520,9789,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-27T19:46:10.444Z,158.52.239.10,https://unknown-host.xy/path/to/resource,Allow,None,1318,16402,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-27T19:47:22.444Z,175.75.6.55,https://update-win32.com/path/to/resource,Allow,None,3722,4691,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T19:47:28.445Z,17.234.238.197,https://unknown-host.xy/path/to/resource,Allow,None,2351,29717,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-27T19:47:41.444Z,133.52.75.123,https://unknown-host.xy/path/to/resource,Allow,None,3699,29871,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-27T19:47:51.445Z,110.161.203.182,https://salesforce.com/path/to/resource,Block,None,4362,40710,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T19:49:02.445Z,157.33.99.29,https://salesforce.com/path/to/resource,Block,None,1837,41283,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-27T19:49:48.445Z,124.37.89.32,https://salesforce.com/path/to/resource,Allow,None,3944,38398,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-27T19:50:49.445Z,73.247.19.124,https://github.com/path/to/resource,Allow,None,1837,832,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-27T19:51:28.445Z,109.226.221.129,https://github.com/path/to/resource,Block,None,1498,11498,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-27T19:53:15.444Z,64.31.239.66,https://google.com/path/to/resource,Allow,None,3904,45660,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T19:53:49.445Z,102.201.67.185,https://unknown-host.xy/path/to/resource,Block,None,4403,23680,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-27T19:55:54.444Z,113.27.95.175,https://salesforce.com/path/to/resource,Block,None,4038,19714,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-27T19:56:51.444Z,178.13.44.211,https://google.com/path/to/resource,Block,None,216,10474,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-27T19:57:17.445Z,190.96.105.119,https://update-win32.com/path/to/resource,Allow,None,3864,3175,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-27T19:59:33.445Z,23.221.166.183,https://salesforce.com/path/to/resource,Allow,None,684,24896,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-27T20:01:23.444Z,100.67.83.114,https://salesforce.com/path/to/resource,Allow,None,1759,9262,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-27T20:03:01.444Z,39.239.10.211,https://salesforce.com/path/to/resource,Allow,None,1741,11907,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-27T20:03:14.444Z,64.90.170.140,https://github.com/path/to/resource,Allow,None,1405,30009,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T20:04:09.444Z,122.224.124.116,https://unknown-host.xy/path/to/resource,Allow,None,1787,21861,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T20:05:05.444Z,92.29.132.10,https://facebook.com/path/to/resource,Block,None,3168,11366,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-27T20:11:04.444Z,183.55.236.168,https://github.com/path/to/resource,Allow,None,1873,43876,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T20:13:11.444Z,60.225.86.1,https://unknown-host.xy/path/to/resource,Block,None,739,44060,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T20:14:25.444Z,166.188.62.211,https://unknown-host.xy/path/to/resource,Allow,None,3858,43583,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-27T20:15:57.444Z,108.107.243.238,https://google.com/path/to/resource,Block,None,3149,3843,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-27T20:16:56.444Z,86.237.253.192,https://update-win32.com/path/to/resource,Block,None,3637,7234,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T20:18:13.445Z,81.188.53.170,https://unknown-host.xy/path/to/resource,Allow,None,3756,41650,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-27T20:18:49.444Z,127.89.60.75,https://github.com/path/to/resource,Block,None,1730,34191,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T20:20:16.444Z,19.161.179.128,https://facebook.com/path/to/resource,Allow,None,702,17262,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T20:27:12.445Z,180.86.118.169,https://github.com/path/to/resource,Block,None,1931,19758,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T20:30:17.445Z,40.186.112.177,https://unknown-host.xy/path/to/resource,Allow,None,1797,45899,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T20:31:30.444Z,151.145.220.51,https://update-win32.com/path/to/resource,Block,None,3188,37024,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-27T20:32:33.444Z,114.245.65.109,https://unknown-host.xy/path/to/resource,Allow,None,3954,9077,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-27T20:32:53.444Z,122.65.177.58,https://facebook.com/path/to/resource,Block,None,4315,45730,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T20:33:37.444Z,73.20.202.179,https://github.com/path/to/resource,Block,None,3430,47900,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-27T20:34:45.444Z,96.113.211.186,https://facebook.com/path/to/resource,Block,None,4420,35463,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-27T20:36:08.444Z,173.206.159.205,https://github.com/path/to/resource,Block,None,2820,39556,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-27T20:36:44.445Z,110.248.168.97,https://google.com/path/to/resource,Block,None,661,12785,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-27T20:36:50.445Z,103.168.181.96,https://google.com/path/to/resource,Allow,None,1705,38560,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-27T20:41:33.444Z,81.41.244.33,https://salesforce.com/path/to/resource,Allow,None,446,14452,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
+2026-01-27T20:42:26.444Z,30.183.159.13,https://github.com/path/to/resource,Block,None,2341,4131,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-27T20:43:55.444Z,131.151.232.176,https://google.com/path/to/resource,Allow,None,2467,2924,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-27T20:45:07.445Z,178.197.51.97,https://update-win32.com/path/to/resource,Block,None,3869,11183,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-27T20:45:20.445Z,115.9.91.205,https://facebook.com/path/to/resource,Block,None,3081,35708,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T20:45:23.444Z,78.41.141.82,https://update-win32.com/path/to/resource,Allow,None,2262,38559,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-27T20:46:28.444Z,84.246.203.183,https://update-win32.com/path/to/resource,Allow,None,982,27900,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-27T20:49:41.445Z,88.96.58.231,https://salesforce.com/path/to/resource,Allow,None,3179,25004,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-27T20:50:16.444Z,113.239.215.120,https://unknown-host.xy/path/to/resource,Block,None,222,4937,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-27T20:50:40.444Z,87.48.193.151,https://google.com/path/to/resource,Allow,None,2437,8372,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-27T20:53:16.445Z,134.197.223.199,https://unknown-host.xy/path/to/resource,Block,None,1666,21683,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-27T20:53:59.445Z,58.149.69.133,https://salesforce.com/path/to/resource,Block,None,2030,25246,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-27T20:54:53.444Z,92.74.65.159,https://update-win32.com/path/to/resource,Allow,None,4504,10127,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-27T20:57:10.445Z,170.12.155.82,https://google.com/path/to/resource,Allow,None,1736,31069,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T20:57:50.444Z,127.180.135.188,https://google.com/path/to/resource,Block,None,4581,11856,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T20:57:52.445Z,76.33.34.242,https://unknown-host.xy/path/to/resource,Allow,None,1619,29025,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-27T20:58:19.444Z,13.64.194.90,https://google.com/path/to/resource,Allow,None,4929,30371,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
+2026-01-27T20:58:32.444Z,75.41.222.213,https://github.com/path/to/resource,Block,None,556,43780,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-27T20:59:54.444Z,96.87.219.35,https://google.com/path/to/resource,Block,None,1178,48863,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T21:02:17.444Z,15.92.67.217,https://github.com/path/to/resource,Allow,None,1668,22232,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-27T21:05:16.445Z,140.127.139.220,http://update-win32.com/payload.exe,Block,Malware,309,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-27T21:06:25.444Z,86.160.227.185,https://facebook.com/path/to/resource,Allow,None,2630,41848,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-27T21:06:38.445Z,60.215.73.79,https://github.com/path/to/resource,Allow,None,1004,21802,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-27T21:06:53.444Z,69.79.20.126,https://salesforce.com/path/to/resource,Allow,None,4530,30135,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T21:15:13.444Z,115.227.229.172,https://facebook.com/path/to/resource,Allow,None,541,42345,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-27T21:16:04.445Z,140.184.239.119,https://unknown-host.xy/path/to/resource,Block,None,861,28413,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T21:18:40.444Z,122.211.140.199,https://github.com/path/to/resource,Allow,None,156,18369,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-27T21:20:38.444Z,70.165.188.109,https://github.com/path/to/resource,Block,None,4101,21108,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-27T21:24:38.444Z,183.250.33.146,https://github.com/path/to/resource,Allow,None,217,37662,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T21:24:58.444Z,61.86.105.72,https://unknown-host.xy/path/to/resource,Allow,None,4404,14388,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T21:26:13.444Z,126.171.254.207,https://unknown-host.xy/path/to/resource,Allow,None,3208,12084,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T21:27:17.444Z,75.148.156.44,https://salesforce.com/path/to/resource,Allow,None,3821,46846,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T21:28:00.445Z,22.53.246.238,https://github.com/path/to/resource,Allow,None,3331,11033,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-27T21:28:21.445Z,179.136.144.137,https://facebook.com/path/to/resource,Block,None,2450,10396,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-27T21:32:39.444Z,93.105.3.24,https://update-win32.com/path/to/resource,Block,None,1232,938,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-27T21:33:39.444Z,164.87.234.125,https://update-win32.com/path/to/resource,Allow,None,609,36277,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-27T21:34:24.444Z,20.155.32.71,https://github.com/path/to/resource,Allow,None,2583,13850,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-27T21:34:25.444Z,80.23.37.110,https://update-win32.com/path/to/resource,Allow,None,3860,9607,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T21:34:40.445Z,35.15.237.60,https://unknown-host.xy/path/to/resource,Allow,None,2998,41037,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-27T21:34:42.445Z,42.81.79.18,https://unknown-host.xy/path/to/resource,Allow,None,4462,8202,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
+2026-01-27T21:35:25.444Z,66.251.40.161,https://github.com/path/to/resource,Allow,None,1142,5039,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-27T21:36:20.444Z,26.191.10.2,https://salesforce.com/path/to/resource,Allow,None,1580,27738,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-27T21:40:22.444Z,64.174.146.155,https://unknown-host.xy/path/to/resource,Allow,None,2235,49464,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
+2026-01-27T21:40:49.444Z,12.185.126.30,https://google.com/path/to/resource,Allow,None,4716,31457,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-27T21:42:09.444Z,112.227.75.194,https://facebook.com/path/to/resource,Allow,None,4710,47866,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T21:42:29.445Z,46.124.136.166,https://salesforce.com/path/to/resource,Block,None,4852,18554,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-27T21:44:18.445Z,99.92.193.77,https://facebook.com/path/to/resource,Block,None,4250,43484,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-27T21:47:29.444Z,166.159.80.104,https://facebook.com/path/to/resource,Allow,None,338,9949,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T21:49:02.445Z,16.185.82.238,https://unknown-host.xy/path/to/resource,Block,None,2293,40831,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-27T21:53:44.444Z,158.79.227.245,https://github.com/path/to/resource,Block,None,391,1415,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-27T21:55:04.445Z,54.68.240.28,https://unknown-host.xy/path/to/resource,Allow,None,1446,4346,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-27T21:55:14.445Z,125.20.122.5,https://update-win32.com/path/to/resource,Block,None,385,25337,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T21:57:42.444Z,16.103.171.30,https://salesforce.com/path/to/resource,Block,None,639,37107,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T22:00:34.444Z,107.203.24.1,https://google.com/path/to/resource,Allow,None,1292,43339,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-27T22:01:55.444Z,156.22.11.204,https://google.com/path/to/resource,Block,None,2756,38888,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T22:05:37.445Z,28.67.240.196,https://github.com/path/to/resource,Block,None,3048,22097,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-27T22:06:49.444Z,128.73.220.201,https://salesforce.com/path/to/resource,Block,None,3078,9109,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-27T22:07:33.444Z,117.80.8.207,https://unknown-host.xy/path/to/resource,Block,None,4404,4460,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-27T22:09:16.445Z,29.238.27.183,https://unknown-host.xy/path/to/resource,Block,None,1585,29978,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-27T22:10:31.444Z,53.53.185.136,https://salesforce.com/path/to/resource,Allow,None,3787,47888,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T22:13:30.444Z,105.124.21.141,https://google.com/path/to/resource,Block,None,1059,47059,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T22:13:55.445Z,180.27.97.217,https://github.com/path/to/resource,Allow,None,4950,5447,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T22:13:58.445Z,147.226.241.196,https://github.com/path/to/resource,Block,None,3065,31286,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T22:15:27.445Z,96.69.209.132,https://salesforce.com/path/to/resource,Allow,None,4496,2672,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-27T22:16:58.445Z,64.200.39.149,https://github.com/path/to/resource,Allow,None,933,43914,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T22:17:27.444Z,170.78.53.116,https://facebook.com/path/to/resource,Allow,None,3623,11448,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-27T22:17:37.444Z,115.227.196.19,https://google.com/path/to/resource,Block,None,2326,29546,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T22:17:40.444Z,178.153.138.195,https://unknown-host.xy/path/to/resource,Block,None,1335,44250,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T22:18:25.445Z,71.184.112.97,https://facebook.com/path/to/resource,Allow,None,3662,2999,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-27T22:18:38.444Z,20.67.136.145,https://unknown-host.xy/path/to/resource,Allow,None,3550,49153,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-27T22:18:47.444Z,181.218.204.26,https://github.com/path/to/resource,Allow,None,2169,39258,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T22:20:26.445Z,65.246.77.172,http://update-win32.com/payload.exe,Block,Malware,473,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-27T22:21:51.445Z,86.150.193.26,https://github.com/path/to/resource,Allow,None,1807,28269,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-27T22:22:34.444Z,60.132.206.32,https://salesforce.com/path/to/resource,Allow,None,3811,9598,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-27T22:22:55.444Z,12.253.156.132,https://salesforce.com/path/to/resource,Block,None,599,35092,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-27T22:23:10.444Z,156.92.29.117,https://github.com/path/to/resource,Block,None,703,27408,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
+2026-01-27T22:23:37.445Z,166.74.232.165,https://unknown-host.xy/path/to/resource,Allow,None,3379,9045,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-27T22:26:42.444Z,168.30.226.174,https://update-win32.com/path/to/resource,Allow,None,2551,27361,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T22:27:10.444Z,75.60.28.201,https://google.com/path/to/resource,Block,None,2480,49202,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-27T22:28:08.444Z,176.45.216.98,https://facebook.com/path/to/resource,Block,None,2662,16314,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-27T22:28:36.444Z,55.148.99.82,https://unknown-host.xy/path/to/resource,Allow,None,4160,9686,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T22:33:33.445Z,192.15.36.212,https://unknown-host.xy/path/to/resource,Block,None,4852,8624,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T22:33:45.444Z,44.30.236.38,https://unknown-host.xy/path/to/resource,Block,None,4084,39847,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T22:34:39.444Z,87.221.23.226,https://github.com/path/to/resource,Block,None,2674,44101,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-27T22:35:31.444Z,175.240.56.142,https://google.com/path/to/resource,Block,None,4307,5275,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-27T22:38:19.444Z,43.28.213.71,https://unknown-host.xy/path/to/resource,Block,None,4913,13338,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-27T22:39:12.444Z,142.86.73.229,https://github.com/path/to/resource,Block,None,4900,33679,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T22:40:18.445Z,136.191.213.230,https://github.com/path/to/resource,Allow,None,4164,13267,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-27T22:40:23.445Z,97.4.161.98,https://salesforce.com/path/to/resource,Allow,None,912,18362,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-27T22:40:45.444Z,137.95.150.37,https://update-win32.com/path/to/resource,Block,None,1533,48382,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-27T22:43:17.445Z,168.96.25.45,https://facebook.com/path/to/resource,Block,None,1923,28335,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T22:43:55.444Z,67.115.44.224,https://github.com/path/to/resource,Block,None,2468,8771,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-27T22:46:17.445Z,75.23.158.147,https://google.com/path/to/resource,Allow,None,1865,18749,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T22:46:47.444Z,128.64.139.231,https://salesforce.com/path/to/resource,Block,None,3615,25744,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-27T22:47:46.444Z,177.158.93.123,https://update-win32.com/path/to/resource,Block,None,4088,29904,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-27T22:47:51.445Z,123.1.30.183,https://facebook.com/path/to/resource,Allow,None,1708,49244,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-27T22:49:01.445Z,158.66.17.9,https://salesforce.com/path/to/resource,Allow,None,2380,35625,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T22:50:11.444Z,152.255.247.97,https://update-win32.com/path/to/resource,Block,None,2055,8531,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-27T22:50:28.444Z,120.109.14.38,https://salesforce.com/path/to/resource,Allow,None,1419,32688,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-27T22:51:30.444Z,76.222.132.137,https://update-win32.com/path/to/resource,Block,None,2660,25302,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T22:53:24.444Z,12.83.136.101,https://google.com/path/to/resource,Block,None,2711,34709,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T22:54:57.444Z,32.153.120.206,https://update-win32.com/path/to/resource,Block,None,4651,24639,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T22:54:58.444Z,21.239.88.218,https://update-win32.com/path/to/resource,Block,None,4046,25442,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-27T22:56:31.444Z,22.130.122.86,https://salesforce.com/path/to/resource,Block,None,2833,4046,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-27T22:57:54.445Z,76.104.54.74,https://facebook.com/path/to/resource,Block,None,1173,5974,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T22:58:32.444Z,184.207.37.36,https://update-win32.com/path/to/resource,Block,None,841,10477,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-27T23:00:28.444Z,68.165.250.77,https://github.com/path/to/resource,Block,None,1798,48098,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-27T23:02:21.445Z,98.40.61.246,http://update-win32.com/payload.exe,Block,Malware,169,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-27T23:02:29.444Z,76.113.85.250,https://salesforce.com/path/to/resource,Allow,None,1819,9778,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-27T23:02:57.444Z,59.31.192.121,https://unknown-host.xy/path/to/resource,Allow,None,2975,46963,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T23:05:07.444Z,161.21.134.28,https://unknown-host.xy/path/to/resource,Allow,None,2846,37048,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-27T23:08:46.444Z,71.34.180.167,https://unknown-host.xy/path/to/resource,Allow,None,2242,37852,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-27T23:09:47.444Z,114.69.103.152,https://github.com/path/to/resource,Block,None,4087,4936,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-27T23:09:56.444Z,78.227.34.16,https://salesforce.com/path/to/resource,Block,None,4272,26755,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T23:12:37.445Z,184.42.143.77,https://salesforce.com/path/to/resource,Block,None,2474,14099,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T23:13:07.444Z,41.251.114.32,https://google.com/path/to/resource,Block,None,1804,18754,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-27T23:13:29.445Z,153.17.51.209,https://github.com/path/to/resource,Allow,None,1657,7770,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T23:15:04.445Z,27.14.112.83,https://unknown-host.xy/path/to/resource,Block,None,2635,1933,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-27T23:15:19.444Z,176.141.118.146,https://unknown-host.xy/path/to/resource,Block,None,3721,12201,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T23:15:26.444Z,25.184.62.178,https://github.com/path/to/resource,Block,None,2987,28939,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-27T23:17:19.444Z,177.134.78.118,https://unknown-host.xy/path/to/resource,Block,None,4579,33285,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-27T23:17:50.444Z,135.37.13.36,https://unknown-host.xy/path/to/resource,Block,None,3391,21397,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-27T23:19:18.445Z,31.216.146.6,https://onion.router/hidden,Allow,None,3549,3171,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
+2026-01-27T23:19:35.444Z,169.76.248.207,https://unknown-host.xy/path/to/resource,Allow,None,2502,25632,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-27T23:19:39.445Z,135.9.5.110,https://salesforce.com/path/to/resource,Allow,None,2518,10350,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T23:20:27.445Z,131.235.102.108,https://salesforce.com/path/to/resource,Block,None,1547,42315,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T23:21:26.444Z,127.12.0.11,https://update-win32.com/path/to/resource,Allow,None,4245,9730,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-27T23:22:32.444Z,77.66.55.66,https://facebook.com/path/to/resource,Block,None,4076,34492,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-27T23:22:32.445Z,133.123.58.57,https://onion.router/hidden,Allow,None,2697,4906,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
+2026-01-27T23:23:03.444Z,86.209.95.141,https://github.com/path/to/resource,Allow,None,3063,22869,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-27T23:23:44.444Z,60.106.142.145,https://google.com/path/to/resource,Block,None,830,7971,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T23:26:19.445Z,162.147.129.69,https://onion.router/hidden,Allow,None,3182,2731,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
+2026-01-27T23:28:41.444Z,10.221.32.106,https://salesforce.com/path/to/resource,Allow,None,1771,4602,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-27T23:30:06.444Z,109.0.20.202,https://update-win32.com/path/to/resource,Allow,None,1771,2317,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-27T23:31:11.444Z,33.194.159.198,https://unknown-host.xy/path/to/resource,Block,None,479,14635,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-27T23:33:16.444Z,161.96.229.9,https://facebook.com/path/to/resource,Block,None,3131,47905,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-27T23:33:45.445Z,48.194.7.74,https://unknown-host.xy/path/to/resource,Block,None,1560,10421,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-27T23:34:51.444Z,143.19.154.251,https://salesforce.com/path/to/resource,Block,None,4836,32758,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-27T23:38:15.445Z,185.227.37.97,https://unknown-host.xy/path/to/resource,Allow,None,573,43886,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-27T23:39:14.444Z,173.122.124.115,https://github.com/path/to/resource,Allow,None,4713,46827,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T23:39:22.444Z,55.194.29.19,https://google.com/path/to/resource,Block,None,1767,29114,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-27T23:41:01.445Z,31.228.34.129,https://facebook.com/path/to/resource,Block,None,272,49555,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-27T23:41:04.444Z,114.20.206.188,https://facebook.com/path/to/resource,Block,None,2997,28520,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-27T23:43:21.445Z,184.108.237.157,https://unknown-host.xy/path/to/resource,Allow,None,4227,21567,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-27T23:43:32.445Z,161.159.31.128,https://google.com/path/to/resource,Allow,None,829,14382,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-27T23:44:02.444Z,121.125.131.136,https://salesforce.com/path/to/resource,Allow,None,908,35793,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T23:44:03.444Z,56.186.129.253,https://salesforce.com/path/to/resource,Allow,None,2611,15064,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-27T23:46:04.444Z,45.183.13.164,https://update-win32.com/path/to/resource,Block,None,4728,35995,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
+2026-01-27T23:46:38.445Z,106.11.49.48,https://unknown-host.xy/path/to/resource,Allow,None,2754,40109,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-27T23:47:41.445Z,101.105.102.113,https://unknown-host.xy/path/to/resource,Block,None,4731,22730,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-27T23:48:23.444Z,140.42.143.36,https://salesforce.com/path/to/resource,Allow,None,2635,12335,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-27T23:48:45.445Z,37.40.98.42,https://github.com/path/to/resource,Block,None,179,4777,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-27T23:49:27.445Z,151.106.201.72,https://unknown-host.xy/path/to/resource,Block,None,2088,15720,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-27T23:49:36.444Z,42.62.200.19,https://update-win32.com/path/to/resource,Allow,None,1575,42693,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-27T23:50:52.444Z,121.8.42.201,https://salesforce.com/path/to/resource,Allow,None,3684,39510,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-27T23:52:44.445Z,139.241.11.143,https://salesforce.com/path/to/resource,Allow,None,2434,15994,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-27T23:52:54.444Z,130.90.210.158,https://google.com/path/to/resource,Allow,None,4957,25187,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-27T23:55:00.444Z,162.161.117.216,https://salesforce.com/path/to/resource,Allow,None,4780,18670,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-27T23:55:44.444Z,64.247.199.198,https://facebook.com/path/to/resource,Allow,None,2004,5645,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-27T23:56:46.444Z,57.81.174.88,https://update-win32.com/path/to/resource,Block,None,3415,46193,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-27T23:59:36.444Z,36.146.42.152,https://salesforce.com/path/to/resource,Block,None,2772,47997,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub

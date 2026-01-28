@@ -16,7 +16,10 @@ export async function POST(req: NextRequest) {
     const result = Papa.parse(text, {
       header: true,
       skipEmptyLines: true,
-      dynamicTyping: true, // Automatically converts numbers
+      dynamicTyping: {
+        BytesSent: true,
+        BytesReceived: true
+      },
     });
 
     if (result.errors.length > 0) {

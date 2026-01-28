@@ -6,7 +6,10 @@ export interface LogEntry {
   Action: 'Allow' | 'Block';
   ThreatCategory: string;
   BytesSent: number;
+  BytesReceived: number;
   UserAgent: string;
+  SourceUser: string;
+  AppName: string;
 }
 
 export function isLogEntry(entry: any): entry is Omit<LogEntry, 'id'> {
@@ -19,7 +22,10 @@ export function isLogEntry(entry: any): entry is Omit<LogEntry, 'id'> {
     (entry.Action === 'Allow' || entry.Action === 'Block') &&
     typeof entry.ThreatCategory === 'string' &&
     (typeof entry.BytesSent === 'number' || (typeof entry.BytesSent === 'string' && !isNaN(Number(entry.BytesSent)))) &&
-    typeof entry.UserAgent === 'string'
+    (typeof entry.BytesReceived === 'number' || (typeof entry.BytesReceived === 'string' && !isNaN(Number(entry.BytesReceived)))) &&
+    typeof entry.UserAgent === 'string' &&
+    typeof entry.SourceUser === 'string' &&
+    typeof entry.AppName === 'string'
   );
 }
 
