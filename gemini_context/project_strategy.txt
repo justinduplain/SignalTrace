@@ -1,0 +1,48 @@
+Project Strategy
+
+
+1. The "High-Trust" Architecture (Frontend Differentiators)
+Since you are applying for Frontend, spend 70% of your effort here. Do not over-engineer the backend.
+Design System & Tokens (Your "Design Ops" Angle):
+Use shadcn/ui: This is the industry standard for "high-quality, accessible, copy-paste" components. It looks professional (like Vercel/Linear) out of the box.
+Dark Mode Default: Security Operations Center (SOC) analysts work in dark mode. Build the UI in dark mode by default. It shows domain empathy.
+Strict Typography: Use a monospaced font (like Geist Mono or JetBrains Mono) for the log data. Security data is code.
+Performance Visualization (The "Google" Angle):
+TanStack Virtual: Security logs are massive. Rendering 5,000 rows will kill the DOM. Use react-window or TanStack Virtual to render the log table. This single feature proves you understand "Scale."
+Streaming/Optimistic UI: If the AI analysis takes 10 seconds, do not show a spinning loader. Show the raw logs immediately as they upload, and then "stream in" the anomaly flags as the AI finishes processing. This is "Latency Masking."
+The "Zero-Trust" UI (Your Resume Hook):
+Citation Interaction: When the AI flags an anomaly, do not just show a red alert. Create a UI pattern where clicking the alert highlights the exact raw log line that triggered it. This is the "Human-in-the-Loop" validation you mentioned in your resume.
+2. The Tech Stack (Optimization for Speed)
+Don't waste time on complex DevOps. Use a stack that ships fast.
+Framework: Next.js 14 (App Router).
+Why: It handles Frontend + Backend (API Routes) in one repo. This makes deployment to Vercel one click.
+Styling: Tailwind CSS.
+State: TanStack Query. Use it for the upload mutation and polling/fetching the analysis status.
+Database: SQLite (via Prisma).
+Why: No cloud DB setup required. It lives in a file. It’s perfect for a take-home and requires zero configuration for the reviewer.
+AI: OpenAI API (gpt-4o-mini). It's cheap and fast.
+Prompt Strategy: Pass a chunk of logs and ask for a JSON response containing {"id": log_id, "is_anomaly": boolean, "confidence": 0-100, "reason": string}.
+3. The "Learnings" Visualization
+The prompt asks for a "summarized timeline."
+Differentiator: Use Recharts or Tremor.
+The Chart: A simple Bar Chart showing "Events per Hour."
+The Interaction: Clicking a bar filters the log table below to that hour. This "cross-filtering" is a Senior Engineer touch.
+4. What to Ignore (Scope Cutting)
+Complex Auth: Do not implement Auth0 or Firebase. Hardcode a mock login (username: admin, password: tenex) or use NextAuth with a simple credentials provider. The prompt says "Basic authentication"—don't overthink it.
+Cloud Storage: Don't set up AWS S3. Just save the uploaded files to a /tmp directory or store the text directly in the SQLite DB (if under a few MB).
+5. The "Video Walkthrough" (The Manager Angle)
+This is where you win the role. In your video:
+Explain the "Why": "I chose TanStack Virtual because in a real SOC environment, analysts look at millions of lines. A standard table would crash the browser."
+Explain the "Trade-offs": "Given the 6-hour limit, I used SQLite. In production, I would swap this for PostgreSQL/TimescaleDB for time-series efficiency."
+Show the Code: Show your strict TypeScript interfaces. Show how you shared types between the frontend and the API.
+6. Suggested "ZScaler" Mock Data
+Since they suggested ZScaler, use it. It shows you listen. Here is a sample prompt you can use to generate the mock data via ChatGPT right now so you don't have to hunt for it:
+
+"Generate a mock ZScaler Web Proxy Log (CSV format) with 50 entries. Include timestamps, source IPs, destination URLs, action (allowed/blocked), and threat category. Make 45 of them normal 'Allowed' traffic, and 5 of them 'Anomalous' (e.g., massive data exfiltration to an unknown IP, or repeated blocked requests to a C2 server)."
+
+Checklist for Submission:
+[ ] Repo: Clean, linted code. No console.log leftovers.
+[ ] README: Clear "How to Run" steps. Mention "Node Version" requirements.
+[ ] Video: 3-5 minutes max. Professional audio.
+[ ] Deployment: Deploy to Vercel. It’s free and supports Next.js API routes perfectly.
+

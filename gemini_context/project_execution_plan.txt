@@ -1,0 +1,88 @@
+Project Execution Plan
+
+Pre-Work (0:00 - 0:30)
+Do this before you "start the clock" to ensure your environment is ready.
+Generate Mock Data: Use ChatGPT to generate a 500-line zscaler_logs.csv file.
+Schema: Timestamp, SourceIP, DestURL, Action (Allow/Block), ThreatCategory, BytesSent, UserAgent.
+Inject Anomalies: Ask it to create 10 entries with "High BytesSent" to a "Suspicious IP" at 3:00 AM.
+Initialize Repo:
+npx create-next-app@latest tenex-log-analyzer --typescript --tailwind --eslint
+Stack: Next.js (App Router), TypeScript, Tailwind.
+Install Dependencies:
+npx shadcn-ui@latest init (Select "Slate" or "Zinc" for that security tool look).
+npm install @tanstack/react-query @tanstack/react-table @tanstack/react-virtual (The "Senior" Stack).
+npm install recharts (Visualization).
+npm install openai (AI).
+npm install papaparse (CSV parsing).
+npm install clsx tailwind-merge (Utils).
+Hour 1: The Backbone (Setup & Auth)
+Goal: A deployable "Hello World" with a dark mode shell.
+Design System Config:
+Force Dark Mode. (Security analysts hate light mode).
+Install basic shadcn components: button, card, table, input, badge, dialog, skeleton.
+"Mock" Auth:
+Don't build a database for users. Create a simple LoginPage.tsx.
+Hardcode: if (user === 'admin' && pass === 'tenex').
+Set a simple cookie or localStorage token.
+Why: The prompt asks for "Basic authentication," not "Secure OAuth." Don't waste time here.
+Layout:
+Create a professional App Shell (sidebar, header).
+Add a "Tenex" logo placeholder.
+Hour 2: The Backend (Ingestion & Parsing)
+Goal: Upload a file and get JSON back.
+API Route (/api/upload):
+Use Next.js API Routes.
+Accept POST with FormData.
+Parsing Logic:
+Use papaparse on the server (or client-side for speed) to turn CSV/Logs into a JSON Array.
+Key Differentiator: Add a Type Guard interface LogEntry to validate the shape of the data.
+Storage (Simplification):
+Skip the Database if you are pressed for time. Store the parsed logs in a server-side variable (in-memory) or return them to the client to be stored in React Context/Zustand.
+Better approach (if fast): Spin up a local sqlite.db with Prisma. It takes 15 mins and looks much more professional.
+Schema: LogEntry { id, timestamp, sourceIp, destUrl, action, ... }
+Hour 3: The "Senior" Frontend (Virtualization)
+Goal: Display the logs without crashing the browser.
+TanStack Table + Virtual:
+Build a DataTable component.
+Crucial: Implement Virtual Scrolling. Even if you only have 500 logs, show that you built it to handle 1 million.
+Add a "Status" badge column (Green for Allow, Red for Block).
+Columns:
+Use a monospace font (font-mono) for IPs and timestamps. This is a subtle design detail that security engineers love.
+Hour 4: The AI Integration (The "Tenex" Req)
+Goal: Identify the threats.
+The "Analyze" Button:
+Create a button that triggers an API call to /api/analyze.
+The Prompt Strategy:
+Send a sample of the logs (e.g., the first 50 or the flagged "Block" logs) to OpenAI.
+Prompt: "Analyze these logs. Return a JSON array of IDs that are anomalous with a 'confidence' score (0-100) and a short 'reason'."
+Fallback: If you don't have an OpenAI key ready, write a "heuristic" function that mocks this (e.g., if bytes > 10000 return anomaly).
+The "Human-in-the-Loop" UI:
+When the data comes back, highlight the rows in the table (Red background).
+Interaction: Clicking a highlighted row opens a Sheet or Dialog showing the AI's reasoning alongside the raw log.
+Hour 5: Visualization & Dashboarding
+Goal: Make it "Human-Consumable."
+The Summary Chart:
+Use Recharts to build a simple Bar Chart: "Threats over Time" or "Blocked vs Allowed."
+Manager Touch: Add a summary card at the top: "3 Critical Anomalies Detected."
+Cross-Filtering (Bonus):
+If you have time, make clicking the "Blocked" bar filter the table below.
+Hour 6: Polish & Deployment
+Goal: Ship it.
+Deployment:
+Push to GitHub.
+Connect repo to Vercel. Hit "Deploy." (Ensure you add your OpenAI Key to Vercel Environment Variables).
+README.md:
+Write a clear "How to Run Locally" section.
+Architecture Decision Record (ADR): Add a section explaining why you chose Virtualization and Next.js. This speaks to the "Manager" role.
+Hour 7: The Video Walkthrough (Critical)
+Goal: Sell the narrative.
+Record a 3-5 minute Loom/video.
+Script:
+"Hi, I'm Justin. I built this focused on the High-Trust needs of a SOC analyst."
+"I used TanStack Virtual because I know security logs can reach millions of rows..."
+"I implemented a Human-in-the-Loop workflow for the AI, so the analyst always sees the raw data source..."
+"I used Design Tokens via shadcn/ui to ensure consistency..."
+Critical Path (What to Cut if Behind)
+Cut the Database: Just handle the file upload in memory or purely client-side parsing. You can explain this tradeoff in the video ("For a stateless prototype...").
+Cut the Real AI: Mock the API response with a setTimeout and hardcoded anomalies. The UI interaction matters more than the actual LLM call for a frontend role.
+
