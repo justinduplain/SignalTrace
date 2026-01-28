@@ -34,20 +34,21 @@
 
 ## 4. Execution Plan (7-Hour Timebox)
 
-### Phase 0: Pre-Work (Environment)
+### Phase 0: Pre-Work (Environment) - [COMPLETED]
 * **Repo:** `create-next-app` with TypeScript/Tailwind/ESLint.
 * **Data:** Use ChatGPT to generate the `zscaler_logs.csv` before starting the clock.
 
-### Phase 1: The Backbone (Hour 1)
+### Phase 1: The Backbone (Hour 1) - [COMPLETED]
 * **Goal:** Deployable "Hello World" with auth and shell.
 * **Auth:** Simple Mock Auth (User: `admin`, Pass: `tenex`) using Cookies/LocalStorage. Do not build a DB for users.
 * **Design:** Force Dark Mode. Install basic `shadcn` components (Button, Table, Input, Card).
 
-### Phase 2: Ingestion & Parsing (Hour 2)
+### Phase 2: Ingestion & Parsing (Hour 2) - [COMPLETED]
 * **Goal:** Upload CSV and return JSON.
 * **API:** `POST /api/upload` handling FormData.
 * **Parsing:** Use `papaparse` to convert CSV to JSON array.
 * **Validation:** Implement a TypeScript Type Guard `LogEntry` to validate data shape.
+* **Refinement:** Added "Load Demo Data" button to instantly load server-side mock data for testing.
 
 ### Phase 3: The "Senior" Frontend (Hour 3)
 * **Goal:** Virtualized Data Table.

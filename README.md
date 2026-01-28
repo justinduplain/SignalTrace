@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SignalTrace
 
-## Getting Started
+SignalTrace is a full-stack cybersecurity application designed for SOC analysts to upload, parse, and analyze log files. It focuses on a "High-Trust" UI, performance optimization for large datasets, and AI-driven anomaly detection.
 
-First, run the development server:
+## 🚀 Getting Started
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
+* Node.js 18+
+* npm
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    cd SignalTrace
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-## Learn More
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4.  **Open the application:**
+    Navigate to [http://localhost:3000](http://localhost:3000).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔑 Authentication
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The application uses a mock authentication system for demonstration purposes.
+*   **Username:** `admin`
+*   **Password:** `tenex`
 
-## Deploy on Vercel
+## 🧪 Testing Data
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can test the application using the included mock data:
+1.  **Manual Upload:** Upload the `zscaler_logs.csv` file located in the root directory.
+2.  **Quick Load:** Click the **"Load Demo Data"** button on the dashboard to instantly load the server-side mock logs.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Tech Stack
+
+*   **Framework:** [Next.js 14 (App Router)](https://nextjs.org/)
+*   **Language:** TypeScript
+*   **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+*   **UI Library:** [shadcn/ui](https://ui.shadcn.com/) (Slate Theme)
+*   **Data Parsing:** [Papaparse](https://www.papaparse.com/)
+*   **State Management:** React Hooks
+*   **Authentication:** Middleware-based Cookie protection
+
+## 📂 Project Structure
+
+*   `src/app/api/`: Server-side API routes for file upload and demo data.
+*   `src/components/ui/`: Reusable UI components (Button, Card, Input, etc.).
+*   `src/components/log-uploader.tsx`: Client-side component for handling CSV uploads.
+*   `src/types/log-entry.ts`: TypeScript definitions and validation guards for log data.
+*   `src/middleware.ts`: Route protection logic.
+
+## 🤖 AI Usage
+
+*   **Mock Data:** `zscaler_logs.csv` was generated using a Python script (authored by AI) to simulate realistic ZScaler proxy logs with injected anomalies.
+*   **Components:** `shadcn/ui` components were generated using the CLI.
+
+## 📝 Status
+
+*   [x] **Phase 0:** Environment Setup & Data Generation
+*   [x] **Phase 1:** Basic Auth & UI Skeleton
+*   [x] **Phase 2:** CSV Ingestion & Parsing
+*   [ ] **Phase 3:** Virtualized Data Table
+*   [ ] **Phase 4:** AI Anomaly Detection
+*   [ ] **Phase 5:** Visualization Dashboard
+*   [ ] **Phase 6:** Deployment
