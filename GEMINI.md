@@ -40,6 +40,7 @@
 ### Phase 0: Pre-Work (Environment) - [COMPLETED]
 * **Repo:** `create-next-app` with TypeScript/Tailwind/ESLint.
 * **Data:** Use ChatGPT to generate the `zscaler_logs.csv` before starting the clock.
+* **Middleware:** Use `src/proxy.ts` instead of `src/middleware.ts` as newer Next.js versions expect this naming convention for this specific project setup.
 
 ### Phase 1: The Backbone (Hour 1) - [COMPLETED]
 * **Goal:** Deployable "Hello World" with auth and shell.
@@ -74,6 +75,15 @@
 * **Goal:** Ship it.
 * **Deploy:** Push to GitHub. Deploy to Vercel (Add OpenAI Key to Env Vars).
 * **Docs:** Write `README.md` including "How to Run Locally" and "AI Approach".
+
+#### Phase 6B: Checks and refinement
+* App meets a cohesive, high-trust product experience?
+* Uses reusable UI patterns (layout, navigation, tables, filters, forms, modals)?
+* Implement robust data-fetching/server-state patterns (pagination, caching, background refresh, optimistic updates, error handling)?
+* Clear API contracts with backend engineers to keep frontend implementation clean and scalable.
+* Raised bar on UI correctness: loading/empty/error states, edge cases, responsive behavior, accessibility.
+* (component conventions, Claude Code skills, review standards, performance budgets).
+* Unified “product feel”: micro-interactions, latency masking, and interaction details that make the product feel trustworthy.
 
 ### Phase 7: The Sell (Hour 7)
 * **Goal:** Video Walkthrough (Critical).

@@ -49,7 +49,8 @@ You can test the application using the included mock data:
 *   **UI Library:** [shadcn/ui](https://ui.shadcn.com/) (Slate Theme)
 *   **Data Parsing:** [Papaparse](https://www.papaparse.com/)
 *   **Data Display:** [TanStack Table](https://tanstack.com/table/v8) & [TanStack Virtual](https://tanstack.com/virtual/v3)
-*   **State Management:** React Hooks
+*   **Middleware:** `src/proxy.ts` (Note: This project uses `proxy.ts` instead of `middleware.ts` per specific configuration requirements).
+*   **State Management:** Reacty Query/Tanstack Query (planned)
 *   **Authentication:** Middleware-based Cookie protection
 
 ## 📂 Project Structure

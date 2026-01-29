@@ -7,7 +7,7 @@ const ANOMALY_COUNT = 30;
 const USERS = ['j.doe', 'a.smith', 'm.chen', 'k.patel', 'sysadmin', 'finance_lead', 'intern_01'];
 const APPS = ['Google Drive', 'Dropbox', 'Salesforce', 'Zoom', 'Slack', 'GitHub', 'General Browsing', 'Tor Browser'];
 const ACTIONS = ['Allow', 'Block'];
-const THREATS = ['None', 'Botnet', 'Malware', 'Phishing', 'Cryptomining'];
+const THREATS = ['None', 'Botnet', 'Malware', 'Phishing', 'Cryptomining', 'C2 Server', 'Spyware', 'Ransomware'];
 const DOMAINS = ['google.com', 'salesforce.com', 'github.com', 'unknown-host.xy', 'update-win32.com', 'facebook.com'];
 
 function getRandomInt(min, max) {
@@ -39,12 +39,22 @@ const logs = [];
 
 // Generate Normal Traffic
 for (let i = 0; i < TOTAL_LOGS - ANOMALY_COUNT; i++) {
+  const action = getRandomElement(ACTIONS);
+  let threat = 'None';
+  
+  if (action === 'Block') {
+     // 80% chance a block has a specific threat category, 20% it's just policy block (None)
+     if (Math.random() > 0.2) {
+         threat = getRandomElement(THREATS.filter(t => t !== 'None'));
+     }
+  }
+
   logs.push({
     Timestamp: generateTimestamp(),
     SourceIP: generateIP(),
     DestURL: `https://${getRandomElement(DOMAINS)}/path/to/resource`,
-    Action: getRandomElement(ACTIONS),
-    ThreatCategory: 'None',
+    Action: action,
+    ThreatCategory: threat,
     BytesSent: getRandomInt(100, 5000),
     BytesReceived: getRandomInt(500, 50000),
     UserAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
