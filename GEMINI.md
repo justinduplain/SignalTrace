@@ -8,6 +8,7 @@
 * **High-Trust UI:** Dark mode default, monospace data, density-optimized.
 * **Performance:** Use `TanStack Virtual` to prove handling of massive log datasets (1M+ rows).
 * **Human-in-the-Loop:** AI highlights anomalies, but the user verifies them against raw data.
+* **Phase Progression:** **CRITICAL: Do NOT move on to the next project phase without explicit direction from the user.** Stop and wait for confirmation after completing the current phase's tasks.
 
 ## 2. Technical Stack (Strict Constraints)
 * **Framework:** Next.js 14 (App Router).
@@ -59,7 +60,7 @@
 * **Implementation:** `TanStack Table` + `TanStack Virtual`. Must handle scrolling without DOM lag.
 * **UI Details:** "Status" badges (Green/Red). Monospace font for IPs and Timestamps.
 
-### Phase 4: AI & Anomaly Detection (Hour 4)
+### Phase 4: AI & Anomaly Detection (Hour 4) - [COMPLETED]
 * **Goal:** Identify threats via API.
 * **Action:** "Analyze" button triggers `/api/analyze`.
 * **Strategy:** Send log chunks to OpenAI. Prompt for: `{"id": "...", "confidence": 85, "reason": "High byte volume"}`.

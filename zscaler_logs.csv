@@ -1,501 +1,501 @@
 Timestamp,SourceIP,DestURL,Action,ThreatCategory,BytesSent,BytesReceived,UserAgent,SourceUser,AppName
-2026-01-28T08:05:20.793Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,7823178,445,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
-2026-01-28T08:06:29.793Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,10320449,344,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
-2026-01-28T08:40:11.793Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,27950413,137,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
-2026-01-28T08:40:39.793Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,26616594,136,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
-2026-01-28T08:41:10.793Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,10356217,255,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
-2026-01-28T08:46:03.793Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,23759438,136,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
-2026-01-28T08:47:38.793Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,42226421,482,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
-2026-01-28T08:47:45.793Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,35948579,147,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
-2026-01-28T08:59:05.793Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,4019560,496,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
-2026-01-28T13:01:15.792Z,27.252.126.76,https://update-win32.com/path/to/resource,Block,Malware,4516,39787,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
-2026-01-28T13:02:26.792Z,191.236.208.176,https://github.com/path/to/resource,Block,Cryptomining,2778,16554,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
-2026-01-28T13:02:36.792Z,16.160.39.165,https://salesforce.com/path/to/resource,Allow,None,596,33828,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
-2026-01-28T13:04:12.793Z,174.51.142.158,http://update-win32.com/payload.exe,Block,Malware,130,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T13:04:40.793Z,48.27.64.208,https://salesforce.com/path/to/resource,Block,C2 Server,3049,42706,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T13:05:40.792Z,63.154.176.38,https://github.com/path/to/resource,Allow,None,3920,4894,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T13:09:14.793Z,108.46.27.169,https://update-win32.com/path/to/resource,Allow,None,1555,37305,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T13:11:01.792Z,69.103.66.175,https://github.com/path/to/resource,Block,Phishing,3031,17046,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
-2026-01-28T13:11:13.792Z,159.198.103.83,https://update-win32.com/path/to/resource,Allow,None,4663,47008,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
-2026-01-28T13:11:37.793Z,176.243.175.213,https://unknown-host.xy/path/to/resource,Allow,None,3881,35122,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
-2026-01-28T13:12:31.792Z,18.144.191.3,https://update-win32.com/path/to/resource,Allow,None,1371,29685,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T13:15:36.792Z,153.43.198.6,https://unknown-host.xy/path/to/resource,Block,Cryptomining,369,28634,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
-2026-01-28T13:16:47.793Z,155.178.143.68,https://update-win32.com/path/to/resource,Block,Ransomware,4162,7428,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
-2026-01-28T13:18:44.792Z,137.42.90.97,https://facebook.com/path/to/resource,Allow,None,548,46163,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T13:19:23.793Z,131.104.164.147,https://salesforce.com/path/to/resource,Block,Ransomware,2288,38701,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T13:21:08.792Z,38.2.182.243,https://salesforce.com/path/to/resource,Block,Spyware,337,28296,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T13:21:29.792Z,136.90.214.225,https://google.com/path/to/resource,Allow,None,1601,30071,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
-2026-01-28T13:24:13.792Z,107.117.241.239,https://google.com/path/to/resource,Allow,None,4812,35064,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
-2026-01-28T13:27:13.792Z,146.64.177.103,https://update-win32.com/path/to/resource,Allow,None,2206,38689,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
-2026-01-28T13:27:38.792Z,24.198.21.210,https://update-win32.com/path/to/resource,Allow,None,4080,1685,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
-2026-01-28T13:28:02.792Z,13.148.63.52,https://facebook.com/path/to/resource,Allow,None,400,33423,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T13:28:08.792Z,185.179.129.113,https://facebook.com/path/to/resource,Allow,None,2177,22162,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T13:33:49.792Z,154.0.67.78,https://facebook.com/path/to/resource,Block,None,3991,8911,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
-2026-01-28T13:35:28.792Z,129.136.167.3,https://facebook.com/path/to/resource,Allow,None,3801,15602,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
-2026-01-28T13:35:35.792Z,110.233.7.122,https://github.com/path/to/resource,Allow,None,4069,8489,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
-2026-01-28T13:36:33.793Z,46.54.73.177,https://facebook.com/path/to/resource,Allow,None,2742,32277,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
-2026-01-28T13:37:55.793Z,144.62.160.225,https://google.com/path/to/resource,Block,Cryptomining,3088,1037,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
-2026-01-28T13:42:23.792Z,97.30.166.126,https://google.com/path/to/resource,Allow,None,950,19312,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T13:44:05.791Z,16.109.145.216,https://facebook.com/path/to/resource,Allow,None,3569,5864,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
-2026-01-28T13:44:24.792Z,143.46.183.180,https://unknown-host.xy/path/to/resource,Allow,None,2685,42472,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
-2026-01-28T13:45:24.792Z,140.165.191.61,https://salesforce.com/path/to/resource,Allow,None,2573,17625,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
-2026-01-28T13:46:35.792Z,184.216.249.67,https://salesforce.com/path/to/resource,Allow,None,2654,49542,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T13:47:10.792Z,29.140.67.238,https://google.com/path/to/resource,Allow,None,1452,4005,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T13:47:11.792Z,185.159.19.114,https://google.com/path/to/resource,Allow,None,501,47202,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
-2026-01-28T13:47:24.792Z,127.63.219.82,https://github.com/path/to/resource,Block,Cryptomining,2129,22257,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T13:48:39.792Z,127.140.231.214,https://update-win32.com/path/to/resource,Allow,None,1053,37879,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
-2026-01-28T13:51:08.793Z,87.253.59.152,https://google.com/path/to/resource,Block,Malware,1258,8104,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
-2026-01-28T13:51:43.792Z,172.29.118.64,https://update-win32.com/path/to/resource,Allow,None,4918,8488,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
-2026-01-28T13:53:24.792Z,132.196.154.3,https://unknown-host.xy/path/to/resource,Block,None,4578,38610,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T13:55:08.792Z,154.191.57.4,https://unknown-host.xy/path/to/resource,Block,Botnet,824,27262,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
-2026-01-28T13:56:13.792Z,128.70.203.67,https://unknown-host.xy/path/to/resource,Allow,None,4578,49415,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
-2026-01-28T13:58:22.792Z,180.215.82.57,https://facebook.com/path/to/resource,Block,Malware,4161,13051,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
-2026-01-28T13:59:29.792Z,62.34.234.138,https://unknown-host.xy/path/to/resource,Allow,None,2227,3861,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
-2026-01-28T13:59:37.792Z,121.42.139.67,https://google.com/path/to/resource,Block,Botnet,1300,15646,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
-2026-01-28T14:01:21.792Z,72.240.105.33,https://salesforce.com/path/to/resource,Block,Phishing,4186,25140,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
-2026-01-28T14:02:34.793Z,82.189.224.41,https://github.com/path/to/resource,Block,Phishing,2808,13014,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
-2026-01-28T14:04:27.792Z,120.34.7.243,https://unknown-host.xy/path/to/resource,Allow,None,3476,7074,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
-2026-01-28T14:08:14.793Z,35.203.139.228,http://update-win32.com/payload.exe,Block,Malware,470,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T14:09:59.792Z,130.136.121.107,https://unknown-host.xy/path/to/resource,Block,Malware,4161,22360,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
-2026-01-28T14:10:10.792Z,121.202.112.236,https://facebook.com/path/to/resource,Block,Cryptomining,1659,22597,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
-2026-01-28T14:11:36.793Z,111.162.129.20,http://update-win32.com/payload.exe,Block,Malware,445,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T14:16:13.793Z,191.46.161.32,https://facebook.com/path/to/resource,Allow,None,3149,31097,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
-2026-01-28T14:18:28.792Z,19.91.81.46,https://google.com/path/to/resource,Allow,None,2692,15465,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
-2026-01-28T14:21:16.792Z,21.41.160.30,https://google.com/path/to/resource,Block,Phishing,3136,43858,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
-2026-01-28T14:29:03.793Z,144.119.217.174,https://onion.router/hidden,Allow,None,2205,3702,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
-2026-01-28T14:31:19.792Z,155.99.175.36,https://github.com/path/to/resource,Block,Ransomware,1472,27562,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
-2026-01-28T14:31:51.792Z,171.88.139.195,https://salesforce.com/path/to/resource,Block,None,1494,20829,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
-2026-01-28T14:32:06.792Z,12.112.136.71,https://salesforce.com/path/to/resource,Allow,None,468,15366,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T14:33:48.792Z,101.186.58.29,https://update-win32.com/path/to/resource,Block,None,1617,25980,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T14:34:27.792Z,112.28.200.136,https://update-win32.com/path/to/resource,Block,None,1539,12298,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
-2026-01-28T14:34:29.792Z,43.183.184.9,https://unknown-host.xy/path/to/resource,Block,Cryptomining,731,6622,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
-2026-01-28T14:34:53.792Z,80.160.145.90,https://update-win32.com/path/to/resource,Allow,None,732,20495,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T14:35:10.792Z,192.102.38.178,https://google.com/path/to/resource,Allow,None,4521,13550,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
-2026-01-28T14:35:15.792Z,43.141.144.79,https://salesforce.com/path/to/resource,Allow,None,4804,6035,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T14:36:02.792Z,85.40.89.43,https://facebook.com/path/to/resource,Allow,None,3985,17659,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
-2026-01-28T14:36:38.792Z,152.124.175.177,https://unknown-host.xy/path/to/resource,Block,Botnet,1357,46255,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
-2026-01-28T14:39:53.792Z,35.246.73.96,https://github.com/path/to/resource,Block,None,4965,19822,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
-2026-01-28T14:41:04.792Z,71.149.40.222,https://update-win32.com/path/to/resource,Allow,None,2578,26053,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
-2026-01-28T14:43:07.792Z,89.116.53.124,https://facebook.com/path/to/resource,Allow,None,2762,22986,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
-2026-01-28T14:43:17.792Z,191.6.102.129,https://facebook.com/path/to/resource,Allow,None,4888,20119,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
-2026-01-28T14:45:16.792Z,10.70.220.217,https://google.com/path/to/resource,Block,None,4406,33050,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
-2026-01-28T14:45:37.793Z,111.64.4.168,https://facebook.com/path/to/resource,Block,Phishing,2651,8053,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
-2026-01-28T14:46:09.792Z,133.105.203.45,https://google.com/path/to/resource,Allow,None,1689,12016,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
-2026-01-28T14:48:19.792Z,180.216.231.158,https://update-win32.com/path/to/resource,Allow,None,4543,5896,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
-2026-01-28T14:50:27.792Z,154.152.151.121,https://google.com/path/to/resource,Allow,None,3858,34323,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
-2026-01-28T14:50:48.792Z,56.228.142.248,https://unknown-host.xy/path/to/resource,Block,Botnet,3889,33722,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
-2026-01-28T14:51:18.792Z,102.242.198.41,https://facebook.com/path/to/resource,Allow,None,1876,38802,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
-2026-01-28T14:51:25.793Z,42.38.137.135,https://unknown-host.xy/path/to/resource,Allow,None,3895,25379,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T14:52:29.792Z,28.235.245.114,https://update-win32.com/path/to/resource,Block,Cryptomining,4980,19747,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T14:52:52.792Z,66.189.183.83,https://salesforce.com/path/to/resource,Block,None,4812,49102,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
-2026-01-28T14:54:15.793Z,113.159.203.58,https://google.com/path/to/resource,Block,Botnet,2402,11701,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
-2026-01-28T14:56:09.792Z,93.59.203.205,https://github.com/path/to/resource,Allow,None,3015,49007,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
-2026-01-28T14:59:00.792Z,67.144.90.78,https://update-win32.com/path/to/resource,Allow,None,1840,25804,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
-2026-01-28T14:59:41.792Z,159.70.25.250,https://facebook.com/path/to/resource,Allow,None,375,45345,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T14:59:53.792Z,65.233.172.97,https://facebook.com/path/to/resource,Allow,None,1931,18555,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
-2026-01-28T15:00:11.792Z,171.216.77.235,https://google.com/path/to/resource,Block,C2 Server,1690,21183,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
-2026-01-28T15:00:16.792Z,147.170.121.17,https://salesforce.com/path/to/resource,Block,Cryptomining,713,34408,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
-2026-01-28T15:03:08.792Z,69.26.236.157,https://facebook.com/path/to/resource,Block,Spyware,2103,4270,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
-2026-01-28T15:04:49.792Z,77.180.160.197,https://unknown-host.xy/path/to/resource,Allow,None,2938,47688,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
-2026-01-28T15:04:54.792Z,155.207.70.117,https://unknown-host.xy/path/to/resource,Block,Botnet,1352,39182,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T15:05:07.793Z,14.22.57.4,https://onion.router/hidden,Allow,None,3979,2083,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
-2026-01-28T15:05:13.792Z,135.234.74.141,https://github.com/path/to/resource,Allow,None,3144,41078,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T15:05:18.792Z,83.184.51.102,https://unknown-host.xy/path/to/resource,Block,Malware,4750,22978,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
-2026-01-28T15:05:36.792Z,27.51.15.194,https://unknown-host.xy/path/to/resource,Block,Malware,3051,21042,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
-2026-01-28T15:08:47.792Z,13.62.144.68,https://unknown-host.xy/path/to/resource,Block,Phishing,1555,45767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
-2026-01-28T15:10:44.792Z,71.121.233.91,https://facebook.com/path/to/resource,Allow,None,999,29973,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
-2026-01-28T15:11:02.792Z,171.200.230.58,https://update-win32.com/path/to/resource,Allow,None,2655,39212,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
-2026-01-28T15:11:07.792Z,136.164.97.60,https://google.com/path/to/resource,Block,Cryptomining,2007,30928,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
-2026-01-28T15:14:40.793Z,100.114.230.31,https://salesforce.com/path/to/resource,Block,C2 Server,4139,48378,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
-2026-01-28T15:16:54.792Z,163.216.215.210,https://update-win32.com/path/to/resource,Allow,None,597,7795,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
-2026-01-28T15:17:16.792Z,84.12.8.38,https://facebook.com/path/to/resource,Allow,None,917,20736,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T15:17:26.792Z,169.227.72.136,https://salesforce.com/path/to/resource,Block,Ransomware,4007,21130,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
-2026-01-28T15:18:44.792Z,166.190.232.143,https://unknown-host.xy/path/to/resource,Allow,None,4320,42851,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
-2026-01-28T15:18:53.792Z,154.39.228.228,https://unknown-host.xy/path/to/resource,Allow,None,3421,37854,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T15:19:07.792Z,131.21.247.21,https://unknown-host.xy/path/to/resource,Block,Ransomware,1693,25942,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T15:19:48.792Z,128.10.109.20,https://github.com/path/to/resource,Block,Cryptomining,2883,41344,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
-2026-01-28T15:20:28.793Z,182.92.177.29,https://google.com/path/to/resource,Block,Cryptomining,826,19327,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
-2026-01-28T15:23:47.792Z,65.6.216.59,https://facebook.com/path/to/resource,Allow,None,3299,48722,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
-2026-01-28T15:26:04.792Z,85.84.229.196,https://facebook.com/path/to/resource,Allow,None,1319,49734,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
-2026-01-28T15:26:53.792Z,39.20.62.152,https://update-win32.com/path/to/resource,Block,Cryptomining,2388,35690,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T15:28:40.793Z,11.102.131.129,https://onion.router/hidden,Allow,None,3296,2085,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
-2026-01-28T15:30:11.793Z,80.180.124.87,https://salesforce.com/path/to/resource,Allow,None,767,2401,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
-2026-01-28T15:30:12.792Z,41.236.132.181,https://github.com/path/to/resource,Block,Ransomware,3780,8960,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T15:30:51.792Z,160.112.183.14,https://facebook.com/path/to/resource,Block,None,208,46347,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
-2026-01-28T15:33:28.792Z,143.74.35.35,https://salesforce.com/path/to/resource,Allow,None,201,12783,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T15:36:41.792Z,56.173.7.110,https://update-win32.com/path/to/resource,Block,Spyware,481,12951,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T15:38:04.792Z,51.242.36.155,https://unknown-host.xy/path/to/resource,Allow,None,4311,4595,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T15:39:46.792Z,159.231.3.96,https://facebook.com/path/to/resource,Block,None,3312,5971,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
-2026-01-28T15:40:08.792Z,151.8.13.217,https://salesforce.com/path/to/resource,Allow,None,4695,30119,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
-2026-01-28T15:40:58.793Z,33.125.132.35,https://facebook.com/path/to/resource,Allow,None,3727,11298,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
-2026-01-28T15:41:03.792Z,80.116.121.163,https://google.com/path/to/resource,Allow,None,1528,28218,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T15:41:49.792Z,165.195.192.211,https://salesforce.com/path/to/resource,Block,Botnet,2404,11102,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
-2026-01-28T15:43:15.792Z,109.191.49.56,https://unknown-host.xy/path/to/resource,Block,Botnet,1460,3802,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
-2026-01-28T15:44:35.792Z,65.76.139.32,https://unknown-host.xy/path/to/resource,Allow,None,2091,23181,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T15:45:27.792Z,45.184.223.148,https://unknown-host.xy/path/to/resource,Block,Malware,910,13432,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T15:45:47.793Z,144.129.255.173,https://salesforce.com/path/to/resource,Allow,None,1338,46115,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
-2026-01-28T15:46:41.792Z,19.172.207.40,https://salesforce.com/path/to/resource,Allow,None,2343,23564,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
-2026-01-28T15:47:03.792Z,131.210.221.90,https://unknown-host.xy/path/to/resource,Block,None,1138,10352,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
-2026-01-28T15:47:06.792Z,156.21.73.45,https://unknown-host.xy/path/to/resource,Allow,None,4843,44518,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
-2026-01-28T15:49:35.792Z,67.57.215.80,https://update-win32.com/path/to/resource,Block,Spyware,2690,11097,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T15:49:46.792Z,141.85.124.77,https://salesforce.com/path/to/resource,Block,Botnet,377,22461,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
-2026-01-28T15:50:11.792Z,144.56.147.185,https://update-win32.com/path/to/resource,Allow,None,2058,3853,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
-2026-01-28T15:50:54.792Z,32.99.212.212,https://github.com/path/to/resource,Block,None,4567,8966,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
-2026-01-28T15:52:36.792Z,113.228.131.119,https://salesforce.com/path/to/resource,Block,Cryptomining,3788,42413,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
-2026-01-28T15:54:03.792Z,32.167.120.160,https://github.com/path/to/resource,Allow,None,4938,611,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T15:55:59.793Z,126.37.48.162,https://update-win32.com/path/to/resource,Block,Botnet,3475,26857,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
-2026-01-28T15:56:31.793Z,113.253.184.218,https://unknown-host.xy/path/to/resource,Allow,None,2127,36522,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T15:56:35.792Z,59.209.149.65,https://unknown-host.xy/path/to/resource,Block,Botnet,2464,6979,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T15:57:21.792Z,148.47.135.232,https://google.com/path/to/resource,Allow,None,1124,28630,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
-2026-01-28T15:59:45.792Z,115.154.1.108,https://update-win32.com/path/to/resource,Block,Spyware,4539,11442,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T16:00:56.793Z,150.49.239.183,https://github.com/path/to/resource,Allow,None,2553,20668,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T16:01:19.793Z,94.73.95.245,https://update-win32.com/path/to/resource,Block,C2 Server,3775,38260,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
-2026-01-28T16:01:43.792Z,124.198.7.104,https://github.com/path/to/resource,Block,Cryptomining,4702,39815,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
-2026-01-28T16:02:19.792Z,76.253.5.15,https://google.com/path/to/resource,Allow,None,4828,39818,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
-2026-01-28T16:04:40.792Z,157.169.60.135,https://github.com/path/to/resource,Block,Botnet,1206,41647,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
-2026-01-28T16:04:52.792Z,30.201.20.115,https://salesforce.com/path/to/resource,Allow,None,2541,32276,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T16:07:23.792Z,20.1.39.89,https://salesforce.com/path/to/resource,Allow,None,2237,2345,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
-2026-01-28T16:08:28.792Z,61.129.40.248,https://update-win32.com/path/to/resource,Allow,None,3192,20017,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T16:12:05.792Z,123.13.168.53,https://update-win32.com/path/to/resource,Block,C2 Server,4129,10135,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T16:12:41.792Z,189.46.178.173,https://github.com/path/to/resource,Allow,None,4303,40167,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
-2026-01-28T16:19:22.792Z,26.197.173.135,https://github.com/path/to/resource,Block,Ransomware,1426,38406,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
-2026-01-28T16:19:40.792Z,75.21.43.4,https://unknown-host.xy/path/to/resource,Block,Botnet,4343,37639,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
-2026-01-28T16:20:12.792Z,30.32.100.243,https://unknown-host.xy/path/to/resource,Block,Phishing,4414,9730,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T16:23:23.792Z,148.213.33.141,https://unknown-host.xy/path/to/resource,Block,None,2564,1341,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T16:23:51.792Z,153.137.138.168,https://unknown-host.xy/path/to/resource,Allow,None,4750,41261,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
-2026-01-28T16:26:28.792Z,105.171.9.142,https://update-win32.com/path/to/resource,Block,Ransomware,4177,26707,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
-2026-01-28T16:27:33.793Z,44.159.198.168,https://github.com/path/to/resource,Allow,None,373,34739,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
-2026-01-28T16:28:19.793Z,159.125.162.94,https://google.com/path/to/resource,Block,None,4250,24637,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T16:28:51.792Z,29.138.7.98,https://update-win32.com/path/to/resource,Allow,None,1963,28033,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T16:29:17.792Z,172.178.87.140,https://salesforce.com/path/to/resource,Allow,None,939,28631,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
-2026-01-28T16:29:25.792Z,144.6.32.87,https://facebook.com/path/to/resource,Block,Phishing,614,7988,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
-2026-01-28T16:29:57.792Z,11.123.170.138,https://salesforce.com/path/to/resource,Block,C2 Server,2972,45692,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T16:30:18.792Z,186.2.127.43,https://salesforce.com/path/to/resource,Allow,None,1060,43998,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
-2026-01-28T16:31:09.792Z,39.120.95.17,https://google.com/path/to/resource,Block,None,2004,33965,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
-2026-01-28T16:34:44.792Z,117.218.38.222,https://facebook.com/path/to/resource,Block,Phishing,192,30017,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T16:34:46.793Z,162.244.200.36,http://update-win32.com/payload.exe,Block,Malware,374,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T16:36:57.792Z,48.90.131.12,https://facebook.com/path/to/resource,Block,Ransomware,4918,17800,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
-2026-01-28T16:38:14.792Z,17.178.254.69,https://github.com/path/to/resource,Block,Malware,1123,38058,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
-2026-01-28T16:38:25.792Z,159.185.158.138,https://unknown-host.xy/path/to/resource,Block,Malware,2481,10142,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
-2026-01-28T16:38:56.792Z,91.174.52.205,https://facebook.com/path/to/resource,Block,Phishing,2686,8629,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T16:39:06.792Z,30.10.9.175,https://github.com/path/to/resource,Allow,None,272,19062,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
-2026-01-28T16:40:35.792Z,150.221.113.160,https://facebook.com/path/to/resource,Allow,None,4489,41660,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
-2026-01-28T16:41:21.792Z,135.20.99.250,https://github.com/path/to/resource,Block,None,571,40525,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
-2026-01-28T16:42:59.792Z,63.227.98.170,https://update-win32.com/path/to/resource,Block,Botnet,574,4776,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
-2026-01-28T16:43:45.792Z,21.37.176.132,https://facebook.com/path/to/resource,Allow,None,3749,39842,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T16:45:40.792Z,106.149.151.194,https://update-win32.com/path/to/resource,Allow,None,3674,33147,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
-2026-01-28T16:46:43.792Z,64.216.211.49,https://github.com/path/to/resource,Block,Cryptomining,4134,26024,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
-2026-01-28T16:47:54.792Z,41.202.211.71,https://google.com/path/to/resource,Block,Spyware,2434,31166,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T16:48:05.792Z,123.156.237.129,https://google.com/path/to/resource,Allow,None,4662,41250,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
-2026-01-28T16:49:06.792Z,30.231.103.69,https://unknown-host.xy/path/to/resource,Allow,None,1683,2413,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
-2026-01-28T16:56:45.792Z,120.46.253.212,https://salesforce.com/path/to/resource,Block,Cryptomining,1631,48361,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
-2026-01-28T17:00:04.792Z,68.51.18.26,https://salesforce.com/path/to/resource,Block,None,1061,32187,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T17:06:41.792Z,67.75.173.69,https://update-win32.com/path/to/resource,Block,Spyware,3023,43193,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T17:06:47.792Z,157.17.197.100,https://github.com/path/to/resource,Block,Ransomware,4533,8205,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T17:07:38.792Z,71.193.109.96,https://update-win32.com/path/to/resource,Block,Ransomware,533,5322,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
-2026-01-28T17:10:36.793Z,33.204.94.222,https://github.com/path/to/resource,Block,Malware,3427,25307,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
-2026-01-28T17:10:50.793Z,109.106.251.175,https://google.com/path/to/resource,Allow,None,2565,14531,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T17:11:14.792Z,58.121.139.220,https://google.com/path/to/resource,Block,None,2637,22295,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T17:11:32.792Z,125.82.95.230,https://google.com/path/to/resource,Allow,None,3352,17812,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
-2026-01-28T17:13:21.792Z,81.145.113.51,https://facebook.com/path/to/resource,Allow,None,460,1828,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T17:13:50.792Z,13.26.183.221,https://update-win32.com/path/to/resource,Block,Spyware,3453,42220,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T17:14:25.792Z,96.44.198.174,https://salesforce.com/path/to/resource,Allow,None,1526,29441,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T17:16:52.792Z,184.57.214.125,https://salesforce.com/path/to/resource,Allow,None,2070,44401,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T17:18:10.792Z,153.211.156.64,https://google.com/path/to/resource,Allow,None,1038,33520,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
-2026-01-28T17:18:14.793Z,54.230.201.29,http://update-win32.com/payload.exe,Block,Malware,320,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T17:18:52.792Z,32.42.171.246,https://facebook.com/path/to/resource,Allow,None,1432,39428,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T17:24:12.792Z,133.116.252.97,https://facebook.com/path/to/resource,Block,Malware,278,42322,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
-2026-01-28T17:25:24.792Z,120.110.133.169,https://update-win32.com/path/to/resource,Block,Ransomware,4295,15748,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
-2026-01-28T17:25:38.792Z,89.187.28.133,https://update-win32.com/path/to/resource,Allow,None,436,1518,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
-2026-01-28T17:27:52.792Z,109.147.150.215,https://update-win32.com/path/to/resource,Allow,None,3071,36414,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T17:28:19.792Z,62.46.5.162,https://github.com/path/to/resource,Allow,None,4387,26164,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T17:29:34.792Z,70.94.210.191,https://update-win32.com/path/to/resource,Allow,None,4890,20436,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
-2026-01-28T17:33:08.792Z,107.54.236.18,https://salesforce.com/path/to/resource,Block,Ransomware,3993,43665,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
-2026-01-28T17:35:00.792Z,183.75.48.41,https://facebook.com/path/to/resource,Allow,None,564,28679,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
-2026-01-28T17:39:35.792Z,52.40.119.200,https://github.com/path/to/resource,Block,Ransomware,3290,9659,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
-2026-01-28T17:41:10.792Z,65.191.188.230,https://update-win32.com/path/to/resource,Allow,None,124,19329,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
-2026-01-28T17:41:35.792Z,135.70.198.25,https://github.com/path/to/resource,Block,None,1054,42578,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
-2026-01-28T17:42:03.792Z,191.57.135.67,https://google.com/path/to/resource,Block,None,3022,37848,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T17:42:46.792Z,116.220.215.223,https://facebook.com/path/to/resource,Allow,None,3463,26232,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
-2026-01-28T17:46:11.792Z,144.30.95.119,https://update-win32.com/path/to/resource,Block,C2 Server,4910,3350,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
-2026-01-28T17:48:34.793Z,117.150.128.183,https://github.com/path/to/resource,Allow,None,3792,18905,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T17:49:26.792Z,112.173.191.17,https://github.com/path/to/resource,Allow,None,935,43646,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
-2026-01-28T17:49:29.793Z,52.40.47.169,https://salesforce.com/path/to/resource,Allow,None,150,20972,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T17:49:41.792Z,116.3.144.214,https://unknown-host.xy/path/to/resource,Allow,None,774,34910,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
-2026-01-28T17:49:43.793Z,137.222.133.233,https://google.com/path/to/resource,Block,Botnet,4669,9088,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
-2026-01-28T17:49:52.792Z,123.154.134.14,https://google.com/path/to/resource,Block,Spyware,1526,26987,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T17:50:41.792Z,25.210.98.141,https://update-win32.com/path/to/resource,Allow,None,2159,32647,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T17:51:52.793Z,180.207.35.230,https://unknown-host.xy/path/to/resource,Block,Spyware,3868,23263,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
-2026-01-28T17:53:40.792Z,67.147.232.10,https://facebook.com/path/to/resource,Allow,None,324,21031,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T17:55:13.792Z,64.40.179.97,https://salesforce.com/path/to/resource,Allow,None,4529,16485,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
-2026-01-28T17:55:41.792Z,43.137.165.77,https://google.com/path/to/resource,Allow,None,1009,14486,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T17:56:32.792Z,93.66.96.117,https://github.com/path/to/resource,Block,C2 Server,971,18511,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T17:59:09.792Z,95.155.11.84,https://salesforce.com/path/to/resource,Allow,None,1518,4434,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
-2026-01-28T17:59:22.793Z,143.135.151.26,https://google.com/path/to/resource,Allow,None,1421,3717,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
-2026-01-28T17:59:41.792Z,173.173.227.76,https://github.com/path/to/resource,Block,None,3855,43782,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
-2026-01-28T18:01:50.792Z,132.108.177.178,https://unknown-host.xy/path/to/resource,Allow,None,2377,16126,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
-2026-01-28T18:02:15.792Z,148.129.117.118,https://unknown-host.xy/path/to/resource,Allow,None,4966,3633,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
-2026-01-28T18:06:44.792Z,101.219.106.158,https://google.com/path/to/resource,Block,Botnet,4794,46925,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
-2026-01-28T18:06:53.792Z,54.139.156.222,https://update-win32.com/path/to/resource,Allow,None,2463,49506,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
-2026-01-28T18:10:20.793Z,85.187.196.186,https://google.com/path/to/resource,Block,Ransomware,3441,26223,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
-2026-01-28T18:10:43.792Z,20.213.130.56,https://salesforce.com/path/to/resource,Block,Phishing,2680,16256,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
-2026-01-28T18:11:39.792Z,83.135.71.39,https://github.com/path/to/resource,Block,C2 Server,4119,36179,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
-2026-01-28T18:11:39.792Z,135.74.206.128,https://google.com/path/to/resource,Block,None,4955,24595,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T18:13:30.792Z,29.105.175.188,https://google.com/path/to/resource,Block,Ransomware,2847,17757,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T18:13:33.792Z,185.107.247.226,https://google.com/path/to/resource,Allow,None,3959,20077,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
-2026-01-28T18:13:49.792Z,136.187.249.58,https://salesforce.com/path/to/resource,Allow,None,4134,32488,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T18:14:47.792Z,41.42.17.91,https://update-win32.com/path/to/resource,Block,None,4287,7467,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
-2026-01-28T18:16:39.792Z,172.48.103.51,https://unknown-host.xy/path/to/resource,Block,Malware,3606,27237,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
-2026-01-28T18:18:41.792Z,94.185.90.31,https://facebook.com/path/to/resource,Allow,None,854,13623,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T18:19:37.792Z,134.158.99.86,https://google.com/path/to/resource,Block,Phishing,4258,35503,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
-2026-01-28T18:19:42.792Z,22.45.231.46,https://github.com/path/to/resource,Block,Botnet,397,18143,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
-2026-01-28T18:19:52.792Z,24.246.63.205,https://update-win32.com/path/to/resource,Block,C2 Server,1507,3057,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T18:20:03.792Z,24.128.71.173,https://facebook.com/path/to/resource,Allow,None,3910,25737,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
-2026-01-28T18:23:27.792Z,103.58.230.70,https://github.com/path/to/resource,Allow,None,3796,24969,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
-2026-01-28T18:23:29.792Z,89.187.85.81,https://google.com/path/to/resource,Block,Spyware,3591,40889,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T18:23:40.792Z,150.137.98.106,https://facebook.com/path/to/resource,Block,None,222,4585,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
-2026-01-28T18:26:00.792Z,164.34.113.148,https://facebook.com/path/to/resource,Block,Malware,2081,27850,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
-2026-01-28T18:26:21.792Z,65.158.11.101,https://github.com/path/to/resource,Block,Botnet,2870,31026,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T18:29:04.792Z,103.242.157.199,https://google.com/path/to/resource,Block,Malware,2910,18419,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
-2026-01-28T18:31:02.793Z,94.92.146.70,https://github.com/path/to/resource,Block,Ransomware,289,33240,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
-2026-01-28T18:32:25.792Z,132.62.52.190,https://update-win32.com/path/to/resource,Block,None,4972,30803,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T18:32:42.792Z,40.214.251.222,https://unknown-host.xy/path/to/resource,Block,Phishing,4955,24232,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
-2026-01-28T18:34:58.792Z,145.234.190.253,https://salesforce.com/path/to/resource,Block,None,1278,43104,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
-2026-01-28T18:35:22.792Z,85.32.186.185,https://update-win32.com/path/to/resource,Allow,None,4025,23163,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T18:36:54.792Z,72.193.203.185,https://update-win32.com/path/to/resource,Block,Botnet,3989,32967,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
-2026-01-28T18:37:57.793Z,188.186.247.124,https://onion.router/hidden,Allow,None,4647,3179,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
-2026-01-28T18:39:42.792Z,184.31.9.192,https://google.com/path/to/resource,Block,Malware,1899,28800,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
-2026-01-28T18:39:48.793Z,67.7.181.43,https://github.com/path/to/resource,Allow,None,818,22813,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
-2026-01-28T18:41:26.792Z,15.211.49.227,https://update-win32.com/path/to/resource,Block,Cryptomining,700,40858,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
-2026-01-28T18:45:05.792Z,135.59.147.241,https://google.com/path/to/resource,Block,C2 Server,2608,13448,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T18:45:20.792Z,84.178.213.168,https://github.com/path/to/resource,Allow,None,3223,5881,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
-2026-01-28T18:45:35.792Z,152.104.234.218,https://salesforce.com/path/to/resource,Allow,None,1442,13432,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
-2026-01-28T18:49:33.792Z,45.115.112.56,https://facebook.com/path/to/resource,Allow,None,1302,17423,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T18:49:55.792Z,64.231.186.158,https://google.com/path/to/resource,Block,None,2518,10506,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
-2026-01-28T18:51:29.792Z,130.104.17.3,https://update-win32.com/path/to/resource,Allow,None,2640,43802,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T18:57:47.793Z,50.56.198.27,https://facebook.com/path/to/resource,Allow,None,1539,14787,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
-2026-01-28T18:58:01.792Z,74.127.184.203,https://google.com/path/to/resource,Allow,None,865,25834,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
-2026-01-28T18:58:12.792Z,160.202.149.184,https://google.com/path/to/resource,Allow,None,3493,47336,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
-2026-01-28T19:02:19.792Z,109.248.101.134,https://unknown-host.xy/path/to/resource,Block,C2 Server,2546,31314,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T19:02:48.792Z,113.56.80.31,https://facebook.com/path/to/resource,Allow,None,1241,5295,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
-2026-01-28T19:03:14.792Z,35.75.67.254,https://facebook.com/path/to/resource,Block,Botnet,2335,24589,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T19:04:24.792Z,31.246.38.37,https://unknown-host.xy/path/to/resource,Allow,None,759,18717,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T19:04:56.792Z,111.170.163.136,https://github.com/path/to/resource,Block,Phishing,3706,13624,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
-2026-01-28T19:08:44.792Z,102.119.94.215,https://salesforce.com/path/to/resource,Allow,None,2509,44586,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
-2026-01-28T19:10:48.792Z,60.73.170.135,https://google.com/path/to/resource,Block,Botnet,1100,20320,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
-2026-01-28T19:11:41.793Z,108.4.230.40,https://onion.router/hidden,Allow,None,2888,4765,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
-2026-01-28T19:11:49.793Z,61.82.95.129,https://salesforce.com/path/to/resource,Allow,None,3534,6153,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
-2026-01-28T19:12:07.792Z,183.246.71.91,https://salesforce.com/path/to/resource,Allow,None,2868,26364,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
-2026-01-28T19:16:03.792Z,30.173.200.176,https://google.com/path/to/resource,Allow,None,1089,13320,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
-2026-01-28T19:17:44.792Z,151.251.12.40,https://facebook.com/path/to/resource,Block,Botnet,4727,25978,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
-2026-01-28T19:19:31.793Z,34.65.232.73,https://facebook.com/path/to/resource,Block,Ransomware,791,17605,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
-2026-01-28T19:23:18.792Z,97.161.129.195,https://facebook.com/path/to/resource,Block,Phishing,105,19079,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
-2026-01-28T19:24:34.792Z,105.254.164.70,https://unknown-host.xy/path/to/resource,Allow,None,3882,7656,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
-2026-01-28T19:26:15.792Z,80.79.142.62,https://github.com/path/to/resource,Allow,None,3381,15378,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
-2026-01-28T19:27:57.792Z,186.52.34.89,https://google.com/path/to/resource,Allow,None,2879,31313,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
-2026-01-28T19:29:58.792Z,118.46.234.1,https://facebook.com/path/to/resource,Block,Ransomware,1201,30245,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
-2026-01-28T19:30:57.792Z,65.77.226.13,https://github.com/path/to/resource,Block,Ransomware,3529,17688,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
-2026-01-28T19:31:54.792Z,175.191.155.83,https://github.com/path/to/resource,Block,Spyware,3426,48119,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
-2026-01-28T19:32:29.792Z,64.218.188.194,https://github.com/path/to/resource,Block,C2 Server,4795,11550,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T19:32:55.792Z,165.28.132.238,https://update-win32.com/path/to/resource,Block,None,3744,32274,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
-2026-01-28T19:34:04.792Z,53.43.3.22,https://google.com/path/to/resource,Block,Botnet,1563,13496,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
-2026-01-28T19:36:33.792Z,77.149.98.103,https://update-win32.com/path/to/resource,Block,C2 Server,1703,15383,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T19:36:55.792Z,78.237.106.222,https://google.com/path/to/resource,Allow,None,4122,18670,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
-2026-01-28T19:38:22.792Z,63.10.245.192,https://salesforce.com/path/to/resource,Allow,None,873,18054,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T19:39:17.793Z,136.68.101.121,https://onion.router/hidden,Allow,None,3357,2965,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
-2026-01-28T19:40:18.792Z,52.11.64.151,https://salesforce.com/path/to/resource,Block,Botnet,2621,27487,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
-2026-01-28T19:43:10.792Z,91.230.78.24,https://unknown-host.xy/path/to/resource,Block,Ransomware,819,19425,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T19:44:08.792Z,80.213.94.78,https://google.com/path/to/resource,Allow,None,542,38653,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
-2026-01-28T19:45:47.793Z,141.6.86.7,http://update-win32.com/payload.exe,Block,Malware,438,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T19:46:42.792Z,26.187.29.53,https://github.com/path/to/resource,Allow,None,4867,1595,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
-2026-01-28T19:47:58.792Z,145.85.225.63,https://facebook.com/path/to/resource,Allow,None,3456,22386,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T19:48:42.792Z,134.199.78.128,https://salesforce.com/path/to/resource,Allow,None,4855,13433,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
-2026-01-28T19:51:39.793Z,117.200.20.60,https://unknown-host.xy/path/to/resource,Block,None,2217,17876,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T19:52:36.792Z,129.70.43.243,https://google.com/path/to/resource,Allow,None,979,47684,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
-2026-01-28T19:52:55.792Z,155.59.70.7,https://salesforce.com/path/to/resource,Block,C2 Server,871,1060,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T19:55:49.792Z,41.78.59.104,https://google.com/path/to/resource,Block,None,694,33363,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T19:57:02.792Z,163.74.77.211,https://update-win32.com/path/to/resource,Block,Ransomware,1244,14334,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
-2026-01-28T19:58:28.792Z,101.40.160.168,https://salesforce.com/path/to/resource,Allow,None,2171,35957,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T19:59:43.792Z,54.121.82.110,https://salesforce.com/path/to/resource,Allow,None,2062,21888,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
-2026-01-28T20:00:38.792Z,188.80.175.20,https://google.com/path/to/resource,Allow,None,3574,35418,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
-2026-01-28T20:02:15.792Z,63.31.2.13,https://google.com/path/to/resource,Block,Malware,1966,12527,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
-2026-01-28T20:03:24.792Z,136.235.31.243,https://unknown-host.xy/path/to/resource,Allow,None,924,29666,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T20:06:13.792Z,58.144.23.92,https://update-win32.com/path/to/resource,Block,Malware,4106,2424,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T20:06:55.792Z,147.126.253.133,https://salesforce.com/path/to/resource,Block,Malware,988,6393,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
-2026-01-28T20:07:28.792Z,60.111.8.175,https://github.com/path/to/resource,Block,Botnet,4396,21280,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
-2026-01-28T20:09:45.792Z,43.26.181.40,https://salesforce.com/path/to/resource,Block,Botnet,996,17662,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T20:11:55.793Z,75.170.202.196,https://update-win32.com/path/to/resource,Block,C2 Server,1446,41499,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
-2026-01-28T20:13:23.792Z,41.254.163.76,https://salesforce.com/path/to/resource,Allow,None,3696,39090,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T20:13:29.792Z,91.68.192.80,https://update-win32.com/path/to/resource,Block,C2 Server,4394,11559,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T20:15:12.792Z,131.124.56.203,https://facebook.com/path/to/resource,Allow,None,1403,9176,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
-2026-01-28T20:15:41.793Z,163.177.48.151,https://update-win32.com/path/to/resource,Allow,None,3368,48271,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
-2026-01-28T20:17:21.792Z,182.79.207.143,https://update-win32.com/path/to/resource,Allow,None,476,20845,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T20:17:37.792Z,114.137.148.170,https://google.com/path/to/resource,Block,Phishing,4516,17453,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T20:19:44.792Z,60.152.23.121,https://facebook.com/path/to/resource,Block,Spyware,1229,37114,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
-2026-01-28T20:19:47.792Z,82.85.133.33,https://github.com/path/to/resource,Block,C2 Server,1215,43672,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T20:20:36.792Z,12.156.54.4,https://github.com/path/to/resource,Block,Ransomware,4419,8885,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
-2026-01-28T20:20:56.792Z,158.248.100.111,https://update-win32.com/path/to/resource,Allow,None,3204,39975,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
-2026-01-28T20:22:47.792Z,192.141.2.194,https://salesforce.com/path/to/resource,Allow,None,2105,30011,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
-2026-01-28T20:24:36.792Z,137.142.207.97,https://salesforce.com/path/to/resource,Allow,None,1537,34370,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
-2026-01-28T20:24:45.792Z,175.0.124.248,https://google.com/path/to/resource,Block,C2 Server,910,2531,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
-2026-01-28T20:25:04.793Z,138.166.121.71,https://update-win32.com/path/to/resource,Allow,None,4505,35746,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
-2026-01-28T20:26:23.792Z,83.201.220.20,https://facebook.com/path/to/resource,Allow,None,4777,7707,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
-2026-01-28T20:30:14.792Z,153.252.151.176,https://google.com/path/to/resource,Block,C2 Server,4882,5801,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
-2026-01-28T20:31:40.793Z,51.171.205.24,https://facebook.com/path/to/resource,Allow,None,2464,13330,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T20:33:45.792Z,98.20.225.194,https://unknown-host.xy/path/to/resource,Block,None,4706,6365,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T20:37:14.793Z,80.165.103.223,https://onion.router/hidden,Allow,None,3294,3605,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
-2026-01-28T20:38:02.792Z,114.65.46.30,https://unknown-host.xy/path/to/resource,Allow,None,3740,48098,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
-2026-01-28T20:38:42.792Z,20.156.70.4,https://update-win32.com/path/to/resource,Allow,None,2694,2609,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
-2026-01-28T20:39:49.792Z,47.99.80.227,https://update-win32.com/path/to/resource,Allow,None,1514,32670,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
-2026-01-28T20:39:51.792Z,137.190.56.227,https://google.com/path/to/resource,Block,None,783,14445,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T20:40:01.792Z,132.80.125.193,https://google.com/path/to/resource,Allow,None,4365,2783,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T20:42:09.793Z,63.137.239.25,http://update-win32.com/payload.exe,Block,Malware,498,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T20:45:51.793Z,11.180.215.109,https://onion.router/hidden,Allow,None,4524,4333,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
-2026-01-28T20:47:08.792Z,183.208.0.177,https://facebook.com/path/to/resource,Block,Malware,1288,34475,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
-2026-01-28T20:47:46.792Z,139.36.255.14,https://github.com/path/to/resource,Block,Cryptomining,4933,40401,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
-2026-01-28T20:48:17.793Z,60.51.136.134,http://update-win32.com/payload.exe,Block,Malware,236,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T20:49:27.793Z,71.220.23.251,https://update-win32.com/path/to/resource,Allow,None,4858,30980,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
-2026-01-28T20:49:49.792Z,132.115.226.4,https://github.com/path/to/resource,Block,Cryptomining,494,25502,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T20:50:40.792Z,135.65.76.108,https://salesforce.com/path/to/resource,Block,Botnet,1192,49146,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T20:52:17.792Z,133.129.68.195,https://google.com/path/to/resource,Allow,None,4221,34631,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
-2026-01-28T20:53:09.792Z,183.26.209.52,https://unknown-host.xy/path/to/resource,Allow,None,2377,904,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
-2026-01-28T20:53:14.792Z,33.237.185.25,https://facebook.com/path/to/resource,Allow,None,4753,20820,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
-2026-01-28T20:53:38.792Z,192.44.160.79,https://google.com/path/to/resource,Block,Spyware,4265,20287,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
-2026-01-28T20:55:54.792Z,186.160.86.213,https://salesforce.com/path/to/resource,Allow,None,1675,25816,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T20:56:02.792Z,15.225.134.175,https://facebook.com/path/to/resource,Allow,None,3159,27032,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
-2026-01-28T20:57:40.792Z,78.132.72.108,https://google.com/path/to/resource,Allow,None,3084,18161,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
-2026-01-28T20:58:32.793Z,185.35.34.8,https://github.com/path/to/resource,Block,Spyware,4105,21137,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
-2026-01-28T21:02:34.792Z,78.67.130.29,https://update-win32.com/path/to/resource,Block,C2 Server,1439,31179,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
-2026-01-28T21:04:37.792Z,27.189.121.72,https://facebook.com/path/to/resource,Block,Malware,1787,36205,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
-2026-01-28T21:05:31.793Z,114.116.54.245,https://github.com/path/to/resource,Allow,None,4629,33992,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
-2026-01-28T21:07:49.792Z,150.89.30.209,https://update-win32.com/path/to/resource,Allow,None,3761,40041,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
-2026-01-28T21:09:02.792Z,101.156.56.53,https://salesforce.com/path/to/resource,Allow,None,2523,16630,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T21:10:40.792Z,31.58.4.161,https://update-win32.com/path/to/resource,Allow,None,2354,24851,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
-2026-01-28T21:11:51.792Z,74.65.201.220,https://facebook.com/path/to/resource,Block,Cryptomining,3208,20949,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T21:12:31.792Z,47.160.156.8,https://facebook.com/path/to/resource,Block,Spyware,3378,25107,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
-2026-01-28T21:13:33.792Z,182.146.160.246,https://facebook.com/path/to/resource,Allow,None,1724,43395,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
-2026-01-28T21:13:48.792Z,134.40.201.157,https://facebook.com/path/to/resource,Block,None,2949,41438,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
-2026-01-28T21:13:55.793Z,60.124.191.121,http://update-win32.com/payload.exe,Block,Malware,185,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T21:14:10.792Z,28.173.29.88,https://github.com/path/to/resource,Allow,None,1575,42753,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T21:14:51.792Z,92.42.255.147,https://salesforce.com/path/to/resource,Block,None,1751,42460,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T21:15:23.792Z,177.176.163.3,https://facebook.com/path/to/resource,Block,C2 Server,4435,39454,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T21:16:29.792Z,47.223.98.122,https://google.com/path/to/resource,Allow,None,2305,9334,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
-2026-01-28T21:18:21.792Z,111.24.40.139,https://unknown-host.xy/path/to/resource,Block,Malware,1219,8275,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
-2026-01-28T21:21:19.792Z,184.205.33.18,https://google.com/path/to/resource,Block,Ransomware,3799,43825,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
-2026-01-28T21:21:38.793Z,106.65.181.103,https://salesforce.com/path/to/resource,Block,Ransomware,848,13125,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T21:30:05.792Z,174.92.243.225,https://update-win32.com/path/to/resource,Allow,None,2731,48303,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
-2026-01-28T21:30:43.792Z,114.246.178.212,https://facebook.com/path/to/resource,Allow,None,2836,45238,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
-2026-01-28T21:30:53.792Z,69.210.148.202,https://salesforce.com/path/to/resource,Block,C2 Server,2407,43643,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
-2026-01-28T21:34:34.792Z,30.35.68.150,https://update-win32.com/path/to/resource,Allow,None,2049,8435,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
-2026-01-28T21:35:06.792Z,138.90.213.42,https://google.com/path/to/resource,Block,Malware,2349,30831,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T21:35:08.792Z,109.145.200.225,https://facebook.com/path/to/resource,Block,None,721,27483,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
-2026-01-28T21:36:59.792Z,185.219.18.194,https://unknown-host.xy/path/to/resource,Block,Phishing,633,7927,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T21:37:44.793Z,173.141.198.61,https://unknown-host.xy/path/to/resource,Allow,None,3274,5497,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T21:40:25.792Z,143.60.203.93,https://facebook.com/path/to/resource,Block,Spyware,4088,34165,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
-2026-01-28T21:44:38.793Z,113.98.254.116,https://unknown-host.xy/path/to/resource,Block,Phishing,4592,38346,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
-2026-01-28T21:46:46.792Z,134.92.221.65,https://google.com/path/to/resource,Block,Malware,4627,45140,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
-2026-01-28T21:48:50.793Z,135.59.60.84,https://google.com/path/to/resource,Allow,None,4230,5900,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
-2026-01-28T21:49:35.792Z,182.228.108.30,https://google.com/path/to/resource,Allow,None,2009,5466,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
-2026-01-28T21:49:39.792Z,82.40.161.148,https://google.com/path/to/resource,Block,Botnet,2573,953,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T21:52:11.792Z,124.60.16.41,https://unknown-host.xy/path/to/resource,Block,Spyware,1422,48964,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
-2026-01-28T21:52:34.792Z,31.45.97.134,https://google.com/path/to/resource,Allow,None,3991,7473,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T21:53:05.792Z,65.222.198.25,https://facebook.com/path/to/resource,Block,Botnet,3782,27810,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
-2026-01-28T21:53:26.792Z,118.3.19.41,https://github.com/path/to/resource,Block,Botnet,1429,9136,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
-2026-01-28T21:54:59.792Z,45.71.159.205,https://unknown-host.xy/path/to/resource,Block,Malware,3499,21686,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
-2026-01-28T21:56:57.792Z,52.60.79.194,https://salesforce.com/path/to/resource,Allow,None,2198,41982,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T22:01:27.793Z,53.252.143.124,https://salesforce.com/path/to/resource,Block,Phishing,2752,24148,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
-2026-01-28T22:02:43.793Z,68.131.171.200,https://google.com/path/to/resource,Block,None,4409,24951,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T22:03:07.792Z,154.189.20.84,https://google.com/path/to/resource,Block,Botnet,3006,7203,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
-2026-01-28T22:03:47.792Z,137.23.24.47,https://unknown-host.xy/path/to/resource,Allow,None,834,5121,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T22:03:50.792Z,26.84.238.221,https://salesforce.com/path/to/resource,Allow,None,2023,20762,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T22:04:14.792Z,31.77.245.135,https://google.com/path/to/resource,Allow,None,2537,9213,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T22:04:33.791Z,82.79.188.125,https://google.com/path/to/resource,Block,Cryptomining,3272,38599,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
-2026-01-28T22:07:45.792Z,161.235.39.114,https://google.com/path/to/resource,Allow,None,1210,12556,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
-2026-01-28T22:10:40.792Z,152.9.67.203,https://facebook.com/path/to/resource,Block,C2 Server,584,21929,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
-2026-01-28T22:10:45.792Z,12.59.224.25,https://salesforce.com/path/to/resource,Allow,None,4705,8237,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
-2026-01-28T22:12:40.793Z,180.33.130.174,https://github.com/path/to/resource,Allow,None,3767,43440,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T22:13:29.792Z,144.117.48.187,https://github.com/path/to/resource,Allow,None,602,43739,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
-2026-01-28T22:13:29.792Z,27.32.22.80,https://update-win32.com/path/to/resource,Block,Botnet,3758,21365,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
-2026-01-28T22:14:25.792Z,175.66.127.129,https://github.com/path/to/resource,Block,Ransomware,2635,38365,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
-2026-01-28T22:16:00.792Z,46.193.25.176,https://update-win32.com/path/to/resource,Allow,None,2706,14847,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T22:16:46.793Z,15.33.34.31,https://github.com/path/to/resource,Block,Botnet,2575,14957,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
-2026-01-28T22:17:15.793Z,115.89.2.5,http://update-win32.com/payload.exe,Block,Malware,231,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T22:18:16.792Z,191.60.235.245,https://unknown-host.xy/path/to/resource,Block,None,3364,39181,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
-2026-01-28T22:18:27.792Z,166.177.68.28,https://update-win32.com/path/to/resource,Block,Phishing,293,41410,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T22:18:42.792Z,43.140.232.143,https://google.com/path/to/resource,Allow,None,3006,16323,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T22:18:45.792Z,191.48.223.35,https://update-win32.com/path/to/resource,Block,C2 Server,307,24461,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T22:19:03.792Z,36.194.203.12,https://google.com/path/to/resource,Block,Malware,2988,31398,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T22:19:18.792Z,115.91.152.230,https://unknown-host.xy/path/to/resource,Allow,None,1721,13287,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
-2026-01-28T22:22:04.792Z,111.224.241.122,https://update-win32.com/path/to/resource,Block,Ransomware,1018,11658,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
-2026-01-28T22:23:42.792Z,184.41.36.189,https://unknown-host.xy/path/to/resource,Block,C2 Server,4920,5510,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
-2026-01-28T22:24:33.792Z,147.84.227.118,https://salesforce.com/path/to/resource,Allow,None,4774,47110,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
-2026-01-28T22:24:38.792Z,62.216.66.64,https://facebook.com/path/to/resource,Block,Ransomware,1012,23853,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
-2026-01-28T22:25:12.792Z,60.33.243.128,https://github.com/path/to/resource,Block,Malware,597,1837,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
-2026-01-28T22:27:59.792Z,135.146.2.58,https://salesforce.com/path/to/resource,Allow,None,150,25289,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
-2026-01-28T22:28:06.792Z,105.137.190.165,https://update-win32.com/path/to/resource,Block,Phishing,1409,21104,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T22:30:06.793Z,22.80.5.38,https://salesforce.com/path/to/resource,Allow,None,4802,13873,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
-2026-01-28T22:30:10.792Z,92.95.42.186,https://unknown-host.xy/path/to/resource,Allow,None,4404,8102,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
-2026-01-28T22:30:14.793Z,70.207.0.84,https://onion.router/hidden,Allow,None,2625,3259,"Mozilla/5.0 (rv:109.0)",m.chen@tenex.com,Tor Browser
-2026-01-28T22:30:16.792Z,134.61.117.138,https://facebook.com/path/to/resource,Allow,None,4387,43242,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
-2026-01-28T22:31:31.793Z,182.202.250.143,https://salesforce.com/path/to/resource,Block,Spyware,2873,29535,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
-2026-01-28T22:33:48.792Z,143.134.196.124,https://google.com/path/to/resource,Block,Spyware,4390,15632,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
-2026-01-28T22:35:03.792Z,113.2.252.83,https://google.com/path/to/resource,Block,Malware,1612,28856,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T22:35:14.792Z,28.45.70.251,https://google.com/path/to/resource,Allow,None,4105,37891,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
-2026-01-28T22:35:35.792Z,163.242.184.15,https://facebook.com/path/to/resource,Allow,None,367,32637,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
-2026-01-28T22:36:27.792Z,144.124.123.152,https://unknown-host.xy/path/to/resource,Allow,None,3688,45574,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
-2026-01-28T22:36:29.793Z,75.122.195.78,http://update-win32.com/payload.exe,Block,Malware,126,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T22:37:12.792Z,104.220.252.188,https://update-win32.com/path/to/resource,Block,C2 Server,3775,1252,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T22:37:30.792Z,93.21.13.76,https://salesforce.com/path/to/resource,Allow,None,1244,23683,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
-2026-01-28T22:41:22.792Z,50.88.217.176,https://github.com/path/to/resource,Block,Ransomware,2023,25260,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
-2026-01-28T22:42:01.792Z,125.34.228.170,https://github.com/path/to/resource,Block,Cryptomining,1262,24006,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
-2026-01-28T22:44:18.792Z,81.218.137.88,https://salesforce.com/path/to/resource,Block,Malware,1760,26173,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
-2026-01-28T22:51:43.792Z,90.101.76.3,https://facebook.com/path/to/resource,Block,Spyware,2225,48046,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
-2026-01-28T22:54:11.792Z,39.163.145.78,https://github.com/path/to/resource,Block,Malware,2273,44693,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T22:55:43.792Z,91.136.220.102,https://update-win32.com/path/to/resource,Allow,None,2700,40794,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
-2026-01-28T22:56:19.792Z,16.215.254.57,https://google.com/path/to/resource,Allow,None,2561,11959,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
-2026-01-28T22:56:23.793Z,56.112.77.131,https://salesforce.com/path/to/resource,Block,Spyware,1171,25830,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
-2026-01-28T22:57:29.792Z,44.7.145.54,https://unknown-host.xy/path/to/resource,Block,Botnet,1332,11767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
-2026-01-28T22:57:30.793Z,111.169.140.29,https://salesforce.com/path/to/resource,Block,None,4726,10644,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
-2026-01-28T22:59:49.793Z,166.69.11.136,https://facebook.com/path/to/resource,Allow,None,1010,29167,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
-2026-01-28T23:01:23.792Z,150.28.26.37,https://facebook.com/path/to/resource,Block,Ransomware,676,9017,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T23:01:41.792Z,141.49.139.124,https://update-win32.com/path/to/resource,Allow,None,3900,15742,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
-2026-01-28T23:02:50.792Z,19.147.203.28,https://salesforce.com/path/to/resource,Block,Cryptomining,3068,37051,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
-2026-01-28T23:04:07.792Z,118.171.217.188,https://google.com/path/to/resource,Block,Botnet,4502,2509,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
-2026-01-28T23:05:07.792Z,62.148.158.20,https://salesforce.com/path/to/resource,Block,Botnet,474,21101,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T23:05:40.792Z,36.167.31.153,https://salesforce.com/path/to/resource,Allow,None,4912,19313,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T23:07:34.792Z,134.1.94.107,https://unknown-host.xy/path/to/resource,Block,Spyware,1374,2842,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T23:07:38.792Z,165.155.219.191,https://google.com/path/to/resource,Block,Ransomware,2885,40272,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
-2026-01-28T23:09:45.792Z,32.187.139.83,https://facebook.com/path/to/resource,Allow,None,2425,18152,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
-2026-01-28T23:12:41.793Z,45.100.26.157,https://google.com/path/to/resource,Block,Cryptomining,2492,42143,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
-2026-01-28T23:15:51.792Z,84.151.204.36,https://facebook.com/path/to/resource,Block,C2 Server,3770,36844,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T23:17:17.792Z,129.56.225.45,https://google.com/path/to/resource,Allow,None,2464,20106,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
-2026-01-28T23:18:04.793Z,120.205.213.196,https://salesforce.com/path/to/resource,Block,Phishing,4462,34710,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
-2026-01-28T23:20:25.792Z,67.115.145.240,https://github.com/path/to/resource,Allow,None,3798,49367,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T23:21:16.792Z,69.121.143.211,https://github.com/path/to/resource,Block,Phishing,2573,39198,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
-2026-01-28T23:21:48.792Z,32.236.70.241,https://salesforce.com/path/to/resource,Allow,None,3296,13667,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
-2026-01-28T23:22:50.792Z,53.123.176.147,https://unknown-host.xy/path/to/resource,Block,Malware,4956,12126,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T23:23:37.792Z,98.143.164.91,https://salesforce.com/path/to/resource,Block,Malware,3649,6563,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
-2026-01-28T23:24:19.792Z,184.175.14.245,https://github.com/path/to/resource,Block,None,682,23387,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
-2026-01-28T23:24:40.792Z,158.209.185.117,https://facebook.com/path/to/resource,Block,Cryptomining,891,16602,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
-2026-01-28T23:25:19.792Z,51.153.247.123,https://facebook.com/path/to/resource,Allow,None,3983,5229,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
-2026-01-28T23:27:05.792Z,57.175.221.243,https://facebook.com/path/to/resource,Allow,None,411,3712,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
-2026-01-28T23:29:26.792Z,183.173.130.178,https://update-win32.com/path/to/resource,Block,Phishing,2149,42618,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
-2026-01-28T23:29:52.792Z,28.172.14.243,https://github.com/path/to/resource,Allow,None,1357,13449,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T23:32:55.792Z,130.187.160.96,https://github.com/path/to/resource,Block,Cryptomining,4778,28933,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
-2026-01-28T23:34:39.792Z,56.238.109.154,https://unknown-host.xy/path/to/resource,Allow,None,1629,41888,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
-2026-01-28T23:35:58.793Z,21.170.176.192,http://update-win32.com/payload.exe,Block,Malware,246,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
-2026-01-28T23:37:18.792Z,155.122.178.251,https://update-win32.com/path/to/resource,Block,Botnet,3829,37903,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
-2026-01-28T23:39:13.793Z,179.92.206.111,https://unknown-host.xy/path/to/resource,Block,None,1183,2508,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
-2026-01-28T23:39:33.793Z,26.205.150.79,https://unknown-host.xy/path/to/resource,Allow,None,2183,24054,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T23:40:53.792Z,77.171.170.80,https://unknown-host.xy/path/to/resource,Allow,None,4369,28840,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
-2026-01-28T23:42:14.793Z,186.42.51.241,https://unknown-host.xy/path/to/resource,Block,None,660,30346,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
-2026-01-28T23:42:20.792Z,134.30.195.136,https://github.com/path/to/resource,Block,None,4014,33695,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
-2026-01-28T23:43:36.792Z,69.238.101.216,https://update-win32.com/path/to/resource,Allow,None,3217,2435,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
-2026-01-28T23:49:00.792Z,122.161.11.30,https://google.com/path/to/resource,Allow,None,569,30701,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
-2026-01-28T23:51:23.792Z,146.191.255.100,https://github.com/path/to/resource,Allow,None,1479,37336,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
-2026-01-28T23:51:44.793Z,91.158.208.77,https://unknown-host.xy/path/to/resource,Allow,None,2730,42262,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
-2026-01-28T23:52:14.792Z,68.163.211.193,https://salesforce.com/path/to/resource,Allow,None,4839,8130,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
-2026-01-28T23:53:51.792Z,161.42.122.12,https://github.com/path/to/resource,Allow,None,3757,22232,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
-2026-01-28T23:54:41.792Z,44.28.77.16,https://update-win32.com/path/to/resource,Block,Phishing,2120,25011,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
-2026-01-28T23:56:12.792Z,34.250.62.219,https://github.com/path/to/resource,Block,None,1878,25083,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
-2026-01-28T23:56:31.792Z,49.16.152.137,https://github.com/path/to/resource,Allow,None,1804,43224,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-29T05:06:15.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,23573462,327,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-29T05:44:25.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,46803258,489,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-29T06:12:45.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,34310053,415,"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0)",finance_lead@tenex.com,Dropbox
+2026-01-29T06:27:49.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,33575785,153,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-29T08:55:06.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,32910271,311,"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0)",finance_lead@tenex.com,Dropbox
+2026-01-29T09:26:53.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,19325072,343,"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0)",finance_lead@tenex.com,Dropbox
+2026-01-29T09:28:23.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,29533458,305,"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0)",finance_lead@tenex.com,Dropbox
+2026-01-29T09:59:19.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,36826339,479,"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0)",finance_lead@tenex.com,Dropbox
+2026-01-29T10:10:02.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,17178067,125,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-29T10:10:32.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,44565228,186,"curl/7.88.1",finance_lead@tenex.com,Dropbox
+2026-01-29T10:11:22.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,16842104,280,"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0)",finance_lead@tenex.com,Dropbox
+2026-01-29T10:39:57.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,43376140,412,"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0)",finance_lead@tenex.com,Dropbox
+2026-01-29T13:01:02.489Z,182.214.182.8,https://unknown-host.xy/path/to/resource,Allow,None,1997,780,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-29T13:03:23.489Z,26.191.77.12,https://google.com/path/to/resource,Allow,None,1763,9720,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-29T13:03:57.489Z,10.0.218.102,https://update-win32.com/path/to/resource,Block,Policy Violation,1736,7307,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-29T13:04:38.489Z,130.249.218.25,https://google.com/path/to/resource,Allow,None,853,2406,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-29T13:07:29.489Z,163.60.78.38,https://github.com/path/to/resource,Allow,None,2405,5487,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-29T13:10:29.490Z,139.137.17.125,https://github.com/path/to/resource,Allow,None,2234,8578,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T13:12:19.489Z,177.176.242.68,https://github.com/path/to/resource,Allow,None,2435,2884,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-29T13:17:02.490Z,127.181.64.225,http://update-win32.com/payload.exe,Block,Malware,316,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-29T13:17:03.489Z,91.175.141.101,https://salesforce.com/path/to/resource,Block,DLP Violation,719,19274,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-29T13:18:28.489Z,36.178.109.84,https://github.com/path/to/resource,Block,Policy Violation,747,9375,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T13:18:28.489Z,145.17.188.28,https://google.com/path/to/resource,Allow,None,1123,2469,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-29T13:18:32.489Z,34.111.29.6,https://salesforce.com/path/to/resource,Block,DLP Violation,2331,1362,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-29T13:19:44.490Z,131.27.173.153,https://update-win32.com/path/to/resource,Allow,None,2907,7105,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-29T13:23:42.489Z,131.133.87.246,https://salesforce.com/path/to/resource,Block,Policy Violation,177,11547,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T13:25:08.489Z,191.26.243.147,https://facebook.com/path/to/resource,Allow,None,2750,14754,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T13:27:41.490Z,42.172.116.215,https://facebook.com/path/to/resource,Allow,None,3581,3202,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-29T13:31:23.489Z,184.98.64.145,https://github.com/path/to/resource,Allow,None,3797,2947,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-29T13:32:09.489Z,145.80.22.244,https://github.com/path/to/resource,Allow,None,80,5042,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-29T13:38:21.489Z,172.177.182.180,https://github.com/path/to/resource,Block,DLP Violation,1782,18493,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T13:39:07.489Z,25.255.186.96,https://github.com/path/to/resource,Block,None,3224,16497,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T13:39:13.489Z,120.25.92.204,https://salesforce.com/path/to/resource,Block,DLP Violation,3771,19559,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-29T13:41:06.489Z,186.226.162.170,https://salesforce.com/path/to/resource,Allow,None,2651,10216,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-29T13:43:54.489Z,67.9.38.43,https://update-win32.com/path/to/resource,Block,Policy Violation,521,14422,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-29T13:46:29.489Z,128.21.57.152,https://google.com/path/to/resource,Allow,None,3052,13826,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T13:46:32.489Z,173.166.187.191,https://facebook.com/path/to/resource,Block,None,2869,4338,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-29T13:46:35.489Z,168.18.173.39,https://update-win32.com/path/to/resource,Block,DLP Violation,1947,11406,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T13:53:09.489Z,174.0.219.161,https://update-win32.com/path/to/resource,Block,C2 Server,3552,10137,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-29T13:53:14.489Z,63.129.197.184,https://google.com/path/to/resource,Allow,None,106,17421,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-29T13:53:56.489Z,18.70.204.226,https://update-win32.com/path/to/resource,Block,None,3636,18199,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-29T13:58:11.488Z,192.30.73.38,https://google.com/path/to/resource,Allow,None,2784,1833,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-29T14:00:50.489Z,73.244.182.86,https://unknown-host.xy/path/to/resource,Allow,None,3847,12616,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-29T14:01:00.489Z,107.107.194.77,https://facebook.com/path/to/resource,Allow,None,136,8245,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-29T14:01:01.489Z,155.154.5.5,https://unknown-host.xy/path/to/resource,Block,Ransomware,436,11751,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-29T14:06:19.489Z,70.153.13.63,https://salesforce.com/path/to/resource,Allow,None,1994,4540,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-29T14:07:55.489Z,19.146.48.25,https://facebook.com/path/to/resource,Block,None,3415,18543,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-29T14:09:36.488Z,96.23.158.237,https://salesforce.com/path/to/resource,Block,None,3741,12702,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-29T14:12:14.489Z,175.29.207.22,https://github.com/path/to/resource,Block,Policy Violation,3546,8423,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T14:15:25.489Z,121.198.96.194,https://github.com/path/to/resource,Allow,None,923,5232,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-29T14:18:33.489Z,109.12.24.187,https://facebook.com/path/to/resource,Allow,None,3258,19438,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-29T14:18:45.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,19939731,473,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-29T14:19:19.489Z,90.218.34.186,https://update-win32.com/path/to/resource,Allow,None,3987,17104,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-29T14:19:27.490Z,134.172.109.127,https://facebook.com/path/to/resource,Block,Policy Violation,560,14277,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T14:21:14.489Z,135.75.139.169,https://facebook.com/path/to/resource,Allow,None,1871,17915,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T14:23:00.489Z,132.4.159.63,https://facebook.com/path/to/resource,Block,Ransomware,750,11165,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
+2026-01-29T14:23:01.489Z,172.223.0.148,https://update-win32.com/path/to/resource,Block,None,706,14735,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-29T14:23:41.489Z,125.132.121.199,https://salesforce.com/path/to/resource,Block,DLP Violation,771,12798,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-29T14:24:44.488Z,138.240.46.68,https://salesforce.com/path/to/resource,Allow,None,1707,13276,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-29T14:26:06.489Z,10.58.123.118,https://github.com/path/to/resource,Block,None,3517,3741,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-29T14:27:52.489Z,60.202.34.119,https://update-win32.com/path/to/resource,Allow,None,3668,799,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-29T14:28:45.489Z,182.27.190.8,https://google.com/path/to/resource,Block,Policy Violation,1533,18238,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-29T14:29:09.489Z,102.83.216.79,https://update-win32.com/path/to/resource,Allow,None,1280,6454,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-29T14:31:33.489Z,29.93.47.180,https://unknown-host.xy/path/to/resource,Allow,None,541,17933,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T14:35:29.489Z,132.240.7.122,https://salesforce.com/path/to/resource,Allow,None,1565,1223,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-29T14:37:13.489Z,31.14.159.58,https://salesforce.com/path/to/resource,Block,None,3561,6220,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-29T14:39:43.489Z,17.78.206.203,https://update-win32.com/path/to/resource,Block,Policy Violation,3337,18759,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T14:40:08.489Z,110.140.189.229,https://update-win32.com/path/to/resource,Block,None,1153,6491,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-29T14:40:13.489Z,186.64.64.146,https://google.com/path/to/resource,Allow,None,395,17134,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T14:43:15.489Z,14.174.90.99,https://github.com/path/to/resource,Block,DLP Violation,2222,3883,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-29T14:43:57.489Z,13.132.34.226,https://github.com/path/to/resource,Allow,None,3305,16739,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-29T14:44:31.489Z,16.228.189.101,https://salesforce.com/path/to/resource,Allow,None,785,13103,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-29T14:47:38.489Z,15.15.138.29,https://google.com/path/to/resource,Allow,None,2631,16564,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-29T14:48:25.489Z,88.29.9.57,https://google.com/path/to/resource,Block,Policy Violation,2531,18880,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-29T14:49:09.489Z,92.92.195.240,https://update-win32.com/path/to/resource,Block,Policy Violation,3158,10735,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T14:50:41.489Z,148.136.219.241,https://unknown-host.xy/path/to/resource,Block,Malware,280,16505,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-29T14:50:52.489Z,135.134.232.127,https://google.com/path/to/resource,Block,Policy Violation,1560,13017,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-29T14:51:21.488Z,156.151.57.82,https://facebook.com/path/to/resource,Allow,None,3901,1721,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T14:51:54.489Z,103.168.193.99,https://salesforce.com/path/to/resource,Block,DLP Violation,2846,13870,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-29T14:53:51.490Z,117.73.42.22,https://unknown-host.xy/path/to/resource,Block,Policy Violation,1622,6359,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-29T14:55:40.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,22432369,491,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-29T14:55:41.490Z,66.1.241.54,https://unknown-host.xy/path/to/resource,Block,Cryptomining,1952,12702,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-29T14:56:10.489Z,146.151.17.231,https://update-win32.com/path/to/resource,Block,Policy Violation,3193,6639,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-29T14:57:39.489Z,161.26.95.20,https://github.com/path/to/resource,Block,Policy Violation,2249,13860,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T14:57:46.489Z,43.114.53.30,https://google.com/path/to/resource,Allow,None,3554,8117,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-29T14:58:57.490Z,140.236.101.31,https://google.com/path/to/resource,Allow,None,308,208,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T14:59:50.489Z,96.106.92.122,https://github.com/path/to/resource,Allow,None,1606,19510,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T15:00:29.489Z,28.204.131.206,https://google.com/path/to/resource,Block,None,3916,5929,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-29T15:01:22.489Z,46.218.163.245,https://google.com/path/to/resource,Allow,None,2952,993,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-29T15:02:45.489Z,44.85.235.9,https://salesforce.com/path/to/resource,Allow,Spyware,1479,19887,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-29T15:06:53.489Z,26.185.199.167,https://google.com/path/to/resource,Block,DLP Violation,263,3370,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T15:07:08.489Z,131.41.3.58,https://google.com/path/to/resource,Allow,None,2481,14848,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T15:08:22.489Z,73.97.17.153,https://update-win32.com/path/to/resource,Allow,None,3036,14089,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-29T15:08:37.489Z,67.8.229.9,https://google.com/path/to/resource,Block,Policy Violation,3841,13539,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T15:08:55.489Z,36.235.25.210,https://google.com/path/to/resource,Block,Policy Violation,3795,617,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-29T15:09:07.489Z,38.125.131.140,https://salesforce.com/path/to/resource,Allow,None,2259,17730,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-29T15:09:18.489Z,16.128.218.97,https://salesforce.com/path/to/resource,Block,DLP Violation,102,357,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T15:09:37.489Z,20.1.185.126,https://unknown-host.xy/path/to/resource,Allow,None,234,11841,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-29T15:12:23.489Z,14.228.8.27,https://github.com/path/to/resource,Block,Policy Violation,689,15272,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-29T15:14:29.489Z,179.81.118.78,https://unknown-host.xy/path/to/resource,Block,Policy Violation,2232,6204,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-29T15:17:27.489Z,147.180.70.237,https://salesforce.com/path/to/resource,Allow,None,1537,3195,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-29T15:20:58.489Z,165.248.159.213,https://update-win32.com/path/to/resource,Block,Policy Violation,2279,13168,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-29T15:22:02.488Z,102.56.190.46,https://facebook.com/path/to/resource,Block,Policy Violation,916,17329,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-29T15:22:25.490Z,183.195.25.121,https://google.com/path/to/resource,Allow,None,480,3687,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T15:24:29.489Z,119.36.113.22,https://google.com/path/to/resource,Allow,None,3389,3675,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-29T15:26:49.489Z,191.154.92.160,https://facebook.com/path/to/resource,Allow,None,786,5222,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-29T15:27:37.489Z,27.55.102.130,https://unknown-host.xy/path/to/resource,Block,DLP Violation,1202,14865,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-29T15:27:55.489Z,178.215.78.14,https://unknown-host.xy/path/to/resource,Allow,None,2311,7021,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-29T15:28:21.489Z,83.40.157.230,https://github.com/path/to/resource,Allow,None,2008,15767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-29T15:28:33.489Z,88.124.241.164,https://google.com/path/to/resource,Allow,None,2915,13794,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-29T15:29:41.490Z,189.73.105.11,https://facebook.com/path/to/resource,Allow,None,219,7746,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-29T15:30:00.489Z,91.14.149.152,https://google.com/path/to/resource,Block,None,3123,14367,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-29T15:30:02.488Z,98.61.78.91,https://github.com/path/to/resource,Block,DLP Violation,2288,10065,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-29T15:30:14.489Z,181.157.83.204,https://update-win32.com/path/to/resource,Block,Malware,3869,15524,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
+2026-01-29T15:31:21.490Z,29.172.36.44,https://unknown-host.xy/path/to/resource,Allow,None,3442,9729,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-29T15:33:47.489Z,136.70.231.166,https://salesforce.com/path/to/resource,Block,None,2060,10689,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-29T15:34:47.489Z,61.253.133.110,https://update-win32.com/path/to/resource,Block,DLP Violation,98,3649,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-29T15:35:10.489Z,135.23.75.122,https://google.com/path/to/resource,Allow,None,413,19129,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-29T15:37:37.489Z,120.52.39.181,https://update-win32.com/path/to/resource,Allow,None,1637,19054,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-29T15:38:46.490Z,89.151.230.202,http://update-win32.com/payload.exe,Block,Malware,341,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-29T15:39:08.489Z,113.173.82.220,https://github.com/path/to/resource,Allow,None,3823,11349,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-29T15:41:12.489Z,75.160.186.95,https://salesforce.com/path/to/resource,Block,Policy Violation,2006,5834,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T15:41:26.489Z,82.124.173.49,https://salesforce.com/path/to/resource,Block,DLP Violation,116,12480,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-29T15:43:42.489Z,168.27.248.1,https://github.com/path/to/resource,Allow,None,3696,8585,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-29T15:45:04.489Z,165.146.187.25,https://salesforce.com/path/to/resource,Block,Malware,2630,11120,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-29T15:45:43.489Z,61.8.66.230,https://salesforce.com/path/to/resource,Block,None,570,10378,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T15:46:04.489Z,65.21.129.209,https://update-win32.com/path/to/resource,Block,Policy Violation,2377,15809,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T15:47:46.489Z,14.17.211.31,https://update-win32.com/path/to/resource,Allow,None,2804,10278,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-29T15:48:12.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,29556928,395,"python-requests/2.28.1",finance_lead@tenex.com,Dropbox
+2026-01-29T15:49:15.489Z,115.207.34.150,https://update-win32.com/path/to/resource,Allow,None,3749,12766,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-29T15:49:39.488Z,162.60.241.53,https://salesforce.com/path/to/resource,Block,None,678,9853,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-29T15:49:50.489Z,85.134.12.216,https://github.com/path/to/resource,Block,None,1186,4544,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-29T15:50:06.489Z,160.133.139.224,https://salesforce.com/path/to/resource,Allow,None,3134,2035,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-29T15:51:10.489Z,78.203.135.34,https://unknown-host.xy/path/to/resource,Block,Policy Violation,2429,1722,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-29T15:53:27.489Z,10.108.53.116,https://unknown-host.xy/path/to/resource,Block,Phishing,3793,7244,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-29T15:53:35.489Z,127.67.156.207,https://google.com/path/to/resource,Allow,None,977,17208,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T15:53:37.489Z,37.203.51.73,https://salesforce.com/path/to/resource,Allow,None,2913,19007,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-29T15:54:32.490Z,192.43.200.136,https://github.com/path/to/resource,Allow,None,1136,846,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-29T15:54:36.490Z,42.62.122.254,https://google.com/path/to/resource,Block,Policy Violation,782,3984,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-29T15:55:33.489Z,21.183.190.241,https://facebook.com/path/to/resource,Allow,None,3183,1589,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-29T15:59:50.489Z,168.220.239.166,https://unknown-host.xy/path/to/resource,Allow,None,3288,5921,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-29T16:00:33.489Z,50.32.166.33,https://salesforce.com/path/to/resource,Allow,None,2092,10511,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-29T16:01:47.490Z,95.242.46.125,http://update-win32.com/payload.exe,Block,Malware,230,0,"Powershell/7.3.4",intern_01@tenex.com,General Browsing
+2026-01-29T16:03:42.490Z,61.120.90.163,https://github.com/path/to/resource,Block,Policy Violation,2622,11146,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-29T16:05:10.489Z,138.201.177.93,https://salesforce.com/path/to/resource,Block,Policy Violation,228,13544,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T16:07:37.489Z,116.26.138.72,https://unknown-host.xy/path/to/resource,Block,Policy Violation,2068,19594,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T16:08:45.489Z,154.3.63.3,https://update-win32.com/path/to/resource,Allow,None,1851,12035,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-29T16:08:55.489Z,77.136.110.205,https://github.com/path/to/resource,Block,Phishing,2369,16554,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-29T16:09:04.490Z,53.128.129.207,http://update-win32.com/payload.exe,Block,Malware,230,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-29T16:10:48.489Z,77.175.14.177,https://update-win32.com/path/to/resource,Allow,None,2412,3150,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-29T16:10:49.489Z,101.27.151.63,https://update-win32.com/path/to/resource,Block,Policy Violation,3446,14059,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-29T16:13:59.489Z,62.32.99.162,https://google.com/path/to/resource,Block,Policy Violation,288,382,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-29T16:14:39.489Z,73.172.106.245,https://facebook.com/path/to/resource,Allow,None,582,8488,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
+2026-01-29T16:15:25.489Z,152.236.97.71,https://update-win32.com/path/to/resource,Block,Policy Violation,1529,10254,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-29T16:15:38.489Z,65.227.141.165,https://google.com/path/to/resource,Block,Policy Violation,184,5289,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T16:15:50.490Z,47.112.215.86,https://onion.router/hidden,Allow,None,3315,2671,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T16:19:09.489Z,105.176.3.236,https://update-win32.com/path/to/resource,Block,DLP Violation,2660,18668,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T16:21:13.489Z,95.47.83.134,https://unknown-host.xy/path/to/resource,Block,Policy Violation,164,8741,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-29T16:21:31.489Z,151.7.162.26,https://update-win32.com/path/to/resource,Block,Policy Violation,895,9042,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-29T16:25:15.490Z,101.170.134.242,https://facebook.com/path/to/resource,Allow,None,3957,383,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-29T16:26:18.489Z,173.93.218.250,https://github.com/path/to/resource,Allow,None,2388,7751,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-29T16:26:40.489Z,124.218.118.41,https://google.com/path/to/resource,Block,DLP Violation,1333,15145,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T16:27:19.489Z,148.76.67.72,https://google.com/path/to/resource,Allow,None,2741,15658,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-29T16:28:48.489Z,131.95.17.232,https://google.com/path/to/resource,Allow,None,554,10643,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-29T16:30:20.489Z,165.83.29.249,https://github.com/path/to/resource,Allow,None,971,17446,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-29T16:32:09.489Z,13.120.78.61,https://google.com/path/to/resource,Allow,None,491,15489,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T16:33:42.490Z,114.168.75.13,https://onion.router/hidden,Allow,None,2790,3063,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T16:34:03.489Z,50.190.92.224,https://salesforce.com/path/to/resource,Block,None,734,14005,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-29T16:35:46.489Z,84.169.187.59,https://update-win32.com/path/to/resource,Block,Cryptomining,3455,7943,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-29T16:36:10.489Z,165.116.210.25,https://salesforce.com/path/to/resource,Allow,Spyware,2809,18158,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-29T16:36:19.489Z,122.137.158.149,https://facebook.com/path/to/resource,Block,None,1471,9677,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-29T16:36:26.488Z,109.210.231.161,https://salesforce.com/path/to/resource,Allow,None,2539,19170,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T16:39:38.489Z,157.247.51.23,https://facebook.com/path/to/resource,Block,Policy Violation,2864,527,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-29T16:39:53.489Z,28.161.237.235,https://salesforce.com/path/to/resource,Allow,None,3727,2504,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-29T16:40:21.489Z,85.205.235.208,https://unknown-host.xy/path/to/resource,Allow,None,776,8205,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-29T16:42:24.489Z,176.95.11.116,https://google.com/path/to/resource,Block,None,1721,12897,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-29T16:42:40.489Z,102.208.184.200,https://unknown-host.xy/path/to/resource,Block,Ransomware,3179,10615,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-29T16:43:35.489Z,82.143.91.97,https://google.com/path/to/resource,Block,DLP Violation,1134,3889,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T16:43:48.489Z,83.113.244.206,https://facebook.com/path/to/resource,Allow,None,1547,10714,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-29T16:46:11.489Z,74.176.96.187,https://github.com/path/to/resource,Allow,Spyware,3291,2667,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T16:47:05.489Z,75.215.240.52,https://salesforce.com/path/to/resource,Block,None,3176,18846,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-29T16:47:49.489Z,88.194.113.37,https://salesforce.com/path/to/resource,Block,Phishing,3083,8950,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-29T16:47:53.489Z,149.12.175.244,https://facebook.com/path/to/resource,Allow,None,3356,15437,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-29T16:48:37.489Z,17.169.131.174,https://update-win32.com/path/to/resource,Block,Policy Violation,129,518,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T16:50:01.489Z,133.203.22.186,https://facebook.com/path/to/resource,Block,None,1893,9778,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-29T16:54:43.489Z,137.36.5.228,https://update-win32.com/path/to/resource,Allow,None,606,14256,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T16:55:43.490Z,181.83.175.233,http://update-win32.com/payload.exe,Block,Malware,392,0,"Powershell/7.3.4",intern_01@tenex.com,General Browsing
+2026-01-29T16:56:00.490Z,37.249.213.139,http://update-win32.com/payload.exe,Block,Malware,485,0,"Powershell/7.3.4",intern_01@tenex.com,General Browsing
+2026-01-29T16:56:09.489Z,144.145.42.173,https://update-win32.com/path/to/resource,Block,Policy Violation,1132,17214,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-29T16:57:16.489Z,35.146.203.64,https://salesforce.com/path/to/resource,Block,DLP Violation,2289,19617,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-29T16:59:37.489Z,63.0.125.77,https://update-win32.com/path/to/resource,Block,Policy Violation,798,2332,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-29T17:01:16.489Z,158.20.57.230,https://salesforce.com/path/to/resource,Allow,None,3701,18384,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-29T17:01:51.489Z,131.146.176.21,https://google.com/path/to/resource,Block,None,2783,3157,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
+2026-01-29T17:02:05.489Z,181.3.226.60,https://salesforce.com/path/to/resource,Block,Policy Violation,474,14199,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-29T17:02:29.489Z,16.128.223.254,https://google.com/path/to/resource,Block,Policy Violation,1840,4896,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-29T17:04:26.489Z,66.203.218.136,https://unknown-host.xy/path/to/resource,Block,Policy Violation,2520,7383,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-29T17:04:51.489Z,192.189.143.40,https://unknown-host.xy/path/to/resource,Block,DLP Violation,1265,10929,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-29T17:08:19.489Z,130.197.44.247,https://salesforce.com/path/to/resource,Block,Policy Violation,2225,3667,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-29T17:08:45.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,16171534,253,"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0)",finance_lead@tenex.com,Dropbox
+2026-01-29T17:10:27.490Z,137.233.219.74,https://facebook.com/path/to/resource,Allow,None,2179,9885,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-29T17:11:12.489Z,163.61.227.198,https://github.com/path/to/resource,Allow,None,3892,12344,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T17:15:41.489Z,122.224.65.136,https://facebook.com/path/to/resource,Allow,None,502,18117,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T17:17:41.489Z,161.142.45.29,https://google.com/path/to/resource,Allow,None,3919,18714,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T17:17:47.490Z,97.112.247.142,https://unknown-host.xy/path/to/resource,Block,None,607,7221,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-29T17:18:14.489Z,61.80.101.6,https://google.com/path/to/resource,Allow,None,1084,5917,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-29T17:18:36.489Z,191.234.212.130,https://unknown-host.xy/path/to/resource,Allow,None,3333,8840,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-29T17:19:19.489Z,80.132.29.239,https://google.com/path/to/resource,Block,Policy Violation,1011,19508,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T17:22:03.490Z,93.252.118.115,http://update-win32.com/payload.exe,Block,Malware,480,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-29T17:22:29.488Z,59.153.50.68,https://update-win32.com/path/to/resource,Block,None,657,5141,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-29T17:24:24.489Z,84.139.29.17,https://update-win32.com/path/to/resource,Allow,None,195,8522,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T17:25:08.489Z,40.75.237.209,https://google.com/path/to/resource,Allow,None,630,19871,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-29T17:25:49.489Z,150.71.205.130,https://update-win32.com/path/to/resource,Allow,None,753,17342,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T17:26:27.489Z,54.46.97.111,https://update-win32.com/path/to/resource,Allow,None,320,18132,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T17:26:50.490Z,160.206.99.220,https://salesforce.com/path/to/resource,Block,Policy Violation,826,16962,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-29T17:28:06.489Z,42.235.22.173,https://unknown-host.xy/path/to/resource,Block,Policy Violation,992,11416,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-29T17:30:01.489Z,95.242.154.235,https://update-win32.com/path/to/resource,Allow,None,2431,1822,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-29T17:30:54.489Z,18.54.131.151,https://unknown-host.xy/path/to/resource,Block,Policy Violation,3468,9582,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-29T17:31:49.490Z,17.115.127.56,https://salesforce.com/path/to/resource,Block,Policy Violation,3894,15560,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T17:33:20.489Z,19.60.184.32,https://google.com/path/to/resource,Allow,None,1912,17356,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-29T17:34:26.489Z,19.44.74.69,https://github.com/path/to/resource,Allow,None,709,14156,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T17:35:06.489Z,147.75.178.67,https://facebook.com/path/to/resource,Allow,None,2338,10317,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T17:35:32.489Z,111.77.125.210,https://salesforce.com/path/to/resource,Allow,None,730,2620,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-29T17:36:00.489Z,131.28.124.36,https://facebook.com/path/to/resource,Allow,None,58,6482,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-29T17:39:42.489Z,167.106.210.17,https://salesforce.com/path/to/resource,Block,Policy Violation,3760,4865,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-29T17:40:06.489Z,29.214.53.131,https://github.com/path/to/resource,Allow,None,3372,15027,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-29T17:41:19.489Z,175.24.70.213,https://facebook.com/path/to/resource,Block,Policy Violation,944,15203,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-29T17:42:41.490Z,104.242.168.69,http://update-win32.com/payload.exe,Block,Malware,315,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-29T17:43:01.489Z,186.19.213.128,https://update-win32.com/path/to/resource,Allow,None,1207,8916,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-29T17:43:21.489Z,166.103.193.91,https://unknown-host.xy/path/to/resource,Allow,None,1454,9761,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T17:44:14.489Z,11.29.22.138,https://update-win32.com/path/to/resource,Block,Policy Violation,1231,8965,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-29T17:47:29.489Z,168.216.150.162,https://salesforce.com/path/to/resource,Block,None,2596,17872,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-29T17:51:31.489Z,161.93.88.171,https://github.com/path/to/resource,Allow,None,719,440,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-29T17:52:10.489Z,61.16.66.162,https://salesforce.com/path/to/resource,Allow,None,1025,10641,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T17:54:21.489Z,145.170.4.144,https://update-win32.com/path/to/resource,Block,None,603,8058,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-29T17:55:05.489Z,47.128.182.186,https://github.com/path/to/resource,Allow,Spyware,381,7659,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T17:58:49.490Z,115.106.243.221,http://update-win32.com/payload.exe,Block,Malware,303,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-29T17:59:13.489Z,44.243.118.155,https://unknown-host.xy/path/to/resource,Block,Policy Violation,714,549,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-29T18:02:11.489Z,34.82.132.107,https://update-win32.com/path/to/resource,Block,None,3513,14111,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-29T18:03:32.489Z,176.152.175.67,https://unknown-host.xy/path/to/resource,Block,Policy Violation,2955,15692,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-29T18:04:32.490Z,181.30.234.9,http://update-win32.com/payload.exe,Block,Malware,452,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-29T18:05:57.489Z,56.107.3.98,https://github.com/path/to/resource,Allow,None,67,19768,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-29T18:06:27.489Z,106.175.104.73,https://github.com/path/to/resource,Block,None,3100,15481,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-29T18:07:15.489Z,172.218.58.125,https://github.com/path/to/resource,Block,Policy Violation,760,3668,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-29T18:09:47.489Z,173.156.38.187,https://github.com/path/to/resource,Block,Policy Violation,2994,3707,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T18:10:38.489Z,32.108.148.78,https://github.com/path/to/resource,Block,None,197,12094,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-29T18:11:25.488Z,35.242.203.175,https://unknown-host.xy/path/to/resource,Allow,None,261,19298,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T18:12:24.489Z,75.236.106.208,https://salesforce.com/path/to/resource,Allow,None,729,15592,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-29T18:12:59.489Z,72.253.238.78,https://github.com/path/to/resource,Allow,None,1007,3044,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-29T18:13:15.489Z,105.1.73.74,https://facebook.com/path/to/resource,Allow,None,401,11214,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-29T18:15:09.489Z,25.79.98.163,https://update-win32.com/path/to/resource,Block,Policy Violation,3821,19090,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T18:15:42.489Z,27.88.255.141,https://unknown-host.xy/path/to/resource,Allow,None,3619,3986,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T18:16:18.489Z,42.162.1.166,https://google.com/path/to/resource,Block,Policy Violation,123,8228,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T18:17:05.490Z,98.113.168.207,https://onion.router/hidden,Allow,None,3708,4882,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T18:17:07.489Z,44.131.0.221,https://salesforce.com/path/to/resource,Allow,None,1662,8522,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-29T18:18:27.489Z,158.13.136.186,https://google.com/path/to/resource,Allow,None,2323,3011,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-29T18:18:45.489Z,30.42.243.110,https://google.com/path/to/resource,Allow,None,206,1273,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-29T18:18:46.489Z,63.169.49.8,https://salesforce.com/path/to/resource,Allow,None,3161,15084,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-29T18:19:00.489Z,101.41.34.79,https://salesforce.com/path/to/resource,Block,DLP Violation,1516,10255,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-29T18:21:32.489Z,27.35.19.127,https://unknown-host.xy/path/to/resource,Block,None,765,5972,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-29T18:21:32.489Z,40.223.9.108,https://salesforce.com/path/to/resource,Block,Policy Violation,2287,4519,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T18:21:50.489Z,164.41.200.184,https://unknown-host.xy/path/to/resource,Allow,None,2021,3581,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T18:22:19.489Z,80.129.11.105,https://update-win32.com/path/to/resource,Allow,None,2765,16070,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-29T18:24:39.489Z,133.239.113.18,https://facebook.com/path/to/resource,Allow,None,1454,14226,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-29T18:24:45.490Z,32.95.5.82,https://onion.router/hidden,Allow,None,3914,4562,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T18:25:45.489Z,136.226.236.148,https://unknown-host.xy/path/to/resource,Allow,None,1550,2346,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
+2026-01-29T18:27:10.489Z,117.70.24.88,https://unknown-host.xy/path/to/resource,Block,Policy Violation,3915,10850,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-29T18:27:17.489Z,137.138.189.73,https://github.com/path/to/resource,Block,DLP Violation,3538,10303,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-29T18:27:31.489Z,105.245.100.190,https://unknown-host.xy/path/to/resource,Allow,None,3852,2064,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-29T18:31:02.489Z,148.184.147.252,https://google.com/path/to/resource,Allow,None,3793,12290,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-29T18:31:45.489Z,98.134.65.235,https://unknown-host.xy/path/to/resource,Block,None,1060,8386,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
+2026-01-29T18:31:56.489Z,21.126.255.204,https://salesforce.com/path/to/resource,Allow,None,3683,2680,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T18:32:02.488Z,115.46.143.145,https://update-win32.com/path/to/resource,Block,Policy Violation,459,4907,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-29T18:36:18.489Z,20.115.227.207,https://facebook.com/path/to/resource,Block,None,433,5641,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-29T18:36:58.489Z,144.148.96.35,https://update-win32.com/path/to/resource,Block,Policy Violation,3100,15737,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-29T18:37:10.489Z,140.241.64.233,https://google.com/path/to/resource,Allow,None,3930,1397,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,GitHub
+2026-01-29T18:37:42.489Z,135.160.196.125,https://github.com/path/to/resource,Allow,None,817,13576,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-29T18:38:05.490Z,94.246.80.99,https://google.com/path/to/resource,Block,Policy Violation,2758,9723,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T18:38:50.489Z,69.75.4.121,https://github.com/path/to/resource,Block,Policy Violation,3714,9006,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-29T18:39:30.489Z,62.77.146.194,https://salesforce.com/path/to/resource,Block,Policy Violation,1777,11218,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-29T18:41:39.489Z,127.166.38.59,https://facebook.com/path/to/resource,Block,Policy Violation,2151,2352,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-29T18:43:25.489Z,15.124.26.120,https://github.com/path/to/resource,Allow,None,2763,6716,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-29T18:44:38.489Z,13.247.18.127,https://salesforce.com/path/to/resource,Block,Policy Violation,630,14706,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-29T18:48:13.489Z,83.40.65.189,https://google.com/path/to/resource,Block,None,798,8585,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T18:48:37.489Z,183.121.251.237,https://update-win32.com/path/to/resource,Allow,None,1187,6988,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T18:48:56.489Z,23.69.99.68,https://facebook.com/path/to/resource,Block,None,2102,11374,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-29T18:50:00.489Z,106.114.126.30,https://facebook.com/path/to/resource,Allow,None,3440,16119,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-29T18:52:51.489Z,44.167.9.186,https://update-win32.com/path/to/resource,Block,Policy Violation,3733,5827,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T18:55:48.489Z,143.203.27.39,https://salesforce.com/path/to/resource,Block,DLP Violation,2124,3478,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-29T18:56:12.489Z,118.38.250.93,https://facebook.com/path/to/resource,Allow,None,932,12971,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-29T18:56:39.489Z,24.75.92.2,https://salesforce.com/path/to/resource,Block,DLP Violation,487,7631,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-29T18:57:38.489Z,31.201.3.198,https://google.com/path/to/resource,Block,Policy Violation,680,9347,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T18:58:13.489Z,17.103.83.67,https://facebook.com/path/to/resource,Allow,None,1318,8628,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-29T18:58:53.489Z,127.56.178.245,https://github.com/path/to/resource,Allow,None,296,3017,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-29T19:00:53.489Z,16.8.247.186,https://salesforce.com/path/to/resource,Allow,None,1553,1836,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-29T19:01:06.489Z,164.6.138.84,https://facebook.com/path/to/resource,Allow,None,2637,5086,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-29T19:05:50.489Z,28.17.73.134,https://salesforce.com/path/to/resource,Block,Policy Violation,2083,2782,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T19:06:16.489Z,81.97.215.53,https://facebook.com/path/to/resource,Allow,None,3502,16624,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T19:07:26.489Z,61.234.141.151,https://salesforce.com/path/to/resource,Block,Policy Violation,3083,3894,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T19:08:02.489Z,132.46.102.126,https://google.com/path/to/resource,Block,Policy Violation,1831,9741,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T19:08:33.489Z,166.152.67.196,https://salesforce.com/path/to/resource,Block,Policy Violation,2006,15493,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T19:09:19.490Z,51.128.63.204,https://facebook.com/path/to/resource,Allow,None,2786,10286,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-29T19:10:07.489Z,164.126.204.109,https://update-win32.com/path/to/resource,Allow,None,1561,3537,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-29T19:10:42.489Z,163.75.45.45,https://unknown-host.xy/path/to/resource,Allow,None,975,16132,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-29T19:10:53.489Z,149.152.202.148,https://unknown-host.xy/path/to/resource,Allow,None,1991,10049,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-29T19:13:06.489Z,49.97.125.210,https://google.com/path/to/resource,Allow,None,3880,16459,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-29T19:13:15.489Z,68.234.218.115,https://github.com/path/to/resource,Block,Policy Violation,3702,17633,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T19:14:08.489Z,125.19.132.130,https://google.com/path/to/resource,Allow,None,3279,12727,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T19:14:19.489Z,41.216.111.5,https://google.com/path/to/resource,Block,Policy Violation,1379,19874,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T19:15:13.489Z,174.201.38.149,https://salesforce.com/path/to/resource,Block,Policy Violation,429,6056,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-29T19:17:54.489Z,55.235.14.67,https://facebook.com/path/to/resource,Block,None,1511,9124,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-29T19:18:18.489Z,132.142.226.66,https://update-win32.com/path/to/resource,Allow,None,2022,11035,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-29T19:19:00.489Z,134.223.125.48,https://github.com/path/to/resource,Allow,None,275,6963,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-29T19:19:19.489Z,186.175.164.176,https://salesforce.com/path/to/resource,Block,DLP Violation,1791,8385,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T19:21:39.489Z,27.10.105.202,https://google.com/path/to/resource,Block,Cryptomining,3443,11465,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-29T19:21:49.490Z,79.24.163.154,https://onion.router/hidden,Allow,None,2304,4925,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T19:23:06.489Z,59.183.164.87,https://google.com/path/to/resource,Block,Policy Violation,76,18508,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
+2026-01-29T19:24:09.489Z,83.13.135.79,https://update-win32.com/path/to/resource,Allow,None,2972,11565,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-29T19:24:22.489Z,79.254.0.35,https://update-win32.com/path/to/resource,Block,Policy Violation,2624,10247,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T19:24:38.489Z,138.79.82.141,https://update-win32.com/path/to/resource,Block,Policy Violation,369,18108,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T19:26:01.489Z,33.101.96.57,https://facebook.com/path/to/resource,Allow,None,888,2400,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
+2026-01-29T19:26:04.489Z,119.208.55.14,https://update-win32.com/path/to/resource,Block,None,797,16504,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T19:27:07.489Z,157.197.168.191,https://update-win32.com/path/to/resource,Allow,None,2032,14993,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-29T19:27:38.489Z,65.215.94.74,https://facebook.com/path/to/resource,Allow,None,2683,15939,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-29T19:29:37.490Z,170.73.245.71,https://onion.router/hidden,Allow,None,4047,2088,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T19:29:55.489Z,40.47.20.187,https://facebook.com/path/to/resource,Allow,None,3124,7869,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T19:30:29.489Z,66.194.184.185,https://google.com/path/to/resource,Block,None,3150,8201,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-29T19:35:26.489Z,152.190.183.161,https://github.com/path/to/resource,Allow,None,2559,12507,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-29T19:38:27.489Z,22.31.69.106,https://google.com/path/to/resource,Block,Policy Violation,2261,10646,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T19:40:22.489Z,168.233.211.3,https://unknown-host.xy/path/to/resource,Allow,None,2729,12232,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T19:40:54.489Z,171.90.200.180,https://update-win32.com/path/to/resource,Block,Policy Violation,535,17650,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-29T19:43:52.490Z,60.7.153.219,https://github.com/path/to/resource,Block,Malware,2712,13567,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-29T19:43:58.489Z,163.141.195.211,https://salesforce.com/path/to/resource,Block,DLP Violation,2521,1990,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-29T19:46:28.489Z,81.95.81.43,https://unknown-host.xy/path/to/resource,Allow,None,1785,5732,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-29T19:46:51.490Z,160.110.72.137,https://update-win32.com/path/to/resource,Block,Policy Violation,3240,17826,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-29T19:47:37.489Z,58.230.197.147,https://facebook.com/path/to/resource,Block,DLP Violation,2017,3752,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T19:48:37.489Z,81.14.63.98,https://salesforce.com/path/to/resource,Block,None,2180,6897,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-29T19:51:14.489Z,49.136.1.15,https://github.com/path/to/resource,Allow,None,659,7802,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T19:54:29.489Z,36.88.172.89,https://github.com/path/to/resource,Allow,None,2905,6949,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T19:59:29.489Z,176.171.158.85,https://unknown-host.xy/path/to/resource,Allow,None,181,6023,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-29T20:00:42.488Z,23.99.6.44,https://google.com/path/to/resource,Allow,None,3448,17747,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-29T20:01:15.489Z,161.31.47.30,https://update-win32.com/path/to/resource,Allow,None,2883,827,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-29T20:01:26.489Z,26.78.45.172,https://facebook.com/path/to/resource,Block,Policy Violation,294,10450,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T20:01:30.490Z,189.181.146.152,https://google.com/path/to/resource,Allow,None,3405,15963,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-29T20:02:03.489Z,153.83.117.55,https://unknown-host.xy/path/to/resource,Block,Policy Violation,1474,16319,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-29T20:03:29.489Z,27.229.236.111,https://salesforce.com/path/to/resource,Allow,None,584,17135,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-29T20:05:31.489Z,148.119.78.232,https://unknown-host.xy/path/to/resource,Block,Policy Violation,1805,12094,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-29T20:06:00.489Z,111.211.44.4,https://github.com/path/to/resource,Allow,None,1721,13104,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T20:07:14.489Z,185.116.255.208,https://salesforce.com/path/to/resource,Block,Policy Violation,3905,19586,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
+2026-01-29T20:08:11.489Z,91.70.159.250,https://salesforce.com/path/to/resource,Allow,None,319,262,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T20:09:41.489Z,146.222.2.78,https://facebook.com/path/to/resource,Allow,None,1442,13674,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,General Browsing
+2026-01-29T20:10:45.489Z,149.231.28.11,https://unknown-host.xy/path/to/resource,Block,Policy Violation,3448,2876,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-29T20:11:03.489Z,42.55.37.134,https://salesforce.com/path/to/resource,Block,None,3008,16138,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-29T20:16:14.490Z,36.177.182.252,https://github.com/path/to/resource,Block,Policy Violation,2929,19337,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Zoom
+2026-01-29T20:17:14.489Z,82.59.15.125,https://unknown-host.xy/path/to/resource,Allow,None,1778,14147,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Google Drive
+2026-01-29T20:19:44.489Z,133.221.32.234,https://facebook.com/path/to/resource,Allow,None,139,18263,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-29T20:20:15.489Z,76.161.169.249,https://google.com/path/to/resource,Allow,None,272,18198,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-29T20:22:33.488Z,182.125.185.134,https://github.com/path/to/resource,Block,Policy Violation,2023,8009,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T20:22:41.489Z,90.111.187.249,https://facebook.com/path/to/resource,Allow,None,1086,4099,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-29T20:23:11.490Z,37.149.114.51,https://unknown-host.xy/path/to/resource,Block,None,2821,297,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-29T20:33:19.489Z,143.151.230.80,https://facebook.com/path/to/resource,Block,None,3119,2982,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-29T20:35:07.489Z,182.28.69.202,https://google.com/path/to/resource,Block,Policy Violation,1489,18028,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-29T20:35:15.489Z,100.196.151.22,https://update-win32.com/path/to/resource,Block,None,2589,19179,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Salesforce
+2026-01-29T20:35:45.489Z,118.212.44.54,https://google.com/path/to/resource,Allow,None,3242,5557,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-29T20:38:50.489Z,35.254.37.77,https://github.com/path/to/resource,Block,Policy Violation,610,14029,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-29T20:38:52.489Z,155.69.39.76,https://update-win32.com/path/to/resource,Allow,None,2330,10598,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-29T20:40:34.489Z,92.144.197.215,https://google.com/path/to/resource,Block,Policy Violation,1443,10902,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T20:42:07.489Z,41.153.83.115,https://github.com/path/to/resource,Block,Policy Violation,3292,18295,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
+2026-01-29T20:42:50.490Z,26.216.22.3,https://unknown-host.xy/path/to/resource,Allow,None,1608,12285,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T20:43:07.489Z,190.200.5.249,https://unknown-host.xy/path/to/resource,Block,None,2418,6308,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Salesforce
+2026-01-29T20:44:01.490Z,56.36.68.199,https://unknown-host.xy/path/to/resource,Allow,None,1869,10846,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T20:45:39.489Z,105.207.70.185,https://update-win32.com/path/to/resource,Block,Policy Violation,557,18785,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Dropbox
+2026-01-29T20:46:41.489Z,53.198.240.208,https://salesforce.com/path/to/resource,Block,None,2732,8866,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-29T20:47:53.489Z,90.245.56.36,https://facebook.com/path/to/resource,Block,Policy Violation,3132,701,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-29T20:48:53.489Z,61.114.211.233,https://github.com/path/to/resource,Block,None,1712,11640,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-29T20:51:58.489Z,39.101.152.202,https://unknown-host.xy/path/to/resource,Allow,None,2619,19165,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T20:52:53.489Z,20.73.152.84,https://unknown-host.xy/path/to/resource,Block,Policy Violation,567,1831,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T20:52:56.489Z,64.116.151.128,https://update-win32.com/path/to/resource,Block,Policy Violation,1571,17073,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-29T20:55:22.490Z,24.154.229.126,https://onion.router/hidden,Allow,None,3057,3839,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T20:55:58.488Z,70.229.189.91,https://github.com/path/to/resource,Allow,None,1523,8608,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-29T20:59:50.489Z,180.142.218.121,https://facebook.com/path/to/resource,Block,None,631,6039,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Salesforce
+2026-01-29T21:00:44.489Z,66.68.21.168,https://facebook.com/path/to/resource,Block,Policy Violation,2885,9302,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T21:01:42.489Z,140.73.252.185,https://google.com/path/to/resource,Block,Botnet,3523,15149,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-29T21:01:49.488Z,134.69.21.142,https://unknown-host.xy/path/to/resource,Allow,None,1350,6014,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-29T21:04:02.490Z,116.230.43.132,http://update-win32.com/payload.exe,Block,Malware,143,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-29T21:05:08.489Z,74.112.189.106,https://update-win32.com/path/to/resource,Allow,None,514,16648,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-29T21:05:11.490Z,140.193.192.126,https://github.com/path/to/resource,Allow,None,2171,2878,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-29T21:05:56.489Z,189.66.241.106,https://github.com/path/to/resource,Block,DLP Violation,731,428,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-29T21:08:59.489Z,82.170.182.20,https://facebook.com/path/to/resource,Allow,None,2045,16477,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T21:09:27.489Z,121.35.150.249,https://google.com/path/to/resource,Allow,None,759,1321,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Slack
+2026-01-29T21:09:54.489Z,85.181.26.236,https://github.com/path/to/resource,Allow,None,1796,17590,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-29T21:12:51.490Z,145.86.160.146,https://onion.router/hidden,Allow,None,4912,3573,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T21:13:22.489Z,89.251.201.100,https://google.com/path/to/resource,Allow,None,3785,5122,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Zoom
+2026-01-29T21:13:23.489Z,53.202.208.160,https://google.com/path/to/resource,Allow,None,2029,13277,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-29T21:13:50.490Z,80.30.102.20,https://onion.router/hidden,Allow,None,3445,3429,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T21:15:14.489Z,98.184.230.124,https://update-win32.com/path/to/resource,Block,Ransomware,540,19063,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-29T21:18:12.489Z,168.162.35.58,https://unknown-host.xy/path/to/resource,Allow,None,1879,5529,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Zoom
+2026-01-29T21:22:05.490Z,59.56.14.15,https://onion.router/hidden,Allow,None,2983,2814,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T21:22:15.489Z,140.209.144.118,https://update-win32.com/path/to/resource,Block,DLP Violation,2985,16047,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T21:22:57.489Z,79.53.159.5,https://google.com/path/to/resource,Block,None,2971,11756,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-29T21:26:19.489Z,182.57.48.200,https://google.com/path/to/resource,Allow,None,2628,4192,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-29T21:27:44.489Z,183.69.125.227,https://unknown-host.xy/path/to/resource,Block,Policy Violation,2217,18854,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-29T21:29:00.490Z,128.246.103.11,https://onion.router/hidden,Allow,None,4261,3521,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T21:29:54.489Z,36.181.216.8,https://github.com/path/to/resource,Allow,None,2266,19446,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T21:31:44.489Z,150.140.102.156,https://salesforce.com/path/to/resource,Allow,None,502,10711,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-29T21:34:01.489Z,19.66.213.105,https://facebook.com/path/to/resource,Block,None,2653,9208,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-29T21:36:02.489Z,125.237.229.54,https://update-win32.com/path/to/resource,Block,Policy Violation,1640,6625,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-29T21:36:19.489Z,61.169.99.193,https://unknown-host.xy/path/to/resource,Allow,None,1021,824,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-29T21:36:20.489Z,178.109.114.183,https://facebook.com/path/to/resource,Block,Policy Violation,3170,4169,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T21:38:08.489Z,140.83.214.109,https://google.com/path/to/resource,Allow,None,2440,5561,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T21:39:19.489Z,18.80.218.65,https://facebook.com/path/to/resource,Block,Policy Violation,3171,5434,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-29T21:39:21.490Z,16.6.182.21,https://facebook.com/path/to/resource,Allow,None,1523,19172,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Google Drive
+2026-01-29T21:40:37.489Z,132.86.81.67,https://github.com/path/to/resource,Block,None,294,10977,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Salesforce
+2026-01-29T21:43:57.489Z,57.174.171.220,https://facebook.com/path/to/resource,Allow,None,3367,16850,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-29T21:44:41.489Z,32.42.60.78,https://update-win32.com/path/to/resource,Allow,None,3299,3279,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T21:44:49.488Z,37.116.213.52,https://google.com/path/to/resource,Block,Policy Violation,3604,19295,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T21:45:00.489Z,146.139.227.32,https://unknown-host.xy/path/to/resource,Allow,None,3507,1952,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-29T21:48:24.489Z,179.84.232.236,https://facebook.com/path/to/resource,Block,Policy Violation,3368,7100,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-29T21:49:33.489Z,140.0.15.146,https://github.com/path/to/resource,Block,Policy Violation,1849,13610,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T21:50:16.489Z,78.71.252.102,https://update-win32.com/path/to/resource,Allow,None,820,8576,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-29T21:51:29.489Z,166.65.36.250,https://salesforce.com/path/to/resource,Allow,None,2974,18123,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-29T21:52:04.489Z,152.193.139.195,https://facebook.com/path/to/resource,Allow,None,2084,1045,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T21:53:38.490Z,187.20.77.252,https://onion.router/hidden,Allow,None,4868,4756,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T21:54:15.489Z,14.30.50.192,https://facebook.com/path/to/resource,Block,Policy Violation,2376,12815,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-29T21:56:03.489Z,134.5.116.233,https://github.com/path/to/resource,Allow,None,3741,19374,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Zoom
+2026-01-29T21:56:30.490Z,127.12.239.149,https://facebook.com/path/to/resource,Allow,None,3819,7409,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-29T22:02:40.489Z,52.38.174.163,https://google.com/path/to/resource,Allow,None,3552,6941,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-29T22:03:25.489Z,151.188.178.39,https://facebook.com/path/to/resource,Block,Policy Violation,346,8276,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-29T22:03:45.489Z,94.185.218.72,https://google.com/path/to/resource,Allow,None,1926,14657,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T22:05:26.490Z,74.23.249.59,https://onion.router/hidden,Allow,None,3387,2106,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T22:07:38.489Z,127.185.239.157,https://update-win32.com/path/to/resource,Allow,None,651,17710,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T22:08:49.489Z,186.38.242.102,https://facebook.com/path/to/resource,Block,Spyware,807,17652,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,General Browsing
+2026-01-29T22:13:38.489Z,186.26.211.81,https://salesforce.com/path/to/resource,Allow,None,1319,16266,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-29T22:18:45.489Z,80.104.161.233,https://update-win32.com/path/to/resource,Allow,None,3471,2405,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-29T22:19:13.489Z,159.42.103.13,https://salesforce.com/path/to/resource,Block,Policy Violation,3456,4462,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-29T22:19:23.489Z,22.203.65.73,https://facebook.com/path/to/resource,Allow,None,1586,17067,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-29T22:19:40.489Z,168.103.39.233,https://github.com/path/to/resource,Block,Policy Violation,3334,17907,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T22:21:48.490Z,148.6.145.136,http://update-win32.com/payload.exe,Block,Malware,271,0,"Mozilla/5.0 (Windows NT 10.0)",intern_01@tenex.com,General Browsing
+2026-01-29T22:26:40.489Z,61.76.172.175,https://github.com/path/to/resource,Block,None,1608,17201,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T22:27:26.490Z,17.170.4.228,https://onion.router/hidden,Allow,None,2033,4089,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T22:31:17.489Z,79.144.35.72,https://google.com/path/to/resource,Block,Policy Violation,2898,17980,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,General Browsing
+2026-01-29T22:34:01.489Z,62.34.138.39,https://salesforce.com/path/to/resource,Block,Policy Violation,3875,2676,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-29T22:36:18.490Z,105.22.42.192,https://github.com/path/to/resource,Block,Policy Violation,3556,14333,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Slack
+2026-01-29T22:37:40.490Z,71.177.149.220,https://unknown-host.xy/path/to/resource,Allow,None,154,16529,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-29T22:37:43.489Z,91.192.79.37,https://unknown-host.xy/path/to/resource,Allow,None,718,8799,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Salesforce
+2026-01-29T22:39:39.489Z,76.109.103.153,https://unknown-host.xy/path/to/resource,Block,None,2075,17187,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-29T22:40:42.489Z,160.231.167.63,https://unknown-host.xy/path/to/resource,Allow,None,614,7814,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T22:41:26.490Z,36.221.4.114,https://onion.router/hidden,Allow,None,3332,3443,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T22:41:31.489Z,71.35.118.205,https://github.com/path/to/resource,Block,Policy Violation,3412,6532,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T22:44:45.489Z,135.161.85.41,https://google.com/path/to/resource,Block,Cryptomining,3697,3746,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,General Browsing
+2026-01-29T22:45:16.489Z,27.81.120.63,https://unknown-host.xy/path/to/resource,Allow,None,220,13760,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-29T22:46:39.489Z,58.57.254.158,https://update-win32.com/path/to/resource,Block,DLP Violation,1235,13851,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-29T22:48:34.489Z,30.232.240.43,https://google.com/path/to/resource,Allow,None,3080,3473,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Zoom
+2026-01-29T22:49:28.489Z,39.177.244.24,https://salesforce.com/path/to/resource,Allow,None,3843,7158,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-29T22:51:24.489Z,127.169.255.61,https://unknown-host.xy/path/to/resource,Allow,None,2636,15828,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T22:52:00.489Z,132.16.12.101,https://salesforce.com/path/to/resource,Allow,None,2772,11590,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T22:58:39.489Z,191.99.46.251,https://salesforce.com/path/to/resource,Block,Policy Violation,3995,17344,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T23:00:39.489Z,180.118.131.19,https://salesforce.com/path/to/resource,Allow,None,2506,3739,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Dropbox
+2026-01-29T23:03:25.489Z,10.184.216.80,https://salesforce.com/path/to/resource,Block,None,2831,18629,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-29T23:04:01.489Z,128.217.217.120,https://salesforce.com/path/to/resource,Block,None,2645,17076,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-29T23:06:53.490Z,115.175.201.150,https://onion.router/hidden,Allow,None,4920,2217,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T23:07:07.490Z,187.6.201.41,https://google.com/path/to/resource,Block,None,2252,19823,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-29T23:10:13.489Z,17.20.192.82,https://update-win32.com/path/to/resource,Allow,None,2973,14266,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,GitHub
+2026-01-29T23:10:33.489Z,19.117.37.180,https://facebook.com/path/to/resource,Allow,None,2067,13819,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,GitHub
+2026-01-29T23:11:34.490Z,100.155.140.243,https://onion.router/hidden,Allow,None,4856,2229,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-29T23:12:59.489Z,169.120.47.156,https://update-win32.com/path/to/resource,Allow,None,904,2386,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-29T23:15:43.489Z,119.130.108.134,https://unknown-host.xy/path/to/resource,Block,DLP Violation,813,3744,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Google Drive
+2026-01-29T23:16:49.488Z,77.171.188.42,https://facebook.com/path/to/resource,Allow,None,802,19974,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Google Drive
+2026-01-29T23:17:21.489Z,191.73.199.38,https://facebook.com/path/to/resource,Block,None,901,11836,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Salesforce
+2026-01-29T23:17:37.490Z,112.228.104.88,https://google.com/path/to/resource,Block,None,2531,19542,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,GitHub
+2026-01-29T23:17:43.489Z,29.194.4.188,https://unknown-host.xy/path/to/resource,Allow,None,1775,7477,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-29T23:18:50.490Z,176.52.93.26,https://salesforce.com/path/to/resource,Block,Policy Violation,2298,1814,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,General Browsing
+2026-01-29T23:20:57.489Z,41.0.69.183,https://update-win32.com/path/to/resource,Allow,None,2623,15787,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Zoom
+2026-01-29T23:23:54.489Z,71.171.170.145,https://update-win32.com/path/to/resource,Block,Policy Violation,3893,4025,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-29T23:24:35.490Z,89.65.127.11,https://unknown-host.xy/path/to/resource,Allow,None,2291,17901,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Google Drive
+2026-01-29T23:27:34.489Z,67.139.93.90,https://github.com/path/to/resource,Allow,None,2373,6311,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,Slack
+2026-01-29T23:28:36.489Z,19.10.216.109,https://google.com/path/to/resource,Allow,None,1931,14868,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Dropbox
+2026-01-29T23:29:00.489Z,124.126.115.130,https://github.com/path/to/resource,Allow,None,2281,1537,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,General Browsing
+2026-01-29T23:30:27.489Z,159.182.177.156,https://salesforce.com/path/to/resource,Allow,None,2288,16463,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,GitHub
+2026-01-29T23:30:33.489Z,56.250.145.18,https://unknown-host.xy/path/to/resource,Block,Policy Violation,2653,10226,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T23:32:03.489Z,21.20.218.219,https://google.com/path/to/resource,Allow,None,1175,12945,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
+2026-01-29T23:32:55.489Z,69.65.23.137,https://github.com/path/to/resource,Block,None,2439,2353,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",intern_01@tenex.com,GitHub
+2026-01-29T23:38:20.489Z,92.141.42.249,https://github.com/path/to/resource,Block,Policy Violation,3158,19112,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,General Browsing
+2026-01-29T23:38:41.489Z,94.198.133.130,https://facebook.com/path/to/resource,Allow,None,1256,7842,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-29T23:39:07.489Z,78.54.104.175,https://salesforce.com/path/to/resource,Block,DLP Violation,3155,1833,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Dropbox
+2026-01-29T23:42:50.490Z,53.13.249.208,https://update-win32.com/path/to/resource,Block,DLP Violation,177,16868,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Dropbox
+2026-01-29T23:43:15.489Z,83.62.41.115,https://salesforce.com/path/to/resource,Block,Policy Violation,2561,8512,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Google Drive
+2026-01-29T23:44:48.489Z,24.141.39.10,https://facebook.com/path/to/resource,Allow,None,1714,7530,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",a.smith@tenex.com,Slack
+2026-01-29T23:44:59.489Z,61.219.131.235,https://github.com/path/to/resource,Allow,None,1526,1877,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Salesforce
+2026-01-29T23:45:16.489Z,175.186.148.146,https://unknown-host.xy/path/to/resource,Block,Policy Violation,341,18357,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Slack
+2026-01-29T23:45:48.489Z,79.39.169.66,https://unknown-host.xy/path/to/resource,Block,Policy Violation,3408,19851,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-29T23:48:16.489Z,115.83.144.83,https://google.com/path/to/resource,Block,None,1207,14531,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,GitHub
+2026-01-29T23:48:59.490Z,156.196.52.17,https://salesforce.com/path/to/resource,Allow,None,1593,10179,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Dropbox
+2026-01-29T23:50:04.489Z,186.28.231.64,https://google.com/path/to/resource,Block,Policy Violation,2965,13326,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",m.chen@tenex.com,Slack
+2026-01-29T23:50:27.489Z,89.181.130.216,https://facebook.com/path/to/resource,Allow,None,1822,12426,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",sysadmin@tenex.com,Zoom
+2026-01-29T23:54:19.489Z,97.156.138.33,https://google.com/path/to/resource,Block,Policy Violation,2320,10059,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",finance_lead@tenex.com,Slack
+2026-01-29T23:54:20.489Z,168.184.178.162,https://google.com/path/to/resource,Block,DLP Violation,1893,12620,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",j.doe@tenex.com,Google Drive
+2026-01-29T23:58:19.489Z,191.51.175.116,https://salesforce.com/path/to/resource,Allow,None,2182,6859,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",k.patel@tenex.com,Dropbox
+2026-01-29T23:58:31.490Z,141.30.166.212,https://onion.router/hidden,Allow,None,3881,3112,"Mozilla/5.0 (rv:109.0) Gecko/20100101 Firefox/109.0",m.chen@tenex.com,Tor Browser
+2026-01-30T01:39:20.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,48107384,138,"curl/7.88.1",finance_lead@tenex.com,Dropbox
+2026-01-30T04:47:28.490Z,10.0.0.55,http://unknown-host.xy/upload,Allow,None,21256592,367,"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0)",finance_lead@tenex.com,Dropbox
