@@ -7,7 +7,9 @@ import { LogUploader } from "@/components/log-uploader"
 import { LogEntry } from "@/types/log-entry"
 import { DataTable } from "@/components/data-table"
 import { AnalysisResult } from "@/types/analysis-result"
-import { Sparkles, Loader2, X } from "lucide-react"
+import { Sparkles, X } from "lucide-react"
+import { logout } from '@/lib/auth'
+import { processBlockedLogs, streamAnalysis } from '@/lib/analysis'
 
 export default function Home() {
   const router = useRouter()
@@ -18,7 +20,7 @@ export default function Home() {
   const abortControllerRef = useRef<AbortController | null>(null)
 
   const handleLogout = () => {
-    document.cookie = "auth=; path=/; max-age=0"
+    logout()
     router.push('/login')
     router.refresh()
   }
@@ -27,128 +29,53 @@ export default function Home() {
     if (abortControllerRef.current) {
         abortControllerRef.current.abort()
         abortControllerRef.current = null
-        setIsAnalyzing(false)
-        setAnalyzingIds(new Set()) // Clear loading indicators
     }
+    setIsAnalyzing(false)
+    setAnalyzingIds(new Set())
+  }
+
+  const handleReset = () => {
+    handleStopAnalysis()
+    setLogs([])
+    setAnalysisResults({})
   }
 
   const handleAnalyze = async () => {
-    // 1. Sort by Timestamp Descending (Newest first)
     const sortedLogs = [...logs].sort((a, b) => new Date(b.Timestamp).getTime() - new Date(a.Timestamp).getTime())
     const logsToProcess = sortedLogs.slice(0, 200)
     
-    // 2. Optimization: Pre-filter Blocked logs as "Mitigated"
-    // We don't need to pay OpenAI to tell us a Blocked log is safe.
-    const blockedLogs = logsToProcess.filter(l => l.Action === 'Block')
-    const allowedLogs = logsToProcess.filter(l => l.Action === 'Allow')
-
-    // 3. Instant updates for Blocked logs
-    const blockedResults: Record<string, AnalysisResult> = {}
-    blockedLogs.forEach(log => {
-        blockedResults[log.id] = {
-            id: log.id,
-            confidence: 0,
-            reason: `Threat mitigated by perimeter controls (${log.ThreatCategory !== 'None' ? log.ThreatCategory : 'Policy'}). Action was blocked.`
-        }
-    })
-    
+    // 1. Instant updates for Blocked logs
+    const blockedResults = processBlockedLogs(logsToProcess)
     setAnalysisResults(prev => ({ ...prev, ...blockedResults }))
 
-    // 4. Send ONLY Allowed logs to AI
+    // 2. Identify allowed logs for AI analysis
+    const allowedLogs = logsToProcess.filter(l => l.Action === 'Allow')
     if (allowedLogs.length === 0) return
 
-    // Mark ONLY allowed IDs as 'scanning'
-    const idsToAnalyze = new Set(allowedLogs.map(l => l.id))
-    setAnalyzingIds(idsToAnalyze)
+    setAnalyzingIds(new Set(allowedLogs.map(l => l.id)))
     setIsAnalyzing(true)
-    
-    // Setup AbortController
     abortControllerRef.current = new AbortController()
 
     try {
-      const response = await fetch('/api/analyze', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ logs: allowedLogs }),
-        signal: abortControllerRef.current.signal
-      })
-      
-      if (!response.ok || !response.body) throw new Error('Analysis failed')
-      
-      const reader = response.body.getReader()
-      const decoder = new TextDecoder()
-      let buffer = ''
-
-      while (true) {
-        const { done, value } = await reader.read()
-        if (done) break
-
-        buffer += decoder.decode(value, { stream: true })
-        const lines = buffer.split('\n')
-        
-        buffer = lines.pop() || ''
-
-        for (const line of lines) {
-          const trimmedLine = line.trim()
-          if (!trimmedLine || trimmedLine.startsWith('```') || trimmedLine === 'ndjson') continue
-          
-          try {
-            // console.log("Received Line:", trimmedLine); // Debug
-            const data = JSON.parse(trimmedLine)
-            
-            // Handle Metadata
-            if (data.type === 'meta') {
-                // console.log("Meta:", data); // Debug
-                const actualCount = data.count
-                if (actualCount < allowedLogs.length) {
-                    // Truncate the scanning indicators to match what the server is actually doing
-                    const actualIds = new Set(allowedLogs.slice(0, actualCount).map(l => l.id))
-                    setAnalyzingIds(actualIds)
-                }
-                continue
-            }
-
-            const result: AnalysisResult = data
-            
-            setAnalysisResults(prev => ({
-              ...prev,
-              [result.id]: result
-            }))
-
-            setAnalyzingIds(prev => {
-                const next = new Set(prev)
-                next.delete(result.id)
-                return next
-            })
-          } catch (e) {
-            console.warn('Failed to parse NDJSON line:', line, e)
+      await streamAnalysis(allowedLogs, {
+        signal: abortControllerRef.current.signal,
+        onMeta: (data) => {
+          if (data.count < allowedLogs.length) {
+            setAnalyzingIds(new Set(allowedLogs.slice(0, data.count).map(l => l.id)))
           }
+        },
+        onResult: (result) => {
+          setAnalysisResults(prev => ({ ...prev, [result.id]: result }))
+          setAnalyzingIds(prev => {
+            const next = new Set(prev)
+            next.delete(result.id)
+            return next
+          })
         }
-      }
-      
-      // Process any remaining buffer content after stream ends
-      if (buffer.trim()) {
-         try {
-            const data = JSON.parse(buffer)
-            if (data.type !== 'meta') {
-                const result: AnalysisResult = data
-                setAnalysisResults(prev => ({ ...prev, [result.id]: result }))
-                setAnalyzingIds(prev => {
-                    const next = new Set(prev)
-                    next.delete(result.id)
-                    return next
-                })
-            }
-         } catch (e) {
-            console.warn('Failed to parse final NDJSON line:', buffer, e)
-         }
-      }
-
-    } catch (error: any) {
-      if (error.name === 'AbortError') {
-          console.log('Analysis stopped by user')
-      } else {
-          console.error(error)
+      })
+    } catch (error: unknown) {
+      if (error instanceof Error && error.name !== 'AbortError') {
+        console.error('Analysis failed:', error)
       }
     } finally {
       setIsAnalyzing(false)
@@ -210,7 +137,7 @@ export default function Home() {
                     </Button>
                  )}
 
-                 <Button variant="outline" onClick={() => { setLogs([]); setAnalysisResults({}); }} className="border-slate-700 hover:bg-slate-800">
+                 <Button variant="outline" onClick={handleReset} className="border-slate-700 hover:bg-slate-800">
                    Upload New File
                  </Button>
                </div>

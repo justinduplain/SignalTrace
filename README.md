@@ -74,6 +74,7 @@ If **NO API Key** is provided, the app automatically switches to **Mock Mode**.
 *   **Behavior:** Simulates a streaming AI response using a robust heuristic engine.
 *   **Capacity:** Analyzes up to 200 rows.
 *   **Logic:** It replicates the prompt's logic (Flagging Tor, High Bytes, etc.) deterministically for demonstration purposes.
+*   **Controls:** You can stop the analysis at any time or reset the data to upload a new file; the app handles stream cancellation gracefully.
 *   **No Cost:** Perfect for local dev and testing UI interactions.
 
 ## Tech Stack

@@ -71,6 +71,7 @@
 * **Chart:** Recharts Bar Chart showing "Events per Hour" or "Blocked vs. Allowed".
 * **Manager Touch:** Summary cards at the top ("3 Critical Anomalies Detected").
 * **Bonus:** Cross-filtering (Clicking a bar filters the table).
+* **Bonus:** Add AI-suggested remediation measures for anomolies (via a user clicking "Suggest Remediation" within the anomoly detail dialog. Analysis will show as processing, then a "Suggested Remediaton" text section will show below the Anomoly information.)
 
 ### Phase 6: Polish & Deployment (Hour 6)
 * **Goal:** Ship it.

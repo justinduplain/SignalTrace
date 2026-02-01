@@ -12,7 +12,7 @@ import {
 import { useVirtualizer } from '@tanstack/react-virtual'
 import { LogEntry } from '@/types/log-entry'
 import { AnalysisResult } from '@/types/analysis-result'
-import { ArrowUpDown, ShieldAlert, ShieldCheck, X, AlertTriangle } from 'lucide-react'
+import { ArrowUpDown, ShieldCheck, X, AlertTriangle } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 

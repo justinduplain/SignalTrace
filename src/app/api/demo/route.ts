@@ -24,9 +24,9 @@ export async function GET() {
         });
     
         const validEntries = result.data
-            .filter((entry: any) => isLogEntry(entry))
-            .map((entry: any) => ({
-                ...entry,
+            .filter((entry: unknown) => isLogEntry(entry))
+            .map((entry: unknown) => ({
+                ...(entry as object),
                 id: crypto.randomUUID()
             }));
     

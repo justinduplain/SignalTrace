@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import Papa from 'papaparse';
-import { LogEntry, isLogEntry, parseBytes } from '@/types/log-entry';
+import { LogEntry, isLogEntry } from '@/types/log-entry';
 
 export async function POST(req: NextRequest) {
   try {
@@ -27,9 +27,9 @@ export async function POST(req: NextRequest) {
     }
 
     const validEntries: LogEntry[] = [];
-    const invalidEntries: any[] = [];
+    const invalidEntries: unknown[] = [];
 
-    result.data.forEach((entry: any, index: number) => {
+    result.data.forEach((entry: unknown, index: number) => {
        if (isLogEntry(entry)) {
          const fullEntry: LogEntry = {
             ...entry,
@@ -49,6 +49,7 @@ export async function POST(req: NextRequest) {
     });
 
   } catch (error) {
+    console.error('File upload failed:', error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
 }

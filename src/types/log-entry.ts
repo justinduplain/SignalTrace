@@ -12,20 +12,21 @@ export interface LogEntry {
   AppName: string;
 }
 
-export function isLogEntry(entry: any): entry is Omit<LogEntry, 'id'> {
+export function isLogEntry(entry: unknown): entry is Omit<LogEntry, 'id'> {
+  const e = entry as Record<string, unknown>; 
   return (
-    typeof entry === 'object' &&
-    entry !== null &&
-    typeof entry.Timestamp === 'string' &&
-    typeof entry.SourceIP === 'string' &&
-    typeof entry.DestURL === 'string' &&
-    (entry.Action === 'Allow' || entry.Action === 'Block') &&
-    typeof entry.ThreatCategory === 'string' &&
-    (typeof entry.BytesSent === 'number' || (typeof entry.BytesSent === 'string' && !isNaN(Number(entry.BytesSent)))) &&
-    (typeof entry.BytesReceived === 'number' || (typeof entry.BytesReceived === 'string' && !isNaN(Number(entry.BytesReceived)))) &&
-    typeof entry.UserAgent === 'string' &&
-    typeof entry.SourceUser === 'string' &&
-    typeof entry.AppName === 'string'
+    typeof e === 'object' &&
+    e !== null &&
+    typeof e.Timestamp === 'string' &&
+    typeof e.SourceIP === 'string' &&
+    typeof e.DestURL === 'string' &&
+    (e.Action === 'Allow' || e.Action === 'Block') &&
+    typeof e.ThreatCategory === 'string' &&
+    (typeof e.BytesSent === 'number' || (typeof e.BytesSent === 'string' && !isNaN(Number(e.BytesSent)))) &&
+    (typeof e.BytesReceived === 'number' || (typeof e.BytesReceived === 'string' && !isNaN(Number(e.BytesReceived)))) &&
+    typeof e.UserAgent === 'string' &&
+    typeof e.SourceUser === 'string' &&
+    typeof e.AppName === 'string'
   );
 }
 
