@@ -83,3 +83,18 @@ export async function streamAnalysis(
     }
   }
 }
+
+/**
+ * Fetches AI-suggested remediation for a specific log and reason.
+ */
+export async function getRemediation(log: LogEntry, reason: string): Promise<string> {
+  const response = await fetch('/api/remediate', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ log, reason }),
+  })
+
+  if (!response.ok) throw new Error('Remediation fetch failed')
+  const data = await response.json()
+  return data.remediation
+}

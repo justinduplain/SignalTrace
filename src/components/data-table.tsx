@@ -12,14 +12,35 @@ import {
 import { useVirtualizer } from '@tanstack/react-virtual'
 import { LogEntry } from '@/types/log-entry'
 import { AnalysisResult } from '@/types/analysis-result'
-import { ArrowUpDown, ShieldCheck, X, AlertTriangle } from 'lucide-react'
+import { ArrowUpDown, ShieldCheck, X, AlertTriangle, Loader2, Sparkles } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 
-export function DataTable({ data, analysisResults, analyzingIds }: { data: LogEntry[], analysisResults?: Record<string, AnalysisResult>, analyzingIds?: Set<string> }) {
+export function DataTable({ 
+    data, 
+    analysisResults, 
+    analyzingIds,
+    onRemediate
+}: { 
+    data: LogEntry[], 
+    analysisResults?: Record<string, AnalysisResult>, 
+    analyzingIds?: Set<string>,
+    onRemediate?: (log: LogEntry) => Promise<void>
+}) {
   const [sorting, setSorting] = React.useState<SortingState>([{ id: 'Timestamp', desc: true }])
   const [selectedRow, setSelectedRow] = React.useState<LogEntry | null>(null)
+  const [isRemediating, setIsRemediating] = React.useState(false)
   
+  const handleRemediateClick = async (log: LogEntry) => {
+    if (!onRemediate) return
+    setIsRemediating(true)
+    try {
+        await onRemediate(log)
+    } finally {
+        setIsRemediating(false)
+    }
+  }
+
   const columns = React.useMemo<ColumnDef<LogEntry>[]>(() => [
     {
       id: 'ai_insight',
@@ -394,6 +415,40 @@ export function DataTable({ data, analysisResults, analyzingIds }: { data: LogEn
                                                 style={{ width: `${analysisResults[selectedRow.id].confidence}%` }}
                                             />
                                         </div>
+                                    </div>
+
+                                    {/* Remediation Section */}
+                                    <div className="pt-4 border-t border-red-900/20">
+                                        {analysisResults[selectedRow.id].remediation ? (
+                                            <div className="space-y-2 animate-in fade-in slide-in-from-top-2 duration-300">
+                                                <div className="text-xs text-red-400 font-bold uppercase tracking-wider text-center">Suggested Remediation</div>
+                                                <p className="text-slate-200 text-sm bg-slate-950/50 p-4 rounded border border-red-900/30 leading-relaxed italic">
+                                                    &quot;{analysisResults[selectedRow.id].remediation}&quot;
+                                                </p>
+                                            </div>
+                                        ) : (
+                                            <div className="flex justify-center">
+                                                <Button 
+                                                    onClick={() => handleRemediateClick(selectedRow)}
+                                                    disabled={isRemediating}
+                                                    variant="outline"
+                                                    size="sm"
+                                                    className="border-red-900/50 hover:bg-red-900/20 text-red-200"
+                                                >
+                                                    {isRemediating ? (
+                                                        <>
+                                                            <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                                                            Consulting AI...
+                                                        </>
+                                                    ) : (
+                                                        <>
+                                                            <Sparkles className="mr-2 h-4 w-4" />
+                                                            Suggest Remediation
+                                                        </>
+                                                    )}
+                                                </Button>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                             ) : (

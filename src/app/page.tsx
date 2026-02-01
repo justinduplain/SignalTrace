@@ -9,11 +9,14 @@ import { DataTable } from "@/components/data-table"
 import { AnalysisResult } from "@/types/analysis-result"
 import { Sparkles, X } from "lucide-react"
 import { logout } from '@/lib/auth'
-import { processBlockedLogs, streamAnalysis } from '@/lib/analysis'
+import { processBlockedLogs, streamAnalysis, getRemediation } from '@/lib/analysis'
+import { DashboardStats } from "@/components/dashboard-stats"
+import { LogChart } from "@/components/log-chart"
 
 export default function Home() {
   const router = useRouter()
   const [logs, setLogs] = useState<LogEntry[]>([])
+  const [selectedHour, setSelectedHour] = useState<string | null>(null)
   const [isAnalyzing, setIsAnalyzing] = useState(false)
   const [analysisResults, setAnalysisResults] = useState<Record<string, AnalysisResult>>({})
   const [analyzingIds, setAnalyzingIds] = useState<Set<string>>(new Set())
@@ -37,6 +40,7 @@ export default function Home() {
   const handleReset = () => {
     handleStopAnalysis()
     setLogs([])
+    setSelectedHour(null)
     setAnalysisResults({})
   }
 
@@ -84,6 +88,29 @@ export default function Home() {
     }
   }
 
+  const handleRemediate = async (log: LogEntry) => {
+    const reason = analysisResults[log.id]?.reason || ""
+    try {
+        const remediation = await getRemediation(log, reason)
+        setAnalysisResults(prev => ({
+            ...prev,
+            [log.id]: {
+                ...prev[log.id],
+                remediation
+            }
+        }))
+    } catch (error) {
+        console.error("Remediation failed:", error)
+    }
+  }
+
+  const filteredLogs = selectedHour 
+    ? logs.filter(log => {
+        const hour = new Date(log.Timestamp).getHours().toString().padStart(2, '0') + ":00"
+        return hour === selectedHour
+      })
+    : logs
+
   return (
     <main className="flex min-h-screen flex-col items-center p-8 bg-slate-950 text-slate-100">
       <div className="z-10 w-full max-w-7xl items-center justify-between font-mono text-sm lg:flex mb-8">
@@ -108,8 +135,30 @@ export default function Home() {
            <LogUploader onUploadSuccess={setLogs} />
         ) : (
            <div className="space-y-4">
+             <DashboardStats logs={logs} analysisResults={analysisResults} />
+             <LogChart 
+                logs={logs} 
+                selectedHour={selectedHour}
+                onHourSelect={setSelectedHour}
+             />
+             
              <div className="flex justify-between items-center">
-               <h2 className="text-xl font-semibold text-slate-200">Live Log Analysis</h2>
+               <div className="flex items-center gap-4">
+                 <h2 className="text-xl font-semibold text-slate-200">
+                    {selectedHour ? `Logs for ${selectedHour}` : 'Live Log Analysis'}
+                 </h2>
+                 {selectedHour && (
+                    <Button 
+                        variant="ghost" 
+                        size="sm" 
+                        onClick={() => setSelectedHour(null)}
+                        className="text-slate-400 hover:text-slate-100 h-8 px-2"
+                    >
+                        <X className="mr-1 h-3 w-3" />
+                        Clear Filter
+                    </Button>
+                 )}
+               </div>
                <div className="flex gap-2 items-center">
                  {isAnalyzing && (
                     <span className="text-xs font-mono text-purple-400 animate-pulse mr-2">
@@ -143,9 +192,10 @@ export default function Home() {
                </div>
              </div>
              <DataTable 
-                data={logs} 
+                data={filteredLogs} 
                 analysisResults={analysisResults} 
                 analyzingIds={analyzingIds}
+                onRemediate={handleRemediate}
              />
            </div>
         )}

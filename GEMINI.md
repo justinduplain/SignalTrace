@@ -66,7 +66,7 @@
 * **Strategy:** Send log chunks to OpenAI. Prompt for: `{"id": "...", "confidence": 85, "reason": "High byte volume"}`.
 * **Interaction:** Highlight anomalous rows (Red). Click row to see AI reasoning vs. Raw Log.
 
-### Phase 5: Visualization & Dashboarding (Hour 5)
+### Phase 5: Visualization & Dashboarding (Hour 5) - [COMPLETED]
 * **Goal:** Human-consumable summary.
 * **Chart:** Recharts Bar Chart showing "Events per Hour" or "Blocked vs. Allowed".
 * **Manager Touch:** Summary cards at the top ("3 Critical Anomalies Detected").
