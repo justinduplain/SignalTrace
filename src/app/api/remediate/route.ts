@@ -24,7 +24,7 @@ export async function POST(req: Request) {
        if (reason.includes("Shadow IT") || log.AppName === "Tor Browser") {
            remediation = "CRITICAL: Block Tor-related IP ranges at the network perimeter. Update endpoint policy to prevent installation of unauthorized browsers. Interview the user regarding bypass attempts.";
        } else if (reason.includes("Large outbound data transfer")) {
-           remediation = "INVESTIGATE: Immediate lockdown of account 'finance_lead'. Review recently modified files in Dropbox. Revoke all active OAuth tokens for this user. Validate if this was a scheduled backup or unauthorized exfiltration.";
+           remediation = `INVESTIGATE: Immediate lockdown of account '${log.SourceUser}'. Review recently modified files in Dropbox. Revoke all active OAuth tokens for this user. Validate if this was a scheduled backup or unauthorized exfiltration.`;
        } else if (reason.includes("Known threat category")) {
            remediation = `ISOLATE: Quarantining source IP ${log.SourceIP} immediately. Update firewall signatures for ${log.DestURL}. Run endpoint detection and response (EDR) deep scan on the affected host.`;
        } else if (reason.includes("Suspicious scripted access")) {

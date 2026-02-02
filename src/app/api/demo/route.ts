@@ -1,41 +1,16 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
-import Papa from 'papaparse';
-import { isLogEntry } from '@/types/log-entry';
+import { generateMockLogs } from '@/lib/generate-logs';
 
 export async function GET() {
   try {
-    const filePath = path.join(process.cwd(), 'zscaler_logs.csv');
-    
-    if (!fs.existsSync(filePath)) {
-      return NextResponse.json({ error: "Demo file not found" }, { status: 404 });
-    }
+    const logs = generateMockLogs();
 
-    const fileContent = fs.readFileSync(filePath, 'utf-8');
-
-        const result = Papa.parse(fileContent, {
-          header: true,
-          skipEmptyLines: true,
-          dynamicTyping: {
-            BytesSent: true,
-            BytesReceived: true
-          },
-        });
-    
-        const validEntries = result.data
-            .filter((entry: unknown) => isLogEntry(entry))
-            .map((entry: unknown) => ({
-                ...(entry as object),
-                id: crypto.randomUUID()
-            }));
-    
-        return NextResponse.json({
-          data: validEntries,
-          count: validEntries.length
-        });
+    return NextResponse.json({
+      data: logs,
+      count: logs.length
+    });
   } catch (error) {
-    console.error("Demo load error:", error);
+    console.error("Demo generation error:", error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
 }

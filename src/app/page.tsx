@@ -10,13 +10,23 @@ import { AnalysisResult } from "@/types/analysis-result"
 import { Sparkles, X } from "lucide-react"
 import { logout } from '@/lib/auth'
 import { processBlockedLogs, streamAnalysis, getRemediation } from '@/lib/analysis'
-import { DashboardStats } from "@/components/dashboard-stats"
+import { DashboardStats, CardFilter } from "@/components/dashboard-stats"
 import { LogChart } from "@/components/log-chart"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog"
 
 export default function Home() {
   const router = useRouter()
   const [logs, setLogs] = useState<LogEntry[]>([])
   const [selectedHour, setSelectedHour] = useState<string | null>(null)
+  const [selectedCard, setSelectedCard] = useState<CardFilter>(null)
+  const [showAnalyzeDialog, setShowAnalyzeDialog] = useState(false)
   const [isAnalyzing, setIsAnalyzing] = useState(false)
   const [analysisResults, setAnalysisResults] = useState<Record<string, AnalysisResult>>({})
   const [analyzingIds, setAnalyzingIds] = useState<Set<string>>(new Set())
@@ -41,15 +51,24 @@ export default function Home() {
     handleStopAnalysis()
     setLogs([])
     setSelectedHour(null)
+    setSelectedCard(null)
     setAnalysisResults({})
   }
 
   const handleAnalyze = async () => {
     const sortedLogs = [...logs].sort((a, b) => new Date(b.Timestamp).getTime() - new Date(a.Timestamp).getTime())
-    const logsToProcess = sortedLogs.slice(0, 200)
-    
-    // 1. Instant updates for Blocked logs
-    const blockedResults = processBlockedLogs(logsToProcess)
+    const first200 = sortedLogs.slice(0, 200)
+    // Ensure off-hours logs (midnight-6 AM) are always included for analysis
+    const first200Ids = new Set(first200.map(l => l.id))
+    const offHoursLogs = sortedLogs.filter(l => {
+      if (first200Ids.has(l.id)) return false
+      const hour = new Date(l.Timestamp).getHours()
+      return hour >= 0 && hour < 6
+    })
+    const logsToProcess = [...first200, ...offHoursLogs]
+
+    // 1. Instant updates for ALL Blocked logs across the entire dataset
+    const blockedResults = processBlockedLogs(logs)
     setAnalysisResults(prev => ({ ...prev, ...blockedResults }))
 
     // 2. Identify allowed logs for AI analysis
@@ -104,12 +123,45 @@ export default function Home() {
     }
   }
 
-  const filteredLogs = selectedHour 
-    ? logs.filter(log => {
-        const hour = new Date(log.Timestamp).getHours().toString().padStart(2, '0') + ":00"
-        return hour === selectedHour
-      })
-    : logs
+  const handleCardSelect = (card: CardFilter) => {
+    const hasAnalysis = Object.keys(analysisResults).length > 0
+    // If clicking "Not Analyzed" and no analysis has run, show dialog
+    if (card === 'notAnalyzed' && !hasAnalysis && !isAnalyzing) {
+      setShowAnalyzeDialog(true)
+      return
+    }
+    setSelectedCard(card)
+  }
+
+  const handleDialogConfirm = () => {
+    setShowAnalyzeDialog(false)
+    handleAnalyze()
+  }
+
+  // Compose card filter + hour filter
+  let filteredLogs = logs
+
+  if (selectedCard === 'anomalies') {
+    filteredLogs = filteredLogs.filter(log => analysisResults[log.id]?.confidence > 50)
+  } else if (selectedCard === 'notAnalyzed') {
+    filteredLogs = filteredLogs.filter(log => !analysisResults[log.id])
+  }
+
+  if (selectedHour) {
+    filteredLogs = filteredLogs.filter(log => {
+      const hour = new Date(log.Timestamp).getHours().toString().padStart(2, '0') + ":00"
+      return hour === selectedHour
+    })
+  }
+
+  const activeFilterLabel = selectedCard === 'total'
+    ? 'All Events'
+    : selectedCard === 'anomalies'
+      ? 'Critical Anomalies'
+      : selectedCard === 'notAnalyzed'
+        ? 'Not Analyzed'
+        : null
+  const hasActiveFilter = selectedHour || selectedCard
 
   return (
     <main className="flex min-h-screen flex-col items-center p-8 bg-slate-950 text-slate-100">
@@ -135,23 +187,33 @@ export default function Home() {
            <LogUploader onUploadSuccess={setLogs} />
         ) : (
            <div className="space-y-4">
-             <DashboardStats logs={logs} analysisResults={analysisResults} />
-             <LogChart 
-                logs={logs} 
+             <DashboardStats
+                logs={logs}
+                analysisResults={analysisResults}
+                selectedCard={selectedCard}
+                onCardSelect={handleCardSelect}
+             />
+             <LogChart
+                logs={logs}
+                analysisResults={analysisResults}
                 selectedHour={selectedHour}
                 onHourSelect={setSelectedHour}
+                analyzingCount={analyzingIds.size}
              />
-             
+
              <div className="flex justify-between items-center">
                <div className="flex items-center gap-4">
                  <h2 className="text-xl font-semibold text-slate-200">
-                    {selectedHour ? `Logs for ${selectedHour}` : 'Live Log Analysis'}
+                    {activeFilterLabel
+                      ? (selectedHour ? `${activeFilterLabel} at ${selectedHour}` : activeFilterLabel)
+                      : (selectedHour ? `Logs for ${selectedHour}` : 'Live Log Analysis')
+                    }
                  </h2>
-                 {selectedHour && (
-                    <Button 
-                        variant="ghost" 
-                        size="sm" 
-                        onClick={() => setSelectedHour(null)}
+                 {hasActiveFilter && (
+                    <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={() => { setSelectedHour(null); setSelectedCard(null) }}
                         className="text-slate-400 hover:text-slate-100 h-8 px-2"
                     >
                         <X className="mr-1 h-3 w-3" />
@@ -165,10 +227,10 @@ export default function Home() {
                         Analyzing {analyzingIds.size} remaining...
                     </span>
                  )}
-                 
+
                  {isAnalyzing ? (
-                    <Button 
-                        onClick={handleStopAnalysis} 
+                    <Button
+                        onClick={handleStopAnalysis}
                         variant="destructive"
                         className="bg-red-900/50 hover:bg-red-900 border border-red-800 text-red-200"
                     >
@@ -176,8 +238,8 @@ export default function Home() {
                         Stop Analysis
                     </Button>
                  ) : (
-                    <Button 
-                        onClick={handleAnalyze} 
+                    <Button
+                        onClick={handleAnalyze}
                         disabled={Object.keys(analysisResults).length > 0}
                         className="bg-purple-600 hover:bg-purple-700 text-white"
                     >
@@ -191,15 +253,35 @@ export default function Home() {
                  </Button>
                </div>
              </div>
-             <DataTable 
-                data={filteredLogs} 
-                analysisResults={analysisResults} 
+             <DataTable
+                data={filteredLogs}
+                analysisResults={analysisResults}
                 analyzingIds={analyzingIds}
                 onRemediate={handleRemediate}
              />
            </div>
         )}
       </div>
+
+      <Dialog open={showAnalyzeDialog} onOpenChange={setShowAnalyzeDialog}>
+        <DialogContent className="bg-slate-900 border-slate-700 text-slate-100">
+          <DialogHeader>
+            <DialogTitle>Start AI Analysis?</DialogTitle>
+            <DialogDescription className="text-slate-400">
+              No logs have been analyzed yet. Would you like to start the AI anomaly detection now?
+            </DialogDescription>
+          </DialogHeader>
+          <DialogFooter className="gap-2 sm:gap-0">
+            <Button variant="outline" onClick={() => setShowAnalyzeDialog(false)} className="border-slate-700 hover:bg-slate-800">
+              Cancel
+            </Button>
+            <Button onClick={handleDialogConfirm} className="bg-purple-600 hover:bg-purple-700 text-white">
+              <Sparkles className="mr-2 h-4 w-4" />
+              Start Analysis
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </main>
   );
 }

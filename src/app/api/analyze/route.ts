@@ -2,11 +2,11 @@ import { NextResponse } from 'next/server';
 import { LogEntry } from '@/types/log-entry';
 import OpenAI from 'openai';
 
-// Create an OpenAI client instance (edge-friendly if needed, but standard works in Node 18+)
+// Create an OpenAI client instance
 // We initialize it inside the handler or globally if we had a lib file.
 // For this single route, we'll instantiate if key exists.
 
-export const runtime = 'nodejs'; // Use nodejs runtime for full stream support if needed, though edge works too.
+export const runtime = 'nodejs'; // Use nodejs runtime for full stream support
 
 export async function POST(req: Request) {
   try {
@@ -20,7 +20,7 @@ export async function POST(req: Request) {
 
     // --- MOCK MODE (Streaming) ---
     if (!apiKey) {
-       const logsToAnalyze = logs.slice(0, 200); // Analyze up to 200 in mock mode
+       const logsToAnalyze = logs; // Analyze all records in mock mode
        console.warn("No OpenAI API Key found. Returning mock streaming analysis.");
        
        const encoder = new TextEncoder();
@@ -45,22 +45,26 @@ export async function POST(req: Request) {
 
              // 3. Suspicious Patterns (if Allowed)
              const isSuspiciousClient = !isBlocked && (
-                log.UserAgent.toLowerCase().includes('python') || 
-                log.UserAgent.toLowerCase().includes('curl') || 
+                log.UserAgent.toLowerCase().includes('python') ||
+                log.UserAgent.toLowerCase().includes('curl') ||
                 log.UserAgent.toLowerCase().includes('powershell')
              );
+             const logHour = new Date(log.Timestamp).getHours();
+             const isOffHours = logHour >= 0 && logHour < 6;
              const isHighVolume = !isBlocked && (log.BytesSent > 10000000);
+             const isOffHoursExfil = !isBlocked && isHighVolume && isOffHours;
              
-             const isAnomaly = isCritical || isShadowIT || isSuspiciousClient || isHighVolume;
-             
+             const isAnomaly = isCritical || isShadowIT || isSuspiciousClient || isHighVolume || isOffHoursExfil;
+
              const result = {
                  id: log.id,
-                 confidence: isAnomaly 
-                    ? (isShadowIT ? 100 : isCritical ? 95 : isHighVolume ? 85 : 75) 
+                 confidence: isAnomaly
+                    ? (isShadowIT ? 100 : isCritical ? 95 : isOffHoursExfil ? 90 : isHighVolume ? 85 : 75)
                     : 0,
-                 reason: isAnomaly 
-                    ? (isShadowIT ? 'CRITICAL: Unauthorized Shadow IT application allowed through firewall.' : 
-                       isCritical ? `Known threat category (${log.ThreatCategory}) allowed through firewall.` : 
+                 reason: isAnomaly
+                    ? (isShadowIT ? 'CRITICAL: Unauthorized Shadow IT application allowed through firewall.' :
+                       isCritical ? `Known threat category (${log.ThreatCategory}) allowed through firewall.` :
+                       isOffHoursExfil ? 'Large outbound data transfer (>10MB) during off-hours (1-4 AM). Possible data exfiltration.' :
                        isHighVolume ? 'Large outbound data transfer (>10MB) to unverified destination.' :
                        'Suspicious scripted access detected.')
                     : (isBlocked ? 'Threat mitigated by perimeter controls.' : 'Traffic appears normal.')
@@ -79,7 +83,15 @@ export async function POST(req: Request) {
     }
 
     // --- REAL AI MODE (Streaming) ---
-    const logsToAnalyze = logs.slice(0, 50); // Limit to 50 for real AI to save costs
+    // First 50 records + any off-hours records (midnight to 6 AM), deduplicated
+    const first50 = logs.slice(0, 50);
+    const first50Ids = new Set(first50.map((l: LogEntry) => l.id));
+    const offHoursLogs = logs.filter((l: LogEntry) => {
+      if (first50Ids.has(l.id)) return false;
+      const hour = new Date(l.Timestamp).getHours();
+      return hour >= 0 && hour < 6;
+    });
+    const logsToAnalyze = [...first50, ...offHoursLogs];
     const openai = new OpenAI({ apiKey });
 
     const prompt = `
@@ -105,7 +117,9 @@ export async function POST(req: Request) {
 
       STEP 3: CHECK DATA EXFILTRATION
       - If BytesSent > 10,000,000 (10MB) AND Action is "Allow".
-      - Return { "id": "LOG_ENTRY_ID", "confidence": 85, "reason": "Large outbound data transfer (>10MB) to unverified destination." }
+      - Pay special attention to the Timestamp: if the transfer occurs during off-hours (midnight to 6 AM), this is highly suspicious even if ThreatCategory is "None" and Action is "Allow". For example, large Dropbox uploads at 1-4 AM with no threat category are a classic data exfiltration pattern.
+      - Off-hours high volume: Return { "id": "LOG_ENTRY_ID", "confidence": 90, "reason": "Large outbound data transfer (>10MB) during off-hours (1-4 AM). Possible data exfiltration." }
+      - Business-hours high volume: Return { "id": "LOG_ENTRY_ID", "confidence": 85, "reason": "Large outbound data transfer (>10MB) to unverified destination." }
       - STOP.
 
       STEP 4: CHECK KNOWN THREATS
@@ -128,10 +142,10 @@ export async function POST(req: Request) {
       Input: {"id": "LOG_ENTRY_ID", "AppName": "General Browsing", "Action": "Block", "ThreatCategory": "Malware"}
       Output: {"id": "LOG_ENTRY_ID", "confidence": 0, "reason": "Threat mitigated by perimeter controls."}
 
-      Input: {"id": "LOG_ENTRY_ID", "AppName": "Dropbox", "Action": "Block", "BytesSent": 50000000, "ThreatCategory": "DLP Violation"}
-      Output: {"id": "LOG_ENTRY_ID", "confidence": 0, "reason": "Threat mitigated by perimeter controls."}
+      Input: {"id": "LOG_ENTRY_ID", "AppName": "Dropbox", "Action": "Allow", "Timestamp": "2025-01-15T02:30:00Z", "BytesSent": 50000000, "ThreatCategory": "None"}
+      Output: {"id": "LOG_ENTRY_ID", "confidence": 90, "reason": "Large outbound data transfer (>10MB) during off-hours (1-4 AM). Possible data exfiltration."}
 
-      Input: {"id": "LOG_ENTRY_ID", "AppName": "Dropbox", "Action": "Allow", "BytesSent": 50000000}
+      Input: {"id": "LOG_ENTRY_ID", "AppName": "Dropbox", "Action": "Allow", "Timestamp": "2025-01-15T14:30:00Z", "BytesSent": 50000000, "ThreatCategory": "None"}
       Output: {"id": "LOG_ENTRY_ID", "confidence": 85, "reason": "Large outbound data transfer (>10MB) to unverified destination."}
 
       Logs to Analyze:

@@ -55,23 +55,25 @@
 * **Validation:** Implement a TypeScript Type Guard `LogEntry` to validate data shape.
 * **Refinement:** Added "Load Demo Data" button to instantly load server-side mock data for testing.
 
-### Phase 3: Frontend (Hour 3) - [COMPLETED]
+### Phase 3: Frontend (Hour 2.5) - [COMPLETED]
 * **Goal:** Virtualized Data Table.
 * **Implementation:** `TanStack Table` + `TanStack Virtual`. Must handle scrolling without DOM lag.
 * **UI Details:** "Status" badges (Green/Red). Monospace font for IPs and Timestamps.
 
-### Phase 4: AI & Anomaly Detection (Hour 4) - [COMPLETED]
+### Phase 4: AI & Anomaly Detection (Hour 4.25) - [COMPLETED]
 * **Goal:** Identify threats via API.
 * **Action:** "Analyze" button triggers `/api/analyze`.
 * **Strategy:** Send log chunks to OpenAI. Prompt for: `{"id": "...", "confidence": 85, "reason": "High byte volume"}`.
 * **Interaction:** Highlight anomalous rows (Red). Click row to see AI reasoning vs. Raw Log.
 
-### Phase 5: Visualization & Dashboarding (Hour 5) - [COMPLETED]
-* **Goal:** Human-consumable summary.
-* **Chart:** Recharts Bar Chart showing "Events per Hour" or "Blocked vs. Allowed".
-* **Manager Touch:** Summary cards at the top ("3 Critical Anomalies Detected").
-* **Bonus:** Cross-filtering (Clicking a bar filters the table).
-* **Bonus:** Add AI-suggested remediation measures for anomolies (via a user clicking "Suggest Remediation" within the anomoly detail dialog. Analysis will show as processing, then a "Suggested Remediaton" text section will show below the Anomoly information.)
+### Phase 5: Visualization & Dashboarding (Hour 5.25) - [COMPLETED]
+* **Goal:** [x] Human-consumable summary.
+* **Chart:** [x] Recharts Bar Chart colored by AI Insight status (gray/green/red) instead of Allow/Block.
+* **Overview:** [x] 5 summary cards: Total Events, Critical Anomalies, Threats Prevented, Risk Exposure, Not Analyzed.
+* **Bonus:** [x] Cross-filtering (Clicking a bar filters the table; clicking cards filters by AI status).
+* **Bonus:** [x] "Not Analyzed" card prompts to start AI analysis via Dialog.
+* **Bonus:** [x] Add AI-suggested remediation measures.
+* **Bonus:** [x] Real-time "Analyzing N remaining..." pulsing status next to Traffic Volume title.
 
 ### Phase 6: Polish & Deployment (Hour 6)
 * **Goal:** Ship it.
@@ -87,9 +89,33 @@
 * (component conventions, Claude Code skills, review standards, performance budgets).
 * Unified “product feel”: micro-interactions, latency masking, and interaction details that make the product feel trustworthy.
 
+### Phase 6C (Optional): State Persistence (The "Memory")
+* **Time Estimate:** 30 Minutes
+* **Goal:** Ensure analyst work is not lost on refresh. "Senior" architecture replacing prop-drilling.
+* **Tech:** `zustand` + `persist` middleware.
+* **Implementation:**
+    * **Store:** Create `store/useLogStore.ts`.
+    * **Schema:** `logs: LogEntry[]`, `analysis: AnalysisResult | null`, `actions: { setLogs, reset }`.
+    * **Persistence:** Wrap the store in `persist()` middleware to auto-sync to `localStorage`.
+* **Why:** SOC analysts often switch tabs. When they return or refresh, the context (uploaded logs + analysis) must remain immediately available without re-uploading.
+
+### Phase 6D (Optional): Single-Page Refactor (The "Console")
+* **Time Estimate:** 1.5 Hours
+* **Goal:** Move from "Wizard" (Page 1 -> Page 2) to "Console" (Dashboard with Modal).
+* **Risk:** **High.** Only execute if the main Visualization and Table are stable.
+* **Refactor Plan:**
+    * **Upload:** Move `UploadForm` into a `shadcn/ui` **Dialog** component triggered from the Header.
+    * **Layout:** `page.tsx` becomes the permanent Dashboard container.
+    * **Empty State:** If `logs.length === 0`, render a "Ready to Scan" placeholder in the main view instead of the table.
+    * **Hydration:** `useEffect` to check the Zustand store on mount. If data exists, render the Dashboard immediately.
+
 ### Phase 7: The Sell (Hour 7)
 * **Goal:** Video Walkthrough (Critical).
 * **Narrative:** Explain the choice of Virtualization (Scale) and Design Tokens (Consistency). Mention trade-offs (SQLite vs. Postgres).
+
+### Future Phases: Possible next steps (out of current scope)
+* **Iterative Analysis:** I.e., action to "Analyze next 50 records" etc.
+* **MCP Adapter:** Enable MCP capability using '@vercel/mcp-adapter' to allow AI agnets to interact with the logs and analysis results.
 
 ## 5. Requirements Compliance Matrix
 | Requirement | Implementation Strategy |
