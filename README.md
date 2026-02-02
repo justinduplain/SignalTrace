@@ -1,5 +1,6 @@
 # SignalTrace
 
+**Live Demo:** [https://signaltrace.vercel.app](https://signaltrace.vercel.app)
 **Login:** Username `admin`, Password `tenex`
 
 SignalTrace is a high-performance **Threat Intelligence Platform** designed for SOC analysts. It parses ZScaler web proxy logs, visualizes traffic patterns, and uses AI to detect security anomalies (Shadow IT, Data Exfiltration, Malware) in real-time.
@@ -12,6 +13,7 @@ SignalTrace is a high-performance **Threat Intelligence Platform** designed for 
 *   **Visualization:** Recharts
 *   **AI:** OpenAI API (`gpt-4o-mini`, streaming/NDJSON)
 *   **Backend:** Next.js API Routes (Node.js serverless)
+*   **Deployment:** Vercel (connected to GitHub for auto-deploy on push)
 
 ## Features
 *   **Authentication:** Basic login (mock credentials) with cookie-based session management.
