@@ -43,11 +43,13 @@ Mock login only — User: `admin`, Pass: `tenex`. No user DB.
 - Phase 3 (Virtualized Table): COMPLETED
 - Phase 4 (AI Anomaly Detection): COMPLETED
 - Phase 5 (Visualization & Dashboard): COMPLETED
-- Phase 6 (Polish & Deploy): IN PROGRESS
-- Phase 6B (Checks & Refinement): NOT STARTED
-- Phase 6C (Optional: Zustand persistence): NOT STARTED
-- Phase 6D (Optional: Single-page console refactor): NOT STARTED
+- Phase 6A (Checks & Refinement): IN PROGRESS
+- Phase 6 (Polish & Deploy): NOT STARTED
 - Phase 7 (Video Walkthrough): NOT STARTED
+- Phase Z (Out of scope): NOT STARTED
+  - Phase ZA (Optional: Zustand persistence): NOT STARTED- Phase ZB (Optional: Zustand persistence): NOT STARTED
+  - Phase ZB (Optional: Single-page console refactor): NOT STARTED
+
 
 ## Key APIs
 - `POST /api/upload` — CSV upload via FormData, parsed with papaparse

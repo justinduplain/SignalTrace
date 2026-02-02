@@ -15,7 +15,7 @@
 * **Language:** TypeScript.
 * **Styling:** Tailwind CSS, `shadcn/ui` (Slate/Zinc theme), `clsx`.
 * **State Management:** TanStack Query.
-* **Data Display:** TanStack Table + TanStack Virtual (Critical for Senior role).
+* **Data Display:** TanStack Table + TanStack Virtual
 * **Visualization:** Recharts.
 * **AI Integration:** OpenAI API (`gpt-4o-mini`).
 * **Backend:** Next.js API Routes (Serverless).
@@ -66,7 +66,7 @@
 * **Strategy:** Send log chunks to OpenAI. Prompt for: `{"id": "...", "confidence": 85, "reason": "High byte volume"}`.
 * **Interaction:** Highlight anomalous rows (Red). Click row to see AI reasoning vs. Raw Log.
 
-### Phase 5: Visualization & Dashboarding (Hour 5.25) - [COMPLETED]
+### Phase 5: Visualization & Dashboarding (Hour 6.25) - [COMPLETED]
 * **Goal:** [x] Human-consumable summary.
 * **Chart:** [x] Recharts Bar Chart colored by AI Insight status (gray/green/red) instead of Allow/Block.
 * **Overview:** [x] 5 summary cards: Total Events, Critical Anomalies, Threats Prevented, Risk Exposure, Not Analyzed.
@@ -75,12 +75,7 @@
 * **Bonus:** [x] Add AI-suggested remediation measures.
 * **Bonus:** [x] Real-time "Analyzing N remaining..." pulsing status next to Traffic Volume title.
 
-### Phase 6: Polish & Deployment (Hour 6)
-* **Goal:** Ship it.
-* **Deploy:** Push to GitHub. Deploy to Vercel (Add OpenAI Key to Env Vars).
-* **Docs:** Write `README.md` including "How to Run Locally" and "AI Approach".
-
-#### Phase 6B: Checks and refinement
+#### Phase 6A: Checks and refinement  (Hour 6.5)
 * App meets a cohesive, high-trust product experience?
 * Uses reusable UI patterns (layout, navigation, tables, filters, forms, modals)?
 * Implement robust data-fetching/server-state patterns (pagination, caching, background refresh, optimistic updates, error handling)?
@@ -89,9 +84,20 @@
 * (component conventions, Claude Code skills, review standards, performance budgets).
 * Unified “product feel”: micro-interactions, latency masking, and interaction details that make the product feel trustworthy.
 
-### Phase 6C (Optional): State Persistence (The "Memory")
+### Phase 6B: Polish & Deployment (Hour 7)
+* **Goal:** Ship it.
+* **Deploy:** Push to GitHub. Deploy to Vercel (Add OpenAI Key to Env Vars).
+* **Docs:** Write `README.md` including "How to Run Locally" and "AI Approach".
+
+### Phase 7: The Sell (Hour 7.5)
+* **Goal:** Video Walkthrough (Critical).
+* **Narrative:** Explain the choice of Virtualization (Scale) and Design Tokens (Consistency). Mention trade-offs (SQLite vs. Postgres).
+
+### Phase Z: Future Phases: Possible next steps (out of current scope)
+
+#### Phase ZA (Optional): State Persistence (The "Memory")
 * **Time Estimate:** 30 Minutes
-* **Goal:** Ensure analyst work is not lost on refresh. "Senior" architecture replacing prop-drilling.
+* **Goal:** Ensure analyst work is not lost on refresh. 
 * **Tech:** `zustand` + `persist` middleware.
 * **Implementation:**
     * **Store:** Create `store/useLogStore.ts`.
@@ -99,7 +105,7 @@
     * **Persistence:** Wrap the store in `persist()` middleware to auto-sync to `localStorage`.
 * **Why:** SOC analysts often switch tabs. When they return or refresh, the context (uploaded logs + analysis) must remain immediately available without re-uploading.
 
-### Phase 6D (Optional): Single-Page Refactor (The "Console")
+#### Phase ZB (Optional): Single-Page Refactor (The "Console")
 * **Time Estimate:** 1.5 Hours
 * **Goal:** Move from "Wizard" (Page 1 -> Page 2) to "Console" (Dashboard with Modal).
 * **Risk:** **High.** Only execute if the main Visualization and Table are stable.
@@ -109,11 +115,7 @@
     * **Empty State:** If `logs.length === 0`, render a "Ready to Scan" placeholder in the main view instead of the table.
     * **Hydration:** `useEffect` to check the Zustand store on mount. If data exists, render the Dashboard immediately.
 
-### Phase 7: The Sell (Hour 7)
-* **Goal:** Video Walkthrough (Critical).
-* **Narrative:** Explain the choice of Virtualization (Scale) and Design Tokens (Consistency). Mention trade-offs (SQLite vs. Postgres).
-
-### Future Phases: Possible next steps (out of current scope)
+#### Phase ZC (Optional): Iterative UX and DevUX updates
 * **Iterative Analysis:** I.e., action to "Analyze next 50 records" etc.
 * **MCP Adapter:** Enable MCP capability using '@vercel/mcp-adapter' to allow AI agnets to interact with the logs and analysis results.
 
@@ -138,7 +140,7 @@
 * **Zero-Leak Policy:** Never upload `.env` files or API keys (specifically OpenAI keys) to GitHub. Add `.env*.local` to `.gitignore` immediately upon initialization.
 * **Client-Side Safety:** Ensure server-side API keys are only accessed in API Routes or Server Actions, never exposed to the client bundle.
 
-### Code Hygiene (The "Senior" Standard)
+### Code Hygiene & Standards
 * **Strict TypeScript:** Avoid `any` types. Define interfaces for all data structures (e.g., `LogEntry`). This demonstrates type safety to the reviewer.
 * **Linting:** Ensure the repo is clean and linted. Remove all `console.log` debugging statements before the final commit.
 * **Conventional Commits:** Use clear commit messages (e.g., `feat: add virtual table`, `fix: parsing logic`) to show professional workflow.

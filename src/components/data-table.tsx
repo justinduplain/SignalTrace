@@ -16,16 +16,18 @@ import { ArrowUpDown, ShieldCheck, X, AlertTriangle, Loader2, Sparkles } from 'l
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 
-export function DataTable({ 
-    data, 
-    analysisResults, 
+export function DataTable({
+    data,
+    analysisResults,
     analyzingIds,
-    onRemediate
-}: { 
-    data: LogEntry[], 
-    analysisResults?: Record<string, AnalysisResult>, 
+    onRemediate,
+    emptyMessage = 'No logs to display'
+}: {
+    data: LogEntry[],
+    analysisResults?: Record<string, AnalysisResult>,
     analyzingIds?: Set<string>,
-    onRemediate?: (log: LogEntry) => Promise<void>
+    onRemediate?: (log: LogEntry) => Promise<void>,
+    emptyMessage?: string
 }) {
   const [sorting, setSorting] = React.useState<SortingState>([{ id: 'Timestamp', desc: true }])
   const [selectedRow, setSelectedRow] = React.useState<LogEntry | null>(null)
@@ -303,10 +305,16 @@ export function DataTable({
           })}
         </div>
 
-        <div 
-          ref={parentRef} 
+        <div
+          ref={parentRef}
           className="h-[600px] overflow-auto relative"
         >
+          {data.length === 0 ? (
+            <div className="flex flex-col items-center justify-center h-full text-slate-500">
+              <ShieldCheck className="h-8 w-8 mb-3 opacity-40" />
+              <p className="text-sm">{emptyMessage}</p>
+            </div>
+          ) : (
           <div
             style={{
               height: `${rowVirtualizer.getTotalSize()}px`,
@@ -351,6 +359,7 @@ export function DataTable({
               )
             })}
           </div>
+          )}
         </div>
         <div className="p-2 border-t border-slate-800 text-xs text-slate-500 bg-slate-900">
             Total Rows: {data.length.toLocaleString()}

@@ -7,7 +7,7 @@ import { LogUploader } from "@/components/log-uploader"
 import { LogEntry } from "@/types/log-entry"
 import { DataTable } from "@/components/data-table"
 import { AnalysisResult } from "@/types/analysis-result"
-import { Sparkles, X } from "lucide-react"
+import { Sparkles, X, AlertCircle } from "lucide-react"
 import { logout } from '@/lib/auth'
 import { processBlockedLogs, streamAnalysis, getRemediation } from '@/lib/analysis'
 import { DashboardStats, CardFilter } from "@/components/dashboard-stats"
@@ -28,6 +28,7 @@ export default function Home() {
   const [selectedCard, setSelectedCard] = useState<CardFilter>(null)
   const [showAnalyzeDialog, setShowAnalyzeDialog] = useState(false)
   const [isAnalyzing, setIsAnalyzing] = useState(false)
+  const [analysisError, setAnalysisError] = useState<string | null>(null)
   const [analysisResults, setAnalysisResults] = useState<Record<string, AnalysisResult>>({})
   const [analyzingIds, setAnalyzingIds] = useState<Set<string>>(new Set())
   const abortControllerRef = useRef<AbortController | null>(null)
@@ -53,9 +54,12 @@ export default function Home() {
     setSelectedHour(null)
     setSelectedCard(null)
     setAnalysisResults({})
+    setAnalysisError(null)
   }
 
   const handleAnalyze = async () => {
+    if (isAnalyzing) return
+    setAnalysisError(null)
     const sortedLogs = [...logs].sort((a, b) => new Date(b.Timestamp).getTime() - new Date(a.Timestamp).getTime())
     const first200 = sortedLogs.slice(0, 200)
     // Ensure off-hours logs (midnight-6 AM) are always included for analysis
@@ -98,7 +102,7 @@ export default function Home() {
       })
     } catch (error: unknown) {
       if (error instanceof Error && error.name !== 'AbortError') {
-        console.error('Analysis failed:', error)
+        setAnalysisError('Analysis failed — try again or check your connection')
       }
     } finally {
       setIsAnalyzing(false)
@@ -118,8 +122,8 @@ export default function Home() {
                 remediation
             }
         }))
-    } catch (error) {
-        console.error("Remediation failed:", error)
+    } catch {
+        setAnalysisError('Remediation request failed — try again')
     }
   }
 
@@ -162,6 +166,15 @@ export default function Home() {
         ? 'Not Analyzed'
         : null
   const hasActiveFilter = selectedHour || selectedCard
+
+  const hasResults = Object.keys(analysisResults).length > 0
+  const analyzeButtonLabel = hasResults ? (isAnalyzing ? 'Analyze Anomalies' : 'Analysis Complete') : 'Analyze Anomalies'
+
+  const emptyMessage = selectedCard === 'anomalies'
+    ? 'No anomalies detected — all activity appears normal'
+    : selectedCard === 'notAnalyzed'
+      ? 'All logs have been analyzed'
+      : 'No logs match the current filter'
 
   return (
     <main className="flex min-h-screen flex-col items-center p-8 bg-slate-950 text-slate-100">
@@ -240,11 +253,11 @@ export default function Home() {
                  ) : (
                     <Button
                         onClick={handleAnalyze}
-                        disabled={Object.keys(analysisResults).length > 0}
+                        disabled={hasResults}
                         className="bg-purple-600 hover:bg-purple-700 text-white"
                     >
                         <Sparkles className="mr-2 h-4 w-4" />
-                        {Object.keys(analysisResults).length > 0 ? 'Analysis Complete' : 'Analyze Anomalies'}
+                        {analyzeButtonLabel}
                     </Button>
                  )}
 
@@ -253,11 +266,21 @@ export default function Home() {
                  </Button>
                </div>
              </div>
+             {analysisError && (
+               <div className="flex items-center gap-2 text-sm text-red-400 bg-red-950/30 border border-red-900/50 rounded-md px-3 py-2">
+                 <AlertCircle className="h-4 w-4 shrink-0" />
+                 <span>{analysisError}</span>
+                 <button onClick={() => setAnalysisError(null)} className="ml-auto text-red-400/60 hover:text-red-400">
+                   <X className="h-3 w-3" />
+                 </button>
+               </div>
+             )}
              <DataTable
                 data={filteredLogs}
                 analysisResults={analysisResults}
                 analyzingIds={analyzingIds}
                 onRemediate={handleRemediate}
+                emptyMessage={emptyMessage}
              />
            </div>
         )}
