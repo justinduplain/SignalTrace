@@ -89,9 +89,7 @@
 * **Deploy:** Push to GitHub. Deploy to Vercel (Add OpenAI Key to Env Vars).
 * **Docs:** Write `README.md` including "How to Run Locally" and "AI Approach".
 
-### Phase 7: The Sell (Hour 7.5)
-* **Goal:** Video Walkthrough (Critical).
-* **Narrative:** Explain the choice of Virtualization (Scale) and Design Tokens (Consistency). Mention trade-offs (SQLite vs. Postgres).
+### Phase 7:  Video Walkthrough (Hour 7.5)
 
 ### Phase Z: Future Phases: Possible next steps (out of current scope)
 
@@ -116,8 +114,9 @@
     * **Hydration:** `useEffect` to check the Zustand store on mount. If data exists, render the Dashboard immediately.
 
 #### Phase ZC (Optional): Iterative UX and DevUX updates
-* **Iterative Analysis:** I.e., action to "Analyze next 50 records" etc.
-* **MCP Adapter:** Enable MCP capability using '@vercel/mcp-adapter' to allow AI agnets to interact with the logs and analysis results.
+* **Iterative Analysis:** I.e., action to "Analyze next 50 records" etc, or autostart the next batch of records.
+* **Trend Analysis:** Analyze the full set of records for possible trends or anomalies.
+* **MCP Adapter:** Enable MCP capability using '@vercel/mcp-adapter' to allow developers' AI agents to interact with the logs and analysis results.
 
 ## 5. Requirements Compliance Matrix
 | Requirement | Implementation Strategy |
@@ -133,7 +132,7 @@
 ## 6. General Instructions & Best Practices
 
 ### Documentation & Maintenance
-* **Living Documents:** Always keep `README.md` and `GEMINI.md` updated as the project evolves. If the architecture changes (e.g., swapping SQLite for In-Memory), update these files immediately to reflect the "Why" for the reviewer.
+* **Living Documents:** Always keep `README.md` and `GEMINI.md` updated as the project evolves.
 * **AI Transparency:** Explicitly document how and where AI is used (e.g., "Used ChatGPT to generate mock data", "Used Copilot for regex parsing"). This is a strict project requirement, include a summary of AI use in the `README.md` file.
 
 ### Security & sensitive Data
@@ -146,5 +145,5 @@
 * **Conventional Commits:** Use clear commit messages (e.g., `feat: add virtual table`, `fix: parsing logic`) to show professional workflow.
 
 ### Time Management & Scope
-* **Ruthless Prioritization:** Adhere to the 6-8 hour time limit. If a backend feature (like a database) puts the deadline at risk, cut it. Focus on the "High-Trust" frontend interactions.
+* **Prioritization:** Adhere to the 6-8 hour time limit. If a backend feature (like a database) puts the deadline at risk, cut it. Focus on the "High-Trust" frontend interactions.
 * **MVP First:** Prioritize a functional prototype over production-readiness. It is better to have a polished mock than a broken full-stack app.

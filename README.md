@@ -1,7 +1,9 @@
 # SignalTrace
 
-**Live Demo:** [https://signaltrace.vercel.app](https://signaltrace.vercel.app)
-**Login:** Username `admin`, Password `tenex`
+- **Project Repo:** [github.com/justinduplain/SignalTrace](https://github.com/justinduplain/SignalTrace)
+- **Live Demo:** [signaltrace.vercel.app](https://signaltrace.vercel.app)
+- **Login:** Username `admin`, Password `tenex`
+- **Video Walkthrough:** [Google Drive - SignalTrace Walkthrough Video](https://drive.google.com/file/d/1qwraVnsNbMtENXRpgCTlK6D5vDAIw8jo/view?usp=sharing)
 
 SignalTrace is a high-performance **Threat Intelligence Platform** designed for SOC analysts. It parses ZScaler web proxy logs, visualizes traffic patterns, and uses AI to detect security anomalies (Shadow IT, Data Exfiltration, Malware) in real-time.
 
@@ -31,7 +33,7 @@ SignalTrace is a high-performance **Threat Intelligence Platform** designed for 
 *   **AI Remediation:** AI-suggested remediation measures for flagged anomalies, with mock fallback when no API key is configured.
 *   **Error Handling:** User-facing error messages for failed uploads, analysis errors, and network issues. Loading spinners for all async operations. Empty state messages when filters return no results.
 
-## Getting Started
+## Dev Environment - Getting Started
 ### Prerequisites
 *   Node.js 18+ (project uses Node 24 via `.nvmrc`)
 *   npm
